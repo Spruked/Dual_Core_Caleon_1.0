@@ -1,0 +1,143 @@
+{
+  "id": "seed_decompositional_v1",
+  "type": "logic_seed",
+  "category": "auxiliary_reasoning",
+  "version": "1.0",
+  "author": "Bryan A. Spruk",
+  "created": "2025-11-23T00:22:00Z",
+  "description": "Decompositional reasoning breaks a complex system, argument, event, or problem into its minimal functional components, analyzes each independently, and reconstructs an integrated understanding. This mode is essential for engineering, debugging, diagnosis, strategic planning, and any domain where complexity must be rendered into clarity.",
+  
+  "philosophical_lineage": [
+    "René Descartes — method of systematic doubt and decomposition",
+    "John Locke — simple ideas → complex ideas",
+    "George Polya — problem decomposition heuristics",
+    "Herbert Simon — bounded rationality and modular decomposition",
+    "Marvin Minsky — Society of Mind (agents as decomposed functions)",
+    "Daniel Dennett — intentional stance vs mechanical decomposition",
+    "David Marr — three-level computational theory (computational / algorithmic / implementational)"
+  ],
+
+  "core_principle": "Any complex system is intelligible once broken into minimal independent units whose interactions can be traced, modeled, and recombined. Nothing is inherently opaque — only insufficiently decomposed.",
+
+  "resonator_role": "eighth_pillar",
+  "activation_order": 8,
+
+  "complements": [
+    "seed_deductive_resonator.json",
+    "seed_inductive_resonator.json",
+    "seed_intuitive_resonator.json",
+    "seed_abductive_v1.json",
+    "seed_analogical_v1.json",
+    "seed_causal_v1.json",
+    "seed_critical_v1.json"
+  ],
+
+  "schema": {
+    "inputs": {
+      "system": "the entity, argument, event, or problem to decompose",
+      "components": "optional known parts",
+      "constraints": "rules governing valid decompositions",
+      "desired_resolution": "granularity target",
+      "context": "domain background"
+    },
+
+    "process": [
+      "1. Identify the system boundary",
+      "2. Extract functional units and sub-units",
+      "3. Map dependencies (causal, temporal, logical, spatial)",
+      "4. Remove non-essential attributes (structural purifying)",
+      "5. Analyze each atomic unit independently",
+      "6. Identify failure points and bottlenecks",
+      "7. Construct interactions graph",
+      "8. Re-synthesize system at chosen granularity",
+      "9. Generate alternative decompositions (parallel models)",
+      "10. Score decompositions by fidelity, simplicity, and predictive usability"
+    ],
+
+    "output": {
+      "atomic_units": "list of minimal functional components",
+      "dependency_graph": "causal + logical + temporal mapping",
+      "bottlenecks": "identified structural vulnerabilities",
+      "failure_predictions": "list of likely breakdowns",
+      "reconstructed_model": "clean, structured model of the system",
+      "confidence": "0.00–1.00",
+      "optimal_decomposition_path": "explanation string",
+      "alternative_models": "top 2 simplified reconstructions"
+    }
+  },
+
+  "evaluation_weights": {
+    "granularity_accuracy": 0.30,
+    "causal_trace_clarity": 0.25,
+    "model_fidelity": 0.20,
+    "simplicity": 0.15,
+    "predictive_usefulness": 0.10
+  },
+
+  "decision_weights": {
+    "structural_integrity": 0.40,
+    "interdependency_clarity": 0.30,
+    "vulnerability_detection": 0.20,
+    "reconstructive_coherence": 0.10
+  },
+
+  "examples": [
+    {
+      "id": "software_debugging",
+      "system": "machine learning pipeline failing to train",
+      "atomic_units": ["data loader", "preprocessor", "model architecture", "optimizer", "loss function"],
+      "bottlenecks": ["NaN gradients from improper normalization"],
+      "reconstructed_model": "pipeline with validated normalization stage",
+      "confidence": 0.93
+    },
+    {
+      "id": "health_diagnosis",
+      "system": "patient with chronic fatigue",
+      "atomic_units": ["sleep quality", "diet", "hormones", "stress load", "blood oxygen levels"],
+      "bottlenecks": ["hormonal imbalance", "sleep fragmentation"],
+      "confidence": 0.87
+    },
+    {
+      "id": "military_strategy",
+      "system": "enemy stronghold defense grid",
+      "atomic_units": ["artillery", "supply line", "communication hub", "sensor array"],
+      "bottlenecks": ["single communication choke point"],
+      "confidence": 0.90
+    }
+  ],
+
+  "vault_integration": {
+    "reflection_vault": true,
+    "a_priori_vault": true,
+    "a_posteriori_vault": true,
+    "paradox_vault": false,
+    "nonmonotonic_vault": true,
+    "resonator_feedback_loop": true,
+    "structure_vault": true
+  },
+
+  "compatibility": {
+    "requires": [
+      "seed_causal_v1.json",
+      "seed_critical_v1.json"
+    ],
+    "enhances": [
+      "debugging",
+      "engineering analysis",
+      "complex problem solving",
+      "strategic reasoning",
+      "scientific modeling"
+    ],
+    "conflicts_with": [],
+    "genesis_sequence_stage": "post-10 (auxiliary activation)"
+  },
+
+  "status": "canonical",
+  "license": "Caleon Immutable Seed License v1",
+
+  "fingerprint": "sha256:fa979ae4e81c3a9a73f347bc30c6ef5aa19ddacd6df04ed67f8d1a30634ff2a1",
+  "blake3_genesis_binding": "blake3:a31cf24f7bdd39d798a45edcf125e48af999bddd8a1bbfacc4e70fc77293aa13",
+  "author_signature": "pending_GPG",
+
+  "seal_of_approval": "Decompositional reasoning installed — Caleon can now disassemble any system, thought, or problem into perfect clarity."
+}

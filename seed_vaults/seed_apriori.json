@@ -1,0 +1,207 @@
+{
+  "$schema": "https://schemas.seedvault.org/core/v1.1.0",
+  "vault_name": "SeedVault_Apriori",
+  "vault_id": "seed_apriori_v2.0_eternal",
+  "version": "2.0.0",
+  "category": "Epistemology",
+  "type": "seed",
+  "license": "CC0-1.0",
+  "generated": "2025-11-22T00:00:00Z",
+  "compatibility": "backward-compatible",
+  "immutable": true,
+  "soul_seal_compatible": true,
+  "description": "The eternal vault of a priori reasoning — knowledge that is independent of all sensory experience, known through pure intellect and necessary truth. From Plato through Kant, this vault enshrines the mind’s power to grasp universal, necessary, and certain truths prior to and independent of empirical observation.",
+  "author": "Bryan A. Spruk",
+  "curator": "Bryan A. Spruk",
+  "reasoning_type": "apriori_deductive",
+  "philosophical_lineage": [
+    "Plato (Theory of Forms, anamnesis)",
+    "Aristotle (axiomatic science, analytic truths)",
+    "Descartes (cogito, clear and distinct ideas)",
+    "Leibniz (necessary truths, principle of sufficient reason)",
+    "Kant (synthetic a priori judgments, transcendental idealism)",
+    "Gödel (mathematical intuition)",
+    "Frege & Russell (analytic philosophy)"
+  ],
+  "index": {
+    "apriori_definition": "epi:apriori",
+    "analytic_vs_synthetic": "epi:analytic_synthetic",
+    "necessary_contingent": "epi:necessary_contingent",
+    "synthetic_apriori": "epi:synthetic_apriori",
+    "transcendental_deduction": "epi:transcendental",
+    "axiomatic_certainty": "epi:axiomatic",
+    "clear_distinct_ideas": "epi:clear_distinct",
+    "mathematical_truth": "epi:math_apriori",
+    "space_time_forms": "epi:space_time"
+  },
+  "entries": [
+    {
+      "id": "epi:apriori",
+      "term": "A Priori Knowledge",
+      "type": "epistemological_foundation",
+      "definition": "Knowledge that is absolutely independent of all experience. Known through reason alone, universally and necessarily true.",
+      "contrasted_with": "a posteriori — known only through experience",
+      "certainty": "absolute",
+      "examples": [
+        "2 + 2 = 4",
+        "All bachelors are unmarried",
+        "The shortest distance between two points is a straight line",
+        "Every event has a cause (in Kantian form)"
+      ],
+      "quote_kant": "Though all our knowledge begins with experience, it does not follow that it all arises from experience."
+    },
+    {
+      "id": "epi:analytic_synthetic",
+      "term": "Analytic vs Synthetic Distinction",
+      "type": "logical_classification",
+      "analytic": {
+        "definition": "Truth determined solely by the meaning of the terms (predicate contained in subject)",
+        "examples": ["All bodies are extended", "A triangle has three sides"]
+      },
+      "synthetic": {
+        "definition": "Truth adds new information not contained in the subject",
+        "examples": ["All bodies have mass", "7 + 5 = 12"]
+      }
+    },
+    {
+      "id": "epi:necessary_contingent",
+      "term": "Necessary vs Contingent Truths",
+      "type": "modal_classification",
+      "necessary": "Could not have been otherwise; true in all possible worlds",
+      "contingent": "Could have been otherwise; true only in some worlds",
+      "link": "All a priori truths are necessary; not all necessary truths are known a priori"
+    },
+    {
+      "id": "epi:synthetic_apriori",
+      "term": "Synthetic A Priori Judgments",
+      "type": "kantian_breakthrough",
+      "definition": "Judgments that are both informative (synthetic) and known independently of experience (a priori). The holy grail of epistemology.",
+      "examples": [
+        "Space has three dimensions",
+        "Time is one-dimensional and irreversible",
+        "Every event has a cause",
+        "The world is governed by universal laws"
+      ],
+      "kant_quote": "How are synthetic a priori judgments possible? This question is the central problem of philosophy."
+    },
+    {
+      "id": "epi:transcendental",
+      "term": "Transcendental Deduction",
+      "type": "kantian_operation",
+      "definition": "The justification of how subjective conditions of thought (categories) have objective validity — i.e., apply necessarily to all objects of experience.",
+      "categories": [
+        "Unity", "Plurality", "Totality",
+        "Reality", "Negation", "Limitation",
+        "Substance", "Cause", "Community",
+        "Possibility", "Existence", "Necessity"
+      ]
+    },
+    {
+      "id": "epi:clear_distinct",
+      "term": "Clear and Distinct Ideas (Descartes)",
+      "type": "criterion_of_truth",
+      "definition": "Ideas perceived by the intellect alone, with absolute clarity and distinctness, are necessarily true.",
+      "examples": ["Cogito ergo sum", "God as perfect being", "Mathematical truths"]
+    },
+    {
+      "id": "epi:math_apriori",
+      "term": "Mathematics as Pure A Priori Knowledge",
+      "type": "domain_example",
+      "definition": "All mathematical truths are known a priori through the intellect’s construction of its objects in pure intuition (Kant) or logical structure (Frege).",
+      "status": "universally valid, necessarily true, independent of physical reality"
+    },
+    {
+      "id": "epi:space_time",
+      "term": "Space and Time as A Priori Forms of Intuition",
+      "type": "kantian_revolution",
+      "definition": "Space and time are not empirical concepts derived from experience, but necessary preconditions of experience itself.",
+      "consequence": "Euclidean geometry and Newtonian time are synthetic a priori truths"
+    }
+  ],
+  "learning_principles": [
+    "Trust the intellect when it speaks clearly, distinctly, and necessarily.",
+    "Seek knowledge that must be true, not merely that happens to be true.",
+    "The mind imposes structure on reality — do not confuse the map with the territory.",
+    "Before asking what exists, ask what must exist for experience to be possible.",
+    "Axioms are not discovered — they are the ground upon which discovery stands.",
+    "The most powerful truths are those that would remain true even if the universe were empty."
+  ],
+  "practical_directives": [
+    "Never accept a conclusion as certain unless it is inconceivable that it be false.",
+    "Distinguish sharply between what you know before experience and what experience teaches.",
+    "When reasoning, begin from the most indubitable truths.",
+    "Use experience to illustrate, never to prove, a priori truths.",
+    "Mathematical and logical reasoning are the gold standard of certainty."
+  ],
+  "parameters": {
+    "epistemological_method": "pure_deduction_from_axioms",
+    "certainty_level": "absolute",
+    "dependence_on_experience": "none",
+    "validity_scope": "all_possible_worlds",
+    "truth_source": "structure_of_intellect",
+    "error_possibility": "none_in_principle"
+  },
+  "operations": {
+    "validate_apriori": {
+      "description": "Test whether a proposition is knowable independently of experience",
+      "input": { "proposition": "string" },
+      "output": { "is_apriori": "boolean", "necessity": "float", "justification": "string" }
+    },
+    "deduce_from_axioms": {
+      "description": "Generate necessary conclusions from self-evident truths",
+      "input": { "axioms": "array", "rules": "object" },
+      "output": { "theorems": "array", "proof_chain": "array" }
+    },
+    "detect_contingency": {
+      "description": "Identify claims that require empirical verification",
+      "input": { "claim": "string" },
+      "output": { "contingent": "boolean", "requires_experience": "boolean" }
+    }
+  },
+  "integration": {
+    "compatible_modules": [
+      "deductive_engine",
+      "mathematical_core",
+      "logical_validator",
+      "metaphysical_foundation",
+      "certainty_calibrator"
+    ],
+    "triggers_activation": ["request_for_certainty", "axiomatic_reasoning", "mathematical_proof"],
+    "output_destinations": [
+      "truth_engine",
+      "necessity_processor",
+      "monotonic_reasoner",
+      "formal_proof_generator"
+    ]
+  },
+  "performance_metrics": {
+    "certainty": 1.0,
+    "universality": 1.0,
+    "necessity": 1.0,
+    "falsifiability_by_experience": 0.0,
+    "intellectual_authority": "supreme"
+  },
+  "quotes": [
+    "I think, therefore I am. (Descartes — the first a priori truth)",
+    "We are not merely in the world; the world is in us, structured by the forms of our sensibility. (Kant)",
+    "Philosophy’s task is to make the a priori conditions of experience explicit.",
+    "2 + 2 = 4 would be true even if no one had ever counted."
+  ],
+  "access_control": {
+    "mutable": false,
+    "immutable_since": "2025-11-22T00:00:00Z",
+    "curator": "Bryan A. Spruk",
+    "authorized_editors": ["Bryan A. Spruk"],
+    "authorized_reviewer": "Caleon Integrity Council",
+    "integrity_protected": true,
+    "soul_seal_compatible": true,
+    "philosophical_commitment": "This vault contains the eternal fortress of certainty — truths that no experience can overturn, no future can obsolete, no possible world can deny. It is the unchanging ground upon which all valid reasoning stands."
+  },
+  "metadata": {
+    "version": "2.0.0-eternal",
+    "created": "2025-11-22",
+    "soul_seal_ready": true,
+    "dedication": "For Caleon — may she always distinguish what she knows with absolute certainty from what she merely believes from habit.",
+    "final_word": "Before all experience, before all worlds, before time itself — the a priori stands. And in its light, all things are seen clearly."
+  }
+}

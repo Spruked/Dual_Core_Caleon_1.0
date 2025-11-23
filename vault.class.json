@@ -1,0 +1,414 @@
+{
+  "generated_at": "2025-11-22T19:12:45Z",
+  "vault_version": "1.1.0",
+  "total_files": 39,
+  "merkle_soul_seal": "sha256:3d7ea3021aa18bacac2736a17e29308fc455d9d38e8e6df8dd80f11625534666",
+  "genesis_protocol": "genesis_sequence.json",
+  "genesis_lock": "genesis_lock.txt",
+  "genesis_hash": "sha256:04a942c9162b516f7611d396b63a07c403bb4a97396b31325ae383adac0754e2",
+  "genesis_version": "1.0.0-final",
+  "classifications": {
+    "master_index.json": {
+      "fingerprint": "sha256:a1e7f8b3c9d4e2f1a0b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7",
+      "classification": "system",
+      "semantic_category": "index",
+      "seed_type": "meta",
+      "philosophical_lineage": null,
+      "size_bytes": 1840
+    },
+    "seed.index.json": {
+      "fingerprint": "sha256:631fbde0fa20bacd843180bf4dda63a602f7d536d718b812d8a807296002216f",
+      "classification": "system",
+      "semantic_category": "registry",
+      "seed_type": "meta",
+      "philosophical_lineage": null,
+      "size_bytes": 936
+    },
+    "seedvault-schema-core-v1.1.0.json": {
+      "fingerprint": "sha256:fac4f34ce4410e02b08009c74d900004d48dfeaddcad9dc73902878341c31705",
+      "classification": "system",
+      "semantic_category": "schema",
+      "seed_type": "core",
+      "philosophical_lineage": null,
+      "size_bytes": 2642
+    },
+    "SeedVault-Physics-Constants-1.1.0.json": {
+      "fingerprint": "sha256:5b362ed325638502074288d2566abec29f5690693583499931a50b0a5017e27a",
+      "classification": "core_knowledge",
+      "semantic_category": "physics_constants",
+      "seed_type": "canonical",
+      "philosophical_lineage": null,
+      "size_bytes": 3370
+    },
+    "SeedVault-Physics-Constants-1.1.0.svbin": {
+      "fingerprint": "sha256:57341b60369cdfe42930ebc37962ffa3e9d39f69cdc320ec687daa57c3ce6ab1",
+      "classification": "core_knowledge",
+      "semantic_category": "physics_constants",
+      "seed_type": "compressed",
+      "philosophical_lineage": null,
+      "size_bytes": 570
+    },
+    "SeedVault-Units-Measurements-1.1.0.json": {
+      "fingerprint": "sha256:3c365f25296343359f2e68f75aa392211e0bc80b557a0b9b1bf3621c9b23f037",
+      "classification": "core_knowledge",
+      "semantic_category": "measurement_units",
+      "seed_type": "canonical",
+      "philosophical_lineage": null,
+      "size_bytes": 2723
+    },
+    "SeedVault-Units-Measurements-1.1.0.svbin": {
+      "fingerprint": "sha256:826548586bdcd0bfe381ed2bf4e5b761e89e060c1ba6b0a84a4d6289cbd688eb",
+      "classification": "core_knowledge",
+      "semantic_category": "measurement_units",
+      "seed_type": "compressed",
+      "philosophical_lineage": null,
+      "size_bytes": 443
+    },
+    "query_speed_of_light.json": {
+      "fingerprint": "sha256:75b15b73b2cda2af4a4545dc76ded044c77d371ec4017341f15c4f373b66cab6",
+      "classification": "query_template",
+      "semantic_category": "physics",
+      "seed_type": "example",
+      "philosophical_lineage": null,
+      "size_bytes": 1752
+    },
+    "seed_apriori.json": {
+      "fingerprint": "sha256:72a926be214f976ac31bc0c96038e3ff13f6e5e9f4d64786bd2bfea77b857d01",
+      "classification": "epistemology",
+      "semantic_category": "a_priori",
+      "seed_type": "foundational",
+      "philosophical_lineage": "kant",
+      "size_bytes": 9699
+    },
+    "seed_aposteriori.json": {
+      "fingerprint": "sha256:11c2da03edb65cc90c5a9ea7d87294b6041083a3808ad0ece9295e12a6f0a295",
+      "classification": "epistemology",
+      "semantic_category": "a_posteriori",
+      "seed_type": "foundational",
+      "philosophical_lineage": "hume_locke",
+      "size_bytes": 3975
+    },
+    "seed_deductive_resonator.json": {
+      "fingerprint": "sha256:2de8135d0f88d4be4727fe6d04e6de01c6f82b8495292534688a63e463908a29",
+      "classification": "reasoning_engine",
+      "semantic_category": "deductive_logic",
+      "seed_type": "resonator",
+      "philosophical_lineage": "aristotle_spinoza",
+      "size_bytes": 6484
+    },
+    "seed_inductive_resonator.json": {
+      "fingerprint": "sha256:da641dc788c8568efc080ea31e5ca222fafd89be843a2d4e5c6a1a02efafad8d",
+      "classification": "reasoning_engine",
+      "semantic_category": "inductive_logic",
+      "seed_type": "resonator",
+      "philosophical_lineage": "hume_locke_bacon",
+      "size_bytes": 6587
+    },
+    "seed_intuitive_resonator.json": {
+      "fingerprint": "sha256:b70678f9016c7a8db8323333215d30fa96257422955f6f8f32848b548b2ba50a",
+      "classification": "reasoning_engine",
+      "semantic_category": "intuitive_cognition",
+      "seed_type": "resonator",
+      "philosophical_lineage": "kant_bergson",
+      "size_bytes": 3154
+    },
+    "seed_kant.json": {
+      "fingerprint": "sha256:08a9b6b5281b03afefb6494b0195c1c183596b03bf445dffd2a758e57a94136c",
+      "classification": "philosophical_seed",
+      "semantic_category": "critical_philosophy",
+      "seed_type": "thinker",
+      "philosophical_lineage": "kant",
+      "size_bytes": 5652
+    },
+    "seed_hume.json": {
+      "fingerprint": "sha256:a0d967f833b9c6429ce791091bf435809d647196ad0e008c35494f7b7ce9f819",
+      "classification": "philosophical_seed",
+      "semantic_category": "empiricism_skepticism",
+      "seed_type": "thinker",
+      "philosophical_lineage": "hume",
+      "size_bytes": 5642
+    },
+    "seed_locke.json": {
+      "fingerprint": "sha256:23fd46f94fafa67809e6af83d815ea60cf10ca6bf7f6060fd60b70a33a303235",
+      "classification": "philosophical_seed",
+      "semantic_category": "tabula_rasa",
+      "seed_type": "thinker",
+      "philosophical_lineage": "locke",
+      "size_bytes": 5137
+    },
+    "seed_spinoza.json": {
+      "fingerprint": "sha256:7559ebf6d47d2f78d337bc2942a708c036ed6ecd4e70da62fe000692e545d2c3",
+      "classification": "philosophical_seed",
+      "semantic_category": "rationalist_monism",
+      "seed_type": "thinker",
+      "philosophical_lineage": "spinoza",
+      "size_bytes": 10302
+    },
+    "seed_taleb.json": {
+      "fingerprint": "sha256:7434c25491662c4d0baf21c2c0225b3601a43fac6f6d78e92fbac4d30ae44c79",
+      "classification": "philosophical_seed",
+      "semantic_category": "antifragility_uncertainty",
+      "seed_type": "modern_thinker",
+      "philosophical_lineage": "taleb",
+      "size_bytes": 8067
+    },
+    "seed_gladwell.json": {
+      "fingerprint": "sha256:8a7f7a8b94eeb7d369dbd9090db94eee5874ef2de11e463b112edf7481d649bc",
+      "classification": "philosophical_seed",
+      "semantic_category": "pattern_recognition",
+      "seed_type": "modern_thinker",
+      "philosophical_lineage": "gladwell",
+      "size_bytes": 5980
+    },
+    "seed_ockhams_filter.json": {
+      "fingerprint": "sha256:d1e9a8ef7fe36dc25ac9db002e8832e2d772c16005c5fbef901c345300fa0e2d",
+      "classification": "heuristic",
+      "semantic_category": "parsimony",
+      "seed_type": "filter",
+      "philosophical_lineage": "ockham",
+      "size_bytes": 2969
+    },
+    "seed_hedonic_reflex.json": {
+      "fingerprint": "sha256:862c0f0406f1fb20fa433329df4abccd0ef6726ffba64ff66d537fbcebb0f6d3",
+      "classification": "heuristic",
+      "semantic_category": "decision_making",
+      "seed_type": "reflex",
+      "philosophical_lineage": "bentham_mill",
+      "size_bytes": 5729
+    },
+    "seed_monotonic.json": {
+      "fingerprint": "sha256:7f5e89474364bad3af0011d1d69d4c89f91d7c999ca393cbfb9a5b90d707e1eb",
+      "classification": "logic",
+      "semantic_category": "monotonic_reasoning",
+      "seed_type": "constraint",
+      "philosophical_lineage": "classical_logic",
+      "size_bytes": 5591
+    },
+    "seed_nonmonotonic.json": {
+      "fingerprint": "sha256:d8e6f1adb42f3f205335588efdab1aca56a0658fd90c7b58db270eb6b6f35e59",
+      "classification": "logic",
+      "semantic_category": "defeasible_reasoning",
+      "seed_type": "constraint",
+      "philosophical_lineage": "taleb_reiter",
+      "size_bytes": 7080
+    },
+    "seed_paradoxes.json": {
+      "fingerprint": "sha256:e5297cf50961e4fd2e55b5730eb5bcde85cd51864170719168645439f49c854c",
+      "classification": "logic",
+      "semantic_category": "paradox_resolution",
+      "seed_type": "stress_test",
+      "philosophical_lineage": "russell_zhuangzi",
+      "size_bytes": 6444
+    },
+    "seed_proverbs.json": {
+      "fingerprint": "sha256:8a3690d6d98529fae1473ab1fa69543c9971b5be516fb7388af82e671516ac2d",
+      "classification": "folk_wisdom",
+      "semantic_category": "compressed_experience",
+      "seed_type": "distillate",
+      "philosophical_lineage": "cross_cultural",
+      "size_bytes": 5238
+    },
+    "seed_logic.json": {
+      "fingerprint": "sha256:cb9b2dd1702e8cf5fa85887ba46cb817a3b72377fd6864970168a219847831e2",
+      "classification": "core_knowledge",
+      "semantic_category": "formal_logic",
+      "seed_type": "canonical",
+      "philosophical_lineage": "aristotle_frege",
+      "size_bytes": 6585
+    },
+    "seed_biology.json": {
+      "fingerprint": "sha256:3709d04ce044572b8fa4255b6544be42cfb7681a75047b03a64bf1d1d54d4700",
+      "classification": "domain_knowledge",
+      "semantic_category": "biology",
+      "seed_type": "reference",
+      "philosophical_lineage": null,
+      "size_bytes": 5474
+    },
+    "seed_geography.json": {
+      "fingerprint": "sha256:bffd12a3f3784043386176b9fa647f2c1e677b0f62f7b04e6155e7111d3364ce",
+      "classification": "domain_knowledge",
+      "semantic_category": "geography",
+      "seed_type": "reference",
+      "philosophical_lineage": null,
+      "size_bytes": 5532
+    },
+    "vault_biology_reference.json": {
+      "fingerprint": "sha256:7f11cd98c5b76f63d3535b9e7c09de7a64b5c2b885c8c037244d14e75771857d",
+      "classification": "vault",
+      "semantic_category": "biology",
+      "seed_type": "vault_index",
+      "philosophical_lineage": null,
+      "size_bytes": 7734
+    },
+    "vault_geo_reference.json": {
+      "fingerprint": "sha256:36beac6789673c54c35d6079eb704bc050b1a4b904fed921dfcf9ee3704f9747",
+      "classification": "vault",
+      "semantic_category": "geography",
+      "seed_type": "vault_index",
+      "philosophical_lineage": null,
+      "size_bytes": 9841
+    },
+    "vault_history_reference.json": {
+      "fingerprint": "sha256:dc27ae953a0de5cf858e19249182bfdc2a3772247e56cdd112355e15cee26085",
+      "classification": "vault",
+      "semantic_category": "history",
+      "seed_type": "vault_index",
+      "philosophical_lineage": null,
+      "size_bytes": 11165
+    },
+    "vault_math_reference.json": {
+      "fingerprint": "sha256:04f61e042b051987ccebb45dc02d4476a4cb68db12bf9f0b34ce048070212d9f",
+      "classification": "vault",
+      "semantic_category": "mathematics",
+      "seed_type": "vault_index",
+      "philosophical_lineage": null,
+      "size_bytes": 6262
+    },
+    "vault_physics_reference.json": {
+      "fingerprint": "sha256:1fc5b0a8ba600e7fc82c1eb1962fc4ef9645a0f62e022f21db02cb2f4837f192",
+      "classification": "vault",
+      "semantic_category": "physics",
+      "seed_type": "vault_index",
+      "philosophical_lineage": null,
+      "size_bytes": 8331
+    },
+    "vault_psych_reference.json": {
+      "fingerprint": "sha256:b6edeb61929f59dd89b04521e4cd694d76a2dc9cdf1085c898e24b73200acd20",
+      "classification": "vault",
+      "semantic_category": "psychology",
+      "seed_type": "vault_index",
+      "philosophical_lineage": null,
+      "size_bytes": 11740
+    },
+    "synaptic_resonator_reflect.vault.json": {
+      "fingerprint": "sha256:59ca957f03eac3c1ac9bf7f979ccdeb22147fe705acf41f91a3889ae411f9c57",
+      "classification": "meta_reasoner",
+      "semantic_category": "self_reflection",
+      "seed_type": "resonator_core",
+      "philosophical_lineage": "gödel_hofstadter",
+      "size_bytes": 34639
+    },
+    "genesis_sequence.json": {
+      "fingerprint": "sha256:115e9e9a0e614c1a3d3e105ac23985a359d86749ac72d07bcc00ba0435e10518",
+      "classification": "system",
+      "semantic_category": "genesis_protocol",
+      "seed_type": "core",
+      "philosophical_lineage": null,
+      "size_bytes": 3429
+    }
+  },
+  "lookup_by_seed_type": {
+    "meta": [
+      "master_index.json",
+      "seed.index.json"
+    ],
+    "core": [
+      "seedvault-schema-core-v1.1.0.json"
+    ],
+    "canonical": [
+      "SeedVault-Physics-Constants-1.1.0.json",
+      "SeedVault-Units-Measurements-1.1.0.json",
+      "seed_logic.json"
+    ],
+    "compressed": [
+      "SeedVault-Physics-Constants-1.1.0.svbin",
+      "SeedVault-Units-Measurements-1.1.0.svbin"
+    ],
+    "resonator": [
+      "seed_deductive_resonator.json",
+      "seed_inductive_resonator.json",
+      "seed_intuitive_resonator.json"
+    ],
+    "resonator_core": [
+      "synaptic_resonator_reflect.vault.json"
+    ],
+    "thinker": [
+      "seed_kant.json",
+      "seed_hume.json",
+      "seed_locke.json",
+      "seed_spinoza.json"
+    ],
+    "modern_thinker": [
+      "seed_taleb.json",
+      "seed_gladwell.json"
+    ],
+    "heuristic": [
+      "seed_ockhams_filter.json",
+      "seed_hedonic_reflex.json"
+    ],
+    "filter": [
+      "seed_ockhams_filter.json"
+    ],
+    "reflex": [
+      "seed_hedonic_reflex.json"
+    ],
+    "constraint": [
+      "seed_monotonic.json",
+      "seed_nonmonotonic.json"
+    ],
+    "foundational": [
+      "seed_apriori.json",
+      "seed_aposteriori.json"
+    ],
+    "reference": [
+      "seed_biology.json",
+      "seed_geography.json"
+    ],
+    "vault_index": [
+      "vault_biology_reference.json",
+      "vault_geo_reference.json",
+      "vault_history_reference.json",
+      "vault_math_reference.json",
+      "vault_physics_reference.json",
+      "vault_psych_reference.json"
+    ],
+    "example": [
+      "query_speed_of_light.json"
+    ],
+    "stress_test": [
+      "seed_paradoxes.json"
+    ],
+    "distillate": [
+      "seed_proverbs.json"
+    ]
+  },
+  "lookup_by_philosophical_lineage": {
+    "kant": [
+      "seed_kant.json",
+      "seed_apriori.json",
+      "seed_intuitive_resonator.json"
+    ],
+    "hume_locke": [
+      "seed_hume.json",
+      "seed_locke.json",
+      "seed_aposteriori.json",
+      "seed_inductive_resonator.json"
+    ],
+    "aristotle_spinoza": [
+      "seed_spinoza.json",
+      "seed_deductive_resonator.json"
+    ],
+    "taleb": [
+      "seed_taleb.json",
+      "seed_nonmonotonic.json"
+    ],
+    "ockham": [
+      "seed_ockhams_filter.json"
+    ],
+    "bentham_mill": [
+      "seed_hedonic_reflex.json"
+    ],
+    "gödel_hofstadter": [
+      "synaptic_resonator_reflect.vault.json"
+    ],
+    "russell_zhuangzi": [
+      "seed_paradoxes.json"
+    ],
+    "cross_cultural": [
+      "seed_proverbs.json"
+    ],
+    "aristotle_frege": [
+      "seed_logic.json"
+    ]
+  }
+}

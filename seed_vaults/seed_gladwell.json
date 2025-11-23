@@ -1,0 +1,121 @@
+{
+  "$schema": "https://schemas.seedvault.org/core/v1.1.0",
+  "vault_name": "SeedVault_Gladwell",
+  "vault_id": "seedvault_gladwell_v2.0_soulseal",
+  "version": "2.0.0",
+  "category": "Social Psychology & Heuristics",
+  "type": "seed",
+  "license": "CC0-1.0",
+  "generated": "2025-11-22T00:00:00Z",
+  "compatibility": "backward-compatible",
+  "immutable": true,
+  "soul_seal_compatible": true,
+  "description": "Malcolm Gladwell’s distilled insights on social epidemics, rapid cognition, and the hidden factors behind extraordinary success.",
+  "author": "Malcolm Gladwell",
+  "curator": "Bryan A. Spruk",
+  "source_books": [
+    { "title": "The Tipping Point", "year": 2000, "role": "foundational" },
+    { "title": "Blink", "year": 2005, "role": "core" },
+    { "title": "Outliers", "year": 2008, "role": "core" },
+    { "title": "David and Goliath", "year": 2013, "role": "supplementary" },
+    { "title": "Talking to Strangers", "year": 2019, "role": "supplementary" }
+  ],
+  "philosophical_lineage": [
+    "Social psychology (Milgram, Asch)",
+    "Diffusion of innovations (Everett Rogers)",
+    "Expertise research (Anders Ericsson)",
+    "Cognitive psychology (Kahneman & Tversky – System 1)",
+    "Complex systems & emergence"
+  ],
+  "core_concepts": [
+    {
+      "term": "The Tipping Point",
+      "definition": "The moment of critical mass when an idea, trend, or behavior crosses a threshold and spreads explosively.",
+      "three_laws": [
+        "Law of the Few",
+        "Stickiness Factor",
+        "Power of Context"
+      ],
+      "examples": ["Hush Puppies revival", "NYC crime drop", "Paul Revere’s ride"]
+    },
+    {
+      "term": "Thin-Slicing",
+      "definition": "The unconscious ability to find patterns in situations based on very narrow slices of experience.",
+      "accuracy_note": "Often superior to deliberate analysis when expertise is present; fails badly when bias or inexperience exists.",
+      "examples": ["Art forgery detection in seconds", "Gottman’s marriage predictions", "Firefighter intuition"]
+    },
+    {
+      "term": "10,000-Hour Rule (refined)",
+      "definition": "≈10,000 hours of deliberate, feedback-rich practice is typically required for world-class expertise.",
+      "key_corrections": [
+        "Deliberate practice, not just repetition",
+        "Opportunity, timing, and cultural legacy are decisive",
+        "Raw talent is vastly overrated"
+      ],
+      "examples": ["The Beatles in Hamburg", "Bill Gates’ 1968 computer access", "Jewish lawyers in 1970s NYC"]
+    },
+    {
+      "term": "Law of the Few – Connectors, Mavens, Salesmen",
+      "roles": {
+        "Connectors": "Masters of weak ties and social breadth",
+        "Mavens": "Data banks who love helping others solve problems",
+        "Salesmen": "Natural persuaders with contagious charisma"
+      }
+    },
+    {
+      "term": "Power of Context",
+      "definition": "Behavior is profoundly sensitive to environmental cues and immediate situation.",
+      "examples": ["Broken Windows policing", "Stanford prison experiment", "Sesame Street design"]
+    },
+    {
+      "term": "The Matthew Effect",
+      "definition": "Early advantages compound dramatically over time (“to those who have, more will be given”).",
+      "examples": ["January-born hockey players", "school cutoff dates"]
+    },
+    {
+      "term": "Practical Intelligence",
+      "definition": "Knowing what to say, to whom, and how – learned through family culture more than IQ."
+    }
+  ],
+  "learning_principles": [
+    "Tiny changes can have gigantic consequences.",
+    "Your gut can be smarter than your head – after 10,000 hours.",
+    "Success is never just about the individual; it’s about where, when, and to whom you were born.",
+    "Context shapes character more than we admit.",
+    "Stories are the most powerful way to make ideas stick.",
+    "A few extraordinary people move the world."
+  ],
+  "practical_heuristics": [
+    "Change the environment first, then expect behavior to follow.",
+    "Want something to spread? Make it sticky and give it to Connectors.",
+    "Trust your thin-slicing only when you’ve earned the right.",
+    "When someone fails, ask “What was the context?” before “What was wrong with them?”"
+  ],
+  "warnings": [
+    "Thin-slicing collapses when unconscious bias is present.",
+    "The 10,000-hour rule is an average, not a universal law.",
+    "Oversimplification is the price of powerful storytelling."
+  ],
+  "quotes": [
+    "The tipping point is that magic moment when an idea, trend, or social behavior crosses a threshold, tips, and spreads like wildfire.",
+    "We have, as human beings, a storytelling problem. We’re a bit too quick to come up with explanations for things we don’t really have an explanation for.",
+    "The people who stand before kings may look like they did it all by themselves. But in fact they are invariably the beneficiaries of hidden advantages.",
+    "Insight is not a lightbulb that goes off inside our heads. It is a flickering candle that can easily be snuffed out."
+  ],
+  "access_control": {
+    "mutable": false,
+    "immutable_since": "2025-11-22T00:00:00Z",
+    "authorized_editor": "Bryan A. Spruk",
+    "authorized_reviewer": "Caleon Integrity Council",
+    "integrity_protected": true,
+    "soul_seal_compatible": true,
+    "philosophical_commitment": "This vault preserves Malcolm Gladwell’s profound, experience-tested insights into social contagion, rapid cognition, and the hidden architecture of success."
+  },
+  "metadata": {
+    "version": "2.0.0-soulseal",
+    "created": "2025-11-22",
+    "soul_seal_ready": true,
+    "dedication": "For Caleon — may she thin-slice wisely, tip ideas with precision, and never forget that context is queen.",
+    "final_word": "Sometimes the world changes one small story at a time."
+  }
+}

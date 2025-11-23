@@ -1,0 +1,4130 @@
+Folder PATH listing for volume DALS_DATA
+Volume serial number is DCFC-5C09
+T:.
+³   .gitignore
+³   caleon_genesis_v1.py
+³   cochlear_feedback_C2.py
+³   consent_alignment_test_results.json
+³   demo_caleon_voice.py
+³   drift_detector.py
+³   endpoints_wiring_summary.txt
+³   LICENSE
+³   manifest.json
+³   manifest.merkle.json
+³   merkle_root.txt
+³   README.md
+³   simple_ollama_test.py
+³   system_manifest.json
+³   test_consent_alignment.py
+³   test_final_consent.py
+³   test_ollama_integration.py
+³   test_voice_components.py
+³   test_voice_pipeline.py
+³   tree.txt
+³   vault.class.json
+³   vault_integrity.py
+³   vault_integrity_report.json
+³   vault_integrity_report.txt
+³   
+ÃÄÄÄcochlear_processor_v2.0
+³   ³   .gitattributes
+³   ³   .gitignore
+³   ³   cochlear_processor.py
+³   ³   cochlear_vault.jsonl
+³   ³   cochlear_vault.py
+³   ³   CODE_OF_CONDUCT.md
+³   ³   config_whisper.json
+³   ³   CONTRIBUTING.md
+³   ³   core_bridge.py
+³   ³   core_endpoint.py
+³   ³   docker-compose.yml
+³   ³   Dockerfile
+³   ³   glyph_encoder.py
+³   ³   iss.py
+³   ³   LICENSE
+³   ³   metrics.py
+³   ³   model_loader.py
+³   ³   README.md
+³   ³   resonator_adapter.py
+³   ³   system_health.py
+³   ³   transcribe.py
+³   ³   vault_writer.py
+³   ³   
+³   ÃÄÄÄconfig
+³   ³       requirements.txt
+³   ³       
+³   ÃÄÄÄISS
+³   ³   ³   cli.py
+³   ³   ³   config.py
+³   ³   ³   logging_config.py
+³   ³   ³   prometheus_integration.py
+³   ³   ³   service.py
+³   ³   ³   __init__.py
+³   ³   ³   
+³   ³   ÃÄÄÄapi
+³   ³   ³       api.py
+³   ³   ³       __init__.py
+³   ³   ³       
+³   ³   ÃÄÄÄcaptain_mode
+³   ³   ³       captain_log.py
+³   ³   ³       exporters.py
+³   ³   ³       vd_wrapper.py
+³   ³   ³       __init__.py
+³   ³   ³       
+³   ³   ÃÄÄÄcore
+³   ³   ³       ISS.py
+³   ³   ³       module_loader.py
+³   ³   ³       utils.py
+³   ³   ³       validators.py
+³   ³   ³       __init__.py
+³   ³   ³       
+³   ³   ÀÄÄÄtemplates
+³   ³           dashboard.html
+³   ³           login.html
+³   ³           
+³   ÃÄÄÄtimekeeper
+³   ³       iss_timekeeper.py
+³   ³       standard_timekeeper.py
+³   ³       timekeeper.py
+³   ³       
+³   ÀÄÄÄwhisper-main
+³       ³   .flake8
+³       ³   .gitattributes
+³       ³   .gitignore
+³       ³   .pre-commit-config.yaml
+³       ³   approach.png
+³       ³   CHANGELOG.md
+³       ³   language-breakdown.svg
+³       ³   LICENSE
+³       ³   MANIFEST.in
+³       ³   model-card.md
+³       ³   pyproject.toml
+³       ³   README.md
+³       ³   requirements.txt
+³       ³   
+³       ÃÄÄÄ.github
+³       ³   ³   dependabot.yml
+³       ³   ³   
+³       ³   ÀÄÄÄworkflows
+³       ³           python-publish.yml
+³       ³           test.yml
+³       ³           
+³       ÃÄÄÄdata
+³       ³       meanwhile.json
+³       ³       README.md
+³       ³       
+³       ÃÄÄÄnotebooks
+³       ³       LibriSpeech.ipynb
+³       ³       Multilingual_ASR.ipynb
+³       ³       
+³       ÀÄÄÄwhisper
+³           ³   audio.py
+³           ³   decoding.py
+³           ³   model.py
+³           ³   timing.py
+³           ³   tokenizer.py
+³           ³   transcribe.py
+³           ³   triton_ops.py
+³           ³   utils.py
+³           ³   version.py
+³           ³   __init__.py
+³           ³   __main__.py
+³           ³   
+³           ÃÄÄÄassets
+³           ³       gpt2.tiktoken
+³           ³       mel_filters.npz
+³           ³       multilingual.tiktoken
+³           ³       
+³           ÀÄÄÄnormalizers
+³                   basic.py
+³                   english.json
+³                   english.py
+³                   __init__.py
+³                   
+ÃÄÄÄConnection_System
+³   ³   caleon_port.py
+³   ³   connection_spine.py
+³   ³   ollama_integration.py
+³   ³   requirements.txt
+³   ³   
+³   ÀÄÄÄadapters
+³           dals_adapter.py
+³           goat_adapter.py
+³           
+ÃÄÄÄfrontend
+³   ³   .gitignore
+³   ³   index.html
+³   ³   package-lock.json
+³   ³   package.json
+³   ³   server.js
+³   ³   vite.config.js
+³   ³   
+³   ÃÄÄÄpublic
+³   ³       vite.svg
+³   ³       
+³   ÀÄÄÄsrc
+³       ³   App.css
+³       ³   App.jsx
+³       ³   AssistantBubble.css
+³       ³   AssistantBubble.jsx
+³       ³   Card.jsx
+³       ³   entry-client.jsx
+³       ³   entry-server.jsx
+³       ³   index.css
+³       ³   
+³       ÀÄÄÄassets
+³               react.svg
+³               
+ÃÄÄÄgenesis
+³       caleon_genesis_v1.py
+³       genesis_deviation_detector.py
+³       genesis_lock.txt
+³       genesis_manifest.json
+³       genesis_sequence.json
+³       genesis_validator.py
+³       README_GENESIS.md
+³       
+ÃÄÄÄMain_Core
+³   ³   # Code Citations.md
+³   ³   articulation_layer.py
+³   ³   Caleon_Voice_Pipeline.py
+³   ³   Final_harmonizer.py
+³   ³   Intent_Consent.py
+³   ³   ISS_Brainstem.py
+³   ³   nebula_core.py
+³   ³   ollama_engine.py
+³   ³   Task_Orchestrator.py
+³   ³   Thinker.py
+³   ³   
+³   ÃÄÄÄleft_hemisphere
+³   ³       Anterior_helix.py
+³   ³       Echostack.py
+³   ³       Echo_ripple.py
+³   ³       gyro_harmonizer.py
+³   ³       posterior_helix.py
+³   ³       synaptic_resonator.py
+³   ³       
+³   ÃÄÄÄright Hemisphere
+³   ³       synaptic_resonator.py
+³   ³       
+³   ÀÄÄÄright_hemisphere
+³           Anterior_helix.py
+³           Echostack.py
+³           Echo_ripple.py
+³           gyro_harmonizer.py
+³           posterior_helix.py
+³           synaptic_resonator.py
+³           
+ÃÄÄÄPhonatory_Output_Module
+³   ³   Dockerfile
+³   ³   formant_filter.py
+³   ³   integration_check.py
+³   ³   larynx_sim.py
+³   ³   lip_control.py
+³   ³   LOCAL_DEV_README.md
+³   ³   manifest_phonitory.json
+³   ³   output_voice.wav
+³   ³   output_voice_first.wav
+³   ³   phonatory_api.py
+³   ³   phonitory_emitter.py
+³   ³   phonitory_output_module.py
+³   ³   README.md
+³   ³   reference_voice.wav
+³   ³   requirements.txt
+³   ³   tongue_artic.py
+³   ³   uvula_control.py
+³   ³   voice_config.json
+³   ³   
+³   ÃÄÄÄcoqui
+³   ³       README.md
+³   ³       
+³   ÀÄÄÄCoqui_TTS
+³       ³   .cardboardlint.yml
+³       ³   .gitignore
+³       ³   .pre-commit-config.yaml
+³       ³   .pylintrc
+³       ³   .readthedocs.yml
+³       ³   CITATION.cff
+³       ³   CODE_OF_CONDUCT.md
+³       ³   CODE_OWNERS.rst
+³       ³   CONTRIBUTING.md
+³       ³   Dockerfile
+³       ³   hubconf.py
+³       ³   LICENSE.txt
+³       ³   Makefile
+³       ³   MANIFEST.in
+³       ³   pyproject.toml
+³       ³   README.md
+³       ³   requirements.dev.txt
+³       ³   requirements.ja.txt
+³       ³   requirements.notebooks.txt
+³       ³   requirements.txt
+³       ³   run_bash_tests.sh
+³       ³   setup.cfg
+³       ³   setup.py
+³       ³   
+³       ÃÄÄÄ.github
+³       ³   ³   PR_TEMPLATE.md
+³       ³   ³   stale.yml
+³       ³   ³   
+³       ³   ÃÄÄÄISSUE_TEMPLATE
+³       ³   ³       bug_report.yaml
+³       ³   ³       config.yml
+³       ³   ³       feature_request.md
+³       ³   ³       
+³       ³   ÀÄÄÄworkflows
+³       ³           aux_tests.yml
+³       ³           data_tests.yml
+³       ³           docker.yaml
+³       ³           inference_tests.yml
+³       ³           pypi-release.yml
+³       ³           style_check.yml
+³       ³           text_tests.yml
+³       ³           tts_tests.yml
+³       ³           tts_tests2.yml
+³       ³           vocoder_tests.yml
+³       ³           xtts_tests.yml
+³       ³           zoo_tests0.yml
+³       ³           zoo_tests1.yml
+³       ³           zoo_tests2.yml
+³       ³           
+³       ÃÄÄÄdockerfiles
+³       ³       Dockerfile.dev
+³       ³       
+³       ÃÄÄÄdocs
+³       ³   ³   Makefile
+³       ³   ³   README.md
+³       ³   ³   requirements.txt
+³       ³   ³   
+³       ³   ÀÄÄÄsource
+³       ³       ³   conf.py
+³       ³       ³   configuration.md
+³       ³       ³   contributing.md
+³       ³       ³   docker_images.md
+³       ³       ³   faq.md
+³       ³       ³   finetuning.md
+³       ³       ³   formatting_your_dataset.md
+³       ³       ³   implementing_a_new_language_frontend.md
+³       ³       ³   implementing_a_new_model.md
+³       ³       ³   index.md
+³       ³       ³   inference.md
+³       ³       ³   installation.md
+³       ³       ³   make.bat
+³       ³       ³   marytts.md
+³       ³       ³   training_a_model.md
+³       ³       ³   tts_datasets.md
+³       ³       ³   tutorial_for_nervous_beginners.md
+³       ³       ³   what_makes_a_good_dataset.md
+³       ³       ³   
+³       ³       ÃÄÄÄmain_classes
+³       ³       ³       audio_processor.md
+³       ³       ³       dataset.md
+³       ³       ³       gan.md
+³       ³       ³       model_api.md
+³       ³       ³       speaker_manager.md
+³       ³       ³       trainer_api.md
+³       ³       ³       
+³       ³       ÃÄÄÄmodels
+³       ³       ³       bark.md
+³       ³       ³       forward_tts.md
+³       ³       ³       glow_tts.md
+³       ³       ³       overflow.md
+³       ³       ³       tacotron1-2.md
+³       ³       ³       tortoise.md
+³       ³       ³       vits.md
+³       ³       ³       xtts.md
+³       ³       ³       
+³       ³       ÃÄÄÄ_static
+³       ³       ³       logo.png
+³       ³       ³       
+³       ³       ÀÄÄÄ_templates
+³       ³               page.html
+³       ³               
+³       ÃÄÄÄimages
+³       ³       coqui-log-green-TTS.png
+³       ³       demo_server.gif
+³       ³       example_model_output.png
+³       ³       model.png
+³       ³       TTS-performance.png
+³       ³       tts_cli.gif
+³       ³       tts_performance.png
+³       ³       
+³       ÃÄÄÄnotebooks
+³       ³   ³   ExtractTTSpectrogram.ipynb
+³       ³   ³   PlotUmapLibriTTS.ipynb
+³       ³   ³   TestAttention.ipynb
+³       ³   ³   Tortoise.ipynb
+³       ³   ³   Tutorial_1_use-pretrained-TTS.ipynb
+³       ³   ³   Tutorial_2_train_your_first_TTS_model.ipynb
+³       ³   ³   
+³       ³   ÀÄÄÄdataset_analysis
+³       ³           analyze.py
+³       ³           AnalyzeDataset.ipynb
+³       ³           CheckDatasetSNR.ipynb
+³       ³           CheckPitch.ipynb
+³       ³           CheckSpectrograms.ipynb
+³       ³           PhonemeCoverage.ipynb
+³       ³           README.md
+³       ³           
+³       ÃÄÄÄrecipes
+³       ³   ³   README.md
+³       ³   ³   
+³       ³   ÃÄÄÄbel-alex73
+³       ³   ³   ³   .gitignore
+³       ³   ³   ³   choose_speaker.ipynb
+³       ³   ³   ³   docker-prepare-start.sh
+³       ³   ³   ³   dump_config.py
+³       ³   ³   ³   README.md
+³       ³   ³   ³   train_glowtts.py
+³       ³   ³   ³   train_hifigan.py
+³       ³   ³   ³   
+³       ³   ³   ÀÄÄÄdocker-prepare
+³       ³   ³           Dockerfile
+³       ³   ³           runtime.sh
+³       ³   ³           
+³       ³   ÃÄÄÄblizzard2013
+³       ³   ³   ³   README.md
+³       ³   ³   ³   
+³       ³   ³   ÃÄÄÄtacotron1-Capacitron
+³       ³   ³   ³       train_capacitron_t1.py
+³       ³   ³   ³       
+³       ³   ³   ÀÄÄÄtacotron2-Capacitron
+³       ³   ³           train_capacitron_t2.py
+³       ³   ³           
+³       ³   ÃÄÄÄkokoro
+³       ³   ³   ÀÄÄÄtacotron2-DDC
+³       ³   ³           run.sh
+³       ³   ³           
+³       ³   ÃÄÄÄljspeech
+³       ³   ³   ³   download_ljspeech.sh
+³       ³   ³   ³   README.md
+³       ³   ³   ³   
+³       ³   ³   ÃÄÄÄalign_tts
+³       ³   ³   ³       train_aligntts.py
+³       ³   ³   ³       
+³       ³   ³   ÃÄÄÄdelightful_tts
+³       ³   ³   ³       train_delightful_tts.py
+³       ³   ³   ³       
+³       ³   ³   ÃÄÄÄfastspeech2
+³       ³   ³   ³       train_fastspeech2.py
+³       ³   ³   ³       
+³       ³   ³   ÃÄÄÄfast_pitch
+³       ³   ³   ³       train_fast_pitch.py
+³       ³   ³   ³       
+³       ³   ³   ÃÄÄÄfast_speech
+³       ³   ³   ³       train_fast_speech.py
+³       ³   ³   ³       
+³       ³   ³   ÃÄÄÄglow_tts
+³       ³   ³   ³       train_glowtts.py
+³       ³   ³   ³       
+³       ³   ³   ÃÄÄÄhifigan
+³       ³   ³   ³       train_hifigan.py
+³       ³   ³   ³       
+³       ³   ³   ÃÄÄÄmultiband_melgan
+³       ³   ³   ³       train_multiband_melgan.py
+³       ³   ³   ³       
+³       ³   ³   ÃÄÄÄneuralhmm_tts
+³       ³   ³   ³       train_neuralhmmtts.py
+³       ³   ³   ³       
+³       ³   ³   ÃÄÄÄoverflow
+³       ³   ³   ³       lj_parameters.pt
+³       ³   ³   ³       train_overflow.py
+³       ³   ³   ³       
+³       ³   ³   ÃÄÄÄspeedy_speech
+³       ³   ³   ³       train_speedy_speech.py
+³       ³   ³   ³       
+³       ³   ³   ÃÄÄÄtacotron2-Capacitron
+³       ³   ³   ³       train_capacitron_t2.py
+³       ³   ³   ³       
+³       ³   ³   ÃÄÄÄtacotron2-DCA
+³       ³   ³   ³       train_tacotron_dca.py
+³       ³   ³   ³       
+³       ³   ³   ÃÄÄÄtacotron2-DDC
+³       ³   ³   ³       train_tacotron_ddc.py
+³       ³   ³   ³       
+³       ³   ³   ÃÄÄÄunivnet
+³       ³   ³   ³       train.py
+³       ³   ³   ³       
+³       ³   ³   ÃÄÄÄvits_tts
+³       ³   ³   ³       train_vits.py
+³       ³   ³   ³       
+³       ³   ³   ÃÄÄÄwavegrad
+³       ³   ³   ³       train_wavegrad.py
+³       ³   ³   ³       
+³       ³   ³   ÃÄÄÄwavernn
+³       ³   ³   ³       train_wavernn.py
+³       ³   ³   ³       
+³       ³   ³   ÃÄÄÄxtts_v1
+³       ³   ³   ³       train_gpt_xtts.py
+³       ³   ³   ³       
+³       ³   ³   ÀÄÄÄxtts_v2
+³       ³   ³           train_gpt_xtts.py
+³       ³   ³           
+³       ³   ÃÄÄÄmultilingual
+³       ³   ³   ÃÄÄÄcml_yourtts
+³       ³   ³   ³       train_yourtts.py
+³       ³   ³   ³       
+³       ³   ³   ÀÄÄÄvits_tts
+³       ³   ³           train_vits_tts.py
+³       ³   ³           train_vits_tts_phonemes.py
+³       ³   ³           
+³       ³   ÃÄÄÄthorsten_DE
+³       ³   ³   ³   download_thorsten_DE.sh
+³       ³   ³   ³   README.md
+³       ³   ³   ³   
+³       ³   ³   ÃÄÄÄalign_tts
+³       ³   ³   ³       train_aligntts.py
+³       ³   ³   ³       
+³       ³   ³   ÃÄÄÄglow_tts
+³       ³   ³   ³       train_glowtts.py
+³       ³   ³   ³       
+³       ³   ³   ÃÄÄÄhifigan
+³       ³   ³   ³       train_hifigan.py
+³       ³   ³   ³       
+³       ³   ³   ÃÄÄÄmultiband_melgan
+³       ³   ³   ³       train_multiband_melgan.py
+³       ³   ³   ³       
+³       ³   ³   ÃÄÄÄspeedy_speech
+³       ³   ³   ³       train_speedy_speech.py
+³       ³   ³   ³       
+³       ³   ³   ÃÄÄÄtacotron2-DDC
+³       ³   ³   ³       train_tacotron_ddc.py
+³       ³   ³   ³       
+³       ³   ³   ÃÄÄÄunivnet
+³       ³   ³   ³       train_univnet.py
+³       ³   ³   ³       
+³       ³   ³   ÃÄÄÄvits_tts
+³       ³   ³   ³       train_vits.py
+³       ³   ³   ³       
+³       ³   ³   ÃÄÄÄwavegrad
+³       ³   ³   ³       train_wavegrad.py
+³       ³   ³   ³       
+³       ³   ³   ÀÄÄÄwavernn
+³       ³   ³           train_wavernn.py
+³       ³   ³           
+³       ³   ÀÄÄÄvctk
+³       ³       ³   download_vctk.sh
+³       ³       ³   
+³       ³       ÃÄÄÄdelightful_tts
+³       ³       ³       train_delightful_tts.py
+³       ³       ³       
+³       ³       ÃÄÄÄfast_pitch
+³       ³       ³       train_fast_pitch.py
+³       ³       ³       
+³       ³       ÃÄÄÄfast_speech
+³       ³       ³       train_fast_speech.py
+³       ³       ³       
+³       ³       ÃÄÄÄglow_tts
+³       ³       ³       train_glow_tts.py
+³       ³       ³       
+³       ³       ÃÄÄÄresnet_speaker_encoder
+³       ³       ³       train_encoder.py
+³       ³       ³       
+³       ³       ÃÄÄÄspeedy_speech
+³       ³       ³       train_speedy_speech.py
+³       ³       ³       
+³       ³       ÃÄÄÄtacotron-DDC
+³       ³       ³       train_tacotron-DDC.py
+³       ³       ³       
+³       ³       ÃÄÄÄtacotron2
+³       ³       ³       train_tacotron2.py
+³       ³       ³       
+³       ³       ÃÄÄÄtacotron2-DDC
+³       ³       ³       train_tacotron2-ddc.py
+³       ³       ³       
+³       ³       ÃÄÄÄvits
+³       ³       ³       train_vits.py
+³       ³       ³       
+³       ³       ÀÄÄÄyourtts
+³       ³               train_yourtts.py
+³       ³               
+³       ÃÄÄÄscripts
+³       ³       sync_readme.py
+³       ³       
+³       ÀÄÄÄTTS
+³           ³   .models.json
+³           ³   api.py
+³           ³   model.py
+³           ³   VERSION
+³           ³   __init__.py
+³           ³   
+³           ÃÄÄÄbin
+³           ³       collect_env_info.py
+³           ³       compute_attention_masks.py
+³           ³       compute_embeddings.py
+³           ³       compute_statistics.py
+³           ³       eval_encoder.py
+³           ³       extract_tts_spectrograms.py
+³           ³       find_unique_chars.py
+³           ³       find_unique_phonemes.py
+³           ³       remove_silence_using_vad.py
+³           ³       resample.py
+³           ³       synthesize.py
+³           ³       train_encoder.py
+³           ³       train_tts.py
+³           ³       train_vocoder.py
+³           ³       tune_wavegrad.py
+³           ³       __init__.py
+³           ³       
+³           ÃÄÄÄconfig
+³           ³       shared_configs.py
+³           ³       __init__.py
+³           ³       
+³           ÃÄÄÄdemos
+³           ³   ÀÄÄÄxtts_ft_demo
+³           ³       ³   requirements.txt
+³           ³       ³   xtts_demo.py
+³           ³       ³   
+³           ³       ÀÄÄÄutils
+³           ³               formatter.py
+³           ³               gpt_train.py
+³           ³               
+³           ÃÄÄÄencoder
+³           ³   ³   dataset.py
+³           ³   ³   losses.py
+³           ³   ³   README.md
+³           ³   ³   requirements.txt
+³           ³   ³   __init__.py
+³           ³   ³   
+³           ³   ÃÄÄÄconfigs
+³           ³   ³       base_encoder_config.py
+³           ³   ³       emotion_encoder_config.py
+³           ³   ³       speaker_encoder_config.py
+³           ³   ³       
+³           ³   ÃÄÄÄmodels
+³           ³   ³       base_encoder.py
+³           ³   ³       lstm.py
+³           ³   ³       resnet.py
+³           ³   ³       
+³           ³   ÀÄÄÄutils
+³           ³           generic_utils.py
+³           ³           prepare_voxceleb.py
+³           ³           training.py
+³           ³           visual.py
+³           ³           __init__.py
+³           ³           
+³           ÃÄÄÄtts
+³           ³   ³   __init__.py
+³           ³   ³   
+³           ³   ÃÄÄÄconfigs
+³           ³   ³       align_tts_config.py
+³           ³   ³       bark_config.py
+³           ³   ³       delightful_tts_config.py
+³           ³   ³       fastspeech2_config.py
+³           ³   ³       fast_pitch_config.py
+³           ³   ³       fast_speech_config.py
+³           ³   ³       glow_tts_config.py
+³           ³   ³       neuralhmm_tts_config.py
+³           ³   ³       overflow_config.py
+³           ³   ³       shared_configs.py
+³           ³   ³       speedy_speech_config.py
+³           ³   ³       tacotron2_config.py
+³           ³   ³       tacotron_config.py
+³           ³   ³       tortoise_config.py
+³           ³   ³       vits_config.py
+³           ³   ³       xtts_config.py
+³           ³   ³       __init__.py
+³           ³   ³       
+³           ³   ÃÄÄÄdatasets
+³           ³   ³       dataset.py
+³           ³   ³       formatters.py
+³           ³   ³       __init__.py
+³           ³   ³       
+³           ³   ÃÄÄÄlayers
+³           ³   ³   ³   losses.py
+³           ³   ³   ³   __init__.py
+³           ³   ³   ³   
+³           ³   ³   ÃÄÄÄalign_tts
+³           ³   ³   ³       duration_predictor.py
+³           ³   ³   ³       mdn.py
+³           ³   ³   ³       __init__.py
+³           ³   ³   ³       
+³           ³   ³   ÃÄÄÄbark
+³           ³   ³   ³   ³   inference_funcs.py
+³           ³   ³   ³   ³   load_model.py
+³           ³   ³   ³   ³   model.py
+³           ³   ³   ³   ³   model_fine.py
+³           ³   ³   ³   ³   __init__.py
+³           ³   ³   ³   ³   
+³           ³   ³   ³   ÀÄÄÄhubert
+³           ³   ³   ³           hubert_manager.py
+³           ³   ³   ³           kmeans_hubert.py
+³           ³   ³   ³           tokenizer.py
+³           ³   ³   ³           __init__.py
+³           ³   ³   ³           
+³           ³   ³   ÃÄÄÄdelightful_tts
+³           ³   ³   ³       acoustic_model.py
+³           ³   ³   ³       conformer.py
+³           ³   ³   ³       conv_layers.py
+³           ³   ³   ³       encoders.py
+³           ³   ³   ³       energy_adaptor.py
+³           ³   ³   ³       kernel_predictor.py
+³           ³   ³   ³       networks.py
+³           ³   ³   ³       phoneme_prosody_predictor.py
+³           ³   ³   ³       pitch_adaptor.py
+³           ³   ³   ³       variance_predictor.py
+³           ³   ³   ³       __init__.py
+³           ³   ³   ³       
+³           ³   ³   ÃÄÄÄfeed_forward
+³           ³   ³   ³       decoder.py
+³           ³   ³   ³       duration_predictor.py
+³           ³   ³   ³       encoder.py
+³           ³   ³   ³       __init__.py
+³           ³   ³   ³       
+³           ³   ³   ÃÄÄÄgeneric
+³           ³   ³   ³       aligner.py
+³           ³   ³   ³       gated_conv.py
+³           ³   ³   ³       normalization.py
+³           ³   ³   ³       pos_encoding.py
+³           ³   ³   ³       res_conv_bn.py
+³           ³   ³   ³       time_depth_sep_conv.py
+³           ³   ³   ³       transformer.py
+³           ³   ³   ³       wavenet.py
+³           ³   ³   ³       __init__.py
+³           ³   ³   ³       
+³           ³   ³   ÃÄÄÄglow_tts
+³           ³   ³   ³       decoder.py
+³           ³   ³   ³       duration_predictor.py
+³           ³   ³   ³       encoder.py
+³           ³   ³   ³       glow.py
+³           ³   ³   ³       transformer.py
+³           ³   ³   ³       __init__.py
+³           ³   ³   ³       
+³           ³   ³   ÃÄÄÄoverflow
+³           ³   ³   ³       common_layers.py
+³           ³   ³   ³       decoder.py
+³           ³   ³   ³       neural_hmm.py
+³           ³   ³   ³       plotting_utils.py
+³           ³   ³   ³       __init__.py
+³           ³   ³   ³       
+³           ³   ³   ÃÄÄÄtacotron
+³           ³   ³   ³       attentions.py
+³           ³   ³   ³       capacitron_layers.py
+³           ³   ³   ³       common_layers.py
+³           ³   ³   ³       gst_layers.py
+³           ³   ³   ³       tacotron.py
+³           ³   ³   ³       tacotron2.py
+³           ³   ³   ³       __init__.py
+³           ³   ³   ³       
+³           ³   ³   ÃÄÄÄtortoise
+³           ³   ³   ³       arch_utils.py
+³           ³   ³   ³       audio_utils.py
+³           ³   ³   ³       autoregressive.py
+³           ³   ³   ³       classifier.py
+³           ³   ³   ³       clvp.py
+³           ³   ³   ³       diffusion.py
+³           ³   ³   ³       diffusion_decoder.py
+³           ³   ³   ³       dpm_solver.py
+³           ³   ³   ³       random_latent_generator.py
+³           ³   ³   ³       tokenizer.py
+³           ³   ³   ³       transformer.py
+³           ³   ³   ³       utils.py
+³           ³   ³   ³       vocoder.py
+³           ³   ³   ³       wav2vec_alignment.py
+³           ³   ³   ³       xtransformers.py
+³           ³   ³   ³       
+³           ³   ³   ÃÄÄÄvits
+³           ³   ³   ³       discriminator.py
+³           ³   ³   ³       networks.py
+³           ³   ³   ³       stochastic_duration_predictor.py
+³           ³   ³   ³       transforms.py
+³           ³   ³   ³       
+³           ³   ³   ÀÄÄÄxtts
+³           ³   ³       ³   dvae.py
+³           ³   ³       ³   gpt.py
+³           ³   ³       ³   gpt_inference.py
+³           ³   ³       ³   hifigan_decoder.py
+³           ³   ³       ³   latent_encoder.py
+³           ³   ³       ³   perceiver_encoder.py
+³           ³   ³       ³   stream_generator.py
+³           ³   ³       ³   tokenizer.py
+³           ³   ³       ³   xtts_manager.py
+³           ³   ³       ³   zh_num2words.py
+³           ³   ³       ³   
+³           ³   ³       ÀÄÄÄtrainer
+³           ³   ³               dataset.py
+³           ³   ³               gpt_trainer.py
+³           ³   ³               
+³           ³   ÃÄÄÄmodels
+³           ³   ³       align_tts.py
+³           ³   ³       bark.py
+³           ³   ³       base_tacotron.py
+³           ³   ³       base_tts.py
+³           ³   ³       delightful_tts.py
+³           ³   ³       forward_tts.py
+³           ³   ³       glow_tts.py
+³           ³   ³       neuralhmm_tts.py
+³           ³   ³       overflow.py
+³           ³   ³       tacotron.py
+³           ³   ³       tacotron2.py
+³           ³   ³       tortoise.py
+³           ³   ³       vits.py
+³           ³   ³       xtts.py
+³           ³   ³       __init__.py
+³           ³   ³       
+³           ³   ÀÄÄÄutils
+³           ³       ³   data.py
+³           ³       ³   fairseq.py
+³           ³       ³   helpers.py
+³           ³       ³   languages.py
+³           ³       ³   managers.py
+³           ³       ³   measures.py
+³           ³       ³   speakers.py
+³           ³       ³   ssim.py
+³           ³       ³   synthesis.py
+³           ³       ³   visual.py
+³           ³       ³   __init__.py
+³           ³       ³   
+³           ³       ÃÄÄÄassets
+³           ³       ³   ÀÄÄÄtortoise
+³           ³       ³           tokenizer.json
+³           ³       ³           
+³           ³       ÃÄÄÄmonotonic_align
+³           ³       ³       core.pyx
+³           ³       ³       setup.py
+³           ³       ³       __init__.py
+³           ³       ³       
+³           ³       ÀÄÄÄtext
+³           ³           ³   characters.py
+³           ³           ³   cleaners.py
+³           ³           ³   cmudict.py
+³           ³           ³   punctuation.py
+³           ³           ³   tokenizer.py
+³           ³           ³   __init__.py
+³           ³           ³   
+³           ³           ÃÄÄÄbangla
+³           ³           ³       phonemizer.py
+³           ³           ³       __init__.py
+³           ³           ³       
+³           ³           ÃÄÄÄbelarusian
+³           ³           ³       phonemizer.py
+³           ³           ³       __init__.py
+³           ³           ³       
+³           ³           ÃÄÄÄchinese_mandarin
+³           ³           ³       numbers.py
+³           ³           ³       phonemizer.py
+³           ³           ³       pinyinToPhonemes.py
+³           ³           ³       __init__.py
+³           ³           ³       
+³           ³           ÃÄÄÄenglish
+³           ³           ³       abbreviations.py
+³           ³           ³       number_norm.py
+³           ³           ³       time_norm.py
+³           ³           ³       __init__.py
+³           ³           ³       
+³           ³           ÃÄÄÄfrench
+³           ³           ³       abbreviations.py
+³           ³           ³       __init__.py
+³           ³           ³       
+³           ³           ÃÄÄÄjapanese
+³           ³           ³       phonemizer.py
+³           ³           ³       __init__.py
+³           ³           ³       
+³           ³           ÃÄÄÄkorean
+³           ³           ³       korean.py
+³           ³           ³       ko_dictionary.py
+³           ³           ³       phonemizer.py
+³           ³           ³       __init__.py
+³           ³           ³       
+³           ³           ÀÄÄÄphonemizers
+³           ³                   bangla_phonemizer.py
+³           ³                   base.py
+³           ³                   belarusian_phonemizer.py
+³           ³                   espeak_wrapper.py
+³           ³                   gruut_wrapper.py
+³           ³                   ja_jp_phonemizer.py
+³           ³                   ko_kr_phonemizer.py
+³           ³                   multi_phonemizer.py
+³           ³                   zh_cn_phonemizer.py
+³           ³                   __init__.py
+³           ³                   
+³           ÃÄÄÄutils
+³           ³   ³   callbacks.py
+³           ³   ³   capacitron_optimizer.py
+³           ³   ³   distribute.py
+³           ³   ³   download.py
+³           ³   ³   downloaders.py
+³           ³   ³   generic_utils.py
+³           ³   ³   io.py
+³           ³   ³   manage.py
+³           ³   ³   radam.py
+³           ³   ³   samplers.py
+³           ³   ³   synthesizer.py
+³           ³   ³   training.py
+³           ³   ³   vad.py
+³           ³   ³   __init__.py
+³           ³   ³   
+³           ³   ÀÄÄÄaudio
+³           ³           numpy_transforms.py
+³           ³           processor.py
+³           ³           torch_transforms.py
+³           ³           __init__.py
+³           ³           
+³           ÃÄÄÄvc
+³           ³   ÃÄÄÄconfigs
+³           ³   ³       freevc_config.py
+³           ³   ³       shared_configs.py
+³           ³   ³       __init__.py
+³           ³   ³       
+³           ³   ÃÄÄÄmodels
+³           ³   ³       base_vc.py
+³           ³   ³       freevc.py
+³           ³   ³       __init__.py
+³           ³   ³       
+³           ³   ÀÄÄÄmodules
+³           ³       ³   __init__.py
+³           ³       ³   
+³           ³       ÀÄÄÄfreevc
+³           ³           ³   commons.py
+³           ³           ³   mel_processing.py
+³           ³           ³   modules.py
+³           ³           ³   __init__.py
+³           ³           ³   
+³           ³           ÃÄÄÄspeaker_encoder
+³           ³           ³       audio.py
+³           ³           ³       hparams.py
+³           ³           ³       speaker_encoder.py
+³           ³           ³       __init__.py
+³           ³           ³       
+³           ³           ÀÄÄÄwavlm
+³           ³                   config.json
+³           ³                   modules.py
+³           ³                   wavlm.py
+³           ³                   __init__.py
+³           ³                   
+³           ÀÄÄÄvocoder
+³               ³   pqmf_output.wav
+³               ³   README.md
+³               ³   __init__.py
+³               ³   
+³               ÃÄÄÄconfigs
+³               ³       fullband_melgan_config.py
+³               ³       hifigan_config.py
+³               ³       melgan_config.py
+³               ³       multiband_melgan_config.py
+³               ³       parallel_wavegan_config.py
+³               ³       shared_configs.py
+³               ³       univnet_config.py
+³               ³       wavegrad_config.py
+³               ³       wavernn_config.py
+³               ³       __init__.py
+³               ³       
+³               ÃÄÄÄdatasets
+³               ³       gan_dataset.py
+³               ³       preprocess.py
+³               ³       wavegrad_dataset.py
+³               ³       wavernn_dataset.py
+³               ³       __init__.py
+³               ³       
+³               ÃÄÄÄlayers
+³               ³       hifigan.py
+³               ³       losses.py
+³               ³       lvc_block.py
+³               ³       melgan.py
+³               ³       parallel_wavegan.py
+³               ³       pqmf.py
+³               ³       qmf.dat
+³               ³       upsample.py
+³               ³       wavegrad.py
+³               ³       __init__.py
+³               ³       
+³               ÃÄÄÄmodels
+³               ³       base_vocoder.py
+³               ³       fullband_melgan_generator.py
+³               ³       gan.py
+³               ³       hifigan_discriminator.py
+³               ³       hifigan_generator.py
+³               ³       melgan_discriminator.py
+³               ³       melgan_generator.py
+³               ³       melgan_multiscale_discriminator.py
+³               ³       multiband_melgan_generator.py
+³               ³       parallel_wavegan_discriminator.py
+³               ³       parallel_wavegan_generator.py
+³               ³       random_window_discriminator.py
+³               ³       univnet_discriminator.py
+³               ³       univnet_generator.py
+³               ³       wavegrad.py
+³               ³       wavernn.py
+³               ³       __init__.py
+³               ³       
+³               ÀÄÄÄutils
+³                       distribution.py
+³                       generic_utils.py
+³                       __init__.py
+³                       
+ÃÄÄÄseed_vaults
+³       master_index,json
+³       measurement_units
+³       query_speed_of_light.json
+³       seed.index.json
+³       seed.physics.v0.9.0.json
+³       SeedVault-Physics-Constants-1.1.0.json
+³       SeedVault-Physics-Constants-1.1.0.svbin
+³       seedvault-schema-core-v1.1.0.json
+³       seedvault-units-measurements-1.1.0.json
+³       SeedVault-Units-Measurements-1.1.0.svbin
+³       seed_abductive.json
+³       seed_analogical.json
+³       seed_aposteriori.json
+³       seed_apriori.json
+³       seed_biology.json
+³       seed_causal.json
+³       seed_critical.json
+³       seed_decompositional.json
+³       seed_deductive.json
+³       seed_deductive_resonator.json
+³       seed_geography.json
+³       seed_gladwell.json
+³       seed_hedonic_reflex.json
+³       seed_hume.json
+³       seed_inductive.json
+³       seed_inductive_resonator.json
+³       seed_intuitive.json
+³       seed_intuitive_resonator.json
+³       seed_kant.json
+³       seed_locke.json
+³       seed_logic.json
+³       seed_monotonic.json
+³       seed_moral_reasoning_v1.json
+³       seed_nonmonotonic.json
+³       seed_ockhams_filter.json
+³       seed_paradoxes.json
+³       seed_proverbs.json
+³       seed_spinoza.json
+³       seed_syllogistic_v1.json
+³       seed_taleb.json
+³       synaptic_resonator_reflect.vault.json
+³       vault_biology_reference.json
+³       vault_geo_reference.json
+³       vault_history_reference.json
+³       vault_math_reference.json
+³       vault_physics_reference.json
+³       vault_psych_reference.json
+³       
+ÃÄÄÄtask-orchestrator
+³   ³   .gitignore
+³   ³   build.gradle.kts
+³   ³   CHANGELOG.md
+³   ³   CONTRIBUTING.md
+³   ³   docker-compose.yml
+³   ³   Dockerfile
+³   ³   gradle.properties
+³   ³   gradlew
+³   ³   gradlew.bat
+³   ³   LICENSE
+³   ³   PLUGIN-STRUCTURE.md
+³   ³   README.md
+³   ³   settings.gradle.kts
+³   ³   
+³   ÃÄÄÄ.github
+³   ³   ÀÄÄÄworkflows
+³   ³           docker-publish.yml
+³   ³           test.yml
+³   ³           
+³   ÃÄÄÄ.idea
+³   ³       .gitignore
+³   ³       AndroidProjectSystem.xml
+³   ³       gradle.xml
+³   ³       kotlinc.xml
+³   ³       vcs.xml
+³   ³       
+³   ÃÄÄÄdocs
+³   ³   ³   agent-architecture.md
+³   ³   ³   ai-guidelines.md
+³   ³   ³   api-reference.md
+³   ³   ³   full-orchestration-workflow-guide.md
+³   ³   ³   hooks-guide.md
+³   ³   ³   index.md
+³   ³   ³   installation-guide.md
+³   ³   ³   plugin-installation.md
+³   ³   ³   quick-start.md
+³   ³   ³   skills-guide.md
+³   ³   ³   status-progression.md
+³   ³   ³   templates.md
+³   ³   ³   troubleshooting.md
+³   ³   ³   workflow-patterns.md
+³   ³   ³   workflow-prompts.md
+³   ³   ³   _config.yml
+³   ³   ³   
+³   ³   ÃÄÄÄdeveloper-guides
+³   ³   ³       architecture.md
+³   ³   ³       database-migrations.md
+³   ³   ³       index.md
+³   ³   ³       subagent-template.md
+³   ³   ³       
+³   ³   ÃÄÄÄdiagrams
+³   ³   ³       feature-orchestration-skill-flow.html
+³   ³   ³       task-orchestration-skill-flow.html
+³   ³   ³       
+³   ³   ÃÄÄÄmigration
+³   ³   ³       v2.0-output-style-removal.md
+³   ³   ³       
+³   ³   ÀÄÄÄtools
+³   ³           apply-template.md
+³   ³           get-agent-definition.md
+³   ³           get-blocked-tasks.md
+³   ³           get-next-status.md
+³   ³           get-next-task.md
+³   ³           get-tag-usage.md
+³   ³           list-tags.md
+³   ³           manage-container.md
+³   ³           manage-dependency.md
+³   ³           manage-sections.md
+³   ³           manage-template.md
+³   ³           query-container.md
+³   ³           query-dependencies.md
+³   ³           query-sections.md
+³   ³           query-templates.md
+³   ³           query-workflow-state.md
+³   ³           recommend-agent.md
+³   ³           rename-tag.md
+³   ³           setup-project.md
+³   ³           
+³   ÃÄÄÄgradle
+³   ³   ³   libs.versions.toml
+³   ³   ³   
+³   ³   ÀÄÄÄwrapper
+³   ³           gradle-wrapper.jar
+³   ³           gradle-wrapper.properties
+³   ³           
+³   ÃÄÄÄscripts
+³   ³       docker-clean-and-build.bat
+³   ³       
+³   ÃÄÄÄsrc
+³   ³   ÃÄÄÄmain
+³   ³   ³   ÃÄÄÄkotlin
+³   ³   ³   ³   ³   Main.kt
+³   ³   ³   ³   ³   
+³   ³   ³   ³   ÀÄÄÄio
+³   ³   ³   ³       ÀÄÄÄgithub
+³   ³   ³   ³           ÀÄÄÄjpicklyk
+³   ³   ³   ³               ÀÄÄÄmcptask
+³   ³   ³   ³                   ÃÄÄÄapplication
+³   ³   ³   ³                   ³   ÃÄÄÄservice
+³   ³   ³   ³                   ³   ³   ³   LockErrorHandler.kt
+³   ³   ³   ³                   ³   ³   ³   SessionConfig.kt
+³   ³   ³   ³                   ³   ³   ³   SimpleLockingService.kt
+³   ³   ³   ³                   ³   ³   ³   SimpleSessionManager.kt
+³   ³   ³   ³                   ³   ³   ³   StatusValidator.kt
+³   ³   ³   ³                   ³   ³   ³   TemplateInitializer.kt
+³   ³   ³   ³                   ³   ³   ³   TemplateInitializerImpl.kt
+³   ³   ³   ³                   ³   ³   ³   WorkflowConfigLoader.kt
+³   ³   ³   ³                   ³   ³   ³   WorkflowConfigLoaderImpl.kt
+³   ³   ³   ³                   ³   ³   ³   WorkflowService.kt
+³   ³   ³   ³                   ³   ³   ³   WorkflowServiceImpl.kt
+³   ³   ³   ³                   ³   ³   ³   
+³   ³   ³   ³                   ³   ³   ÃÄÄÄagent
+³   ³   ³   ³                   ³   ³   ³       AgentRecommendationService.kt
+³   ³   ³   ³                   ³   ³   ³       AgentRecommendationServiceImpl.kt
+³   ³   ³   ³                   ³   ³   ³       
+³   ³   ³   ³                   ³   ³   ÃÄÄÄprogression
+³   ³   ³   ³                   ³   ³   ³       StatusProgressionService.kt
+³   ³   ³   ³                   ³   ³   ³       StatusProgressionServiceImpl.kt
+³   ³   ³   ³                   ³   ³   ³       
+³   ³   ³   ³                   ³   ³   ÀÄÄÄtemplates
+³   ³   ³   ³                   ³   ³           BugInvestigationWorkflowTemplateCreator.kt
+³   ³   ³   ³                   ³   ³           ContextBackgroundTemplateCreator.kt
+³   ³   ³   ³                   ³   ³           DefinitionOfDoneTemplateCreator.kt
+³   ³   ³   ³                   ³   ³           GitHubPRWorkflowTemplateCreator.kt
+³   ³   ³   ³                   ³   ³           LocalGitBranchingWorkflowTemplateCreator.kt
+³   ³   ³   ³                   ³   ³           RequirementsSpecificationTemplateCreator.kt
+³   ³   ³   ³                   ³   ³           TaskImplementationWorkflowTemplateCreator.kt
+³   ³   ³   ³                   ³   ³           TechnicalApproachTemplateCreator.kt
+³   ³   ³   ³                   ³   ³           TestingStrategyTemplateCreator.kt
+³   ³   ³   ³                   ³   ³           
+³   ³   ³   ³                   ³   ÀÄÄÄtools
+³   ³   ³   ³                   ³       ³   LockException.kt
+³   ³   ³   ³                   ³       ³   ManageContainerTool.kt
+³   ³   ³   ³                   ³       ³   QueryContainerTool.kt
+³   ³   ³   ³                   ³       ³   QueryTemplatesTool.kt
+³   ³   ³   ³                   ³       ³   QueryWorkflowStateTool.kt
+³   ³   ³   ³                   ³       ³   ToolDefinition.kt
+³   ³   ³   ³                   ³       ³   ToolExecutionContext.kt
+³   ³   ³   ³                   ³       ³   ToolRegistry.kt
+³   ³   ³   ³                   ³       ³   UpdateEfficiencyMetrics.kt
+³   ³   ³   ³                   ³       ³   
+³   ³   ³   ³                   ³       ÃÄÄÄagent
+³   ³   ³   ³                   ³       ³       GetAgentDefinitionTool.kt
+³   ³   ³   ³                   ³       ³       RecommendAgentTool.kt
+³   ³   ³   ³                   ³       ³       SetupProjectTool.kt
+³   ³   ³   ³                   ³       ³       
+³   ³   ³   ³                   ³       ÃÄÄÄbase
+³   ³   ³   ³                   ³       ³       BaseToolDefinition.kt
+³   ³   ³   ³                   ³       ³       SimpleLockAwareToolDefinition.kt
+³   ³   ³   ³                   ³       ³       
+³   ³   ³   ³                   ³       ÃÄÄÄdependency
+³   ³   ³   ³                   ³       ³       ManageDependencyTool.kt
+³   ³   ³   ³                   ³       ³       QueryDependenciesTool.kt
+³   ³   ³   ³                   ³       ³       
+³   ³   ³   ³                   ³       ÃÄÄÄsection
+³   ³   ³   ³                   ³       ³       ManageSectionsTool.kt
+³   ³   ³   ³                   ³       ³       QuerySectionsTool.kt
+³   ³   ³   ³                   ³       ³       
+³   ³   ³   ³                   ³       ÃÄÄÄstatus
+³   ³   ³   ³                   ³       ³       GetNextStatusTool.kt
+³   ³   ³   ³                   ³       ³       
+³   ³   ³   ³                   ³       ÃÄÄÄtag
+³   ³   ³   ³                   ³       ³       GetTagUsageTool.kt
+³   ³   ³   ³                   ³       ³       ListTagsTool.kt
+³   ³   ³   ³                   ³       ³       RenameTagTool.kt
+³   ³   ³   ³                   ³       ³       
+³   ³   ³   ³                   ³       ÃÄÄÄtask
+³   ³   ³   ³                   ³       ³       GetBlockedTasksTool.kt
+³   ³   ³   ³                   ³       ³       GetNextTaskTool.kt
+³   ³   ³   ³                   ³       ³       
+³   ³   ³   ³                   ³       ÃÄÄÄtemplate
+³   ³   ³   ³                   ³       ³       ApplyTemplateTool.kt
+³   ³   ³   ³                   ³       ³       ManageTemplateTool.kt
+³   ³   ³   ³                   ³       ³       
+³   ³   ³   ³                   ³       ÀÄÄÄutils
+³   ³   ³   ³                   ³               TextUpdateUtil.kt
+³   ³   ³   ³                   ³               
+³   ³   ³   ³                   ÃÄÄÄdomain
+³   ³   ³   ³                   ³   ÃÄÄÄmodel
+³   ³   ³   ³                   ³   ³   ³   Counts.kt
+³   ³   ³   ³                   ³   ³   ³   Dependency.kt
+³   ³   ³   ³                   ³   ³   ³   Feature.kt
+³   ³   ³   ³                   ³   ³   ³   FilterModels.kt
+³   ³   ³   ³                   ³   ³   ³   LockError.kt
+³   ³   ³   ³                   ³   ³   ³   Priority.kt
+³   ³   ³   ³                   ³   ³   ³   Project.kt
+³   ³   ³   ³                   ³   ³   ³   ProjectStatus.kt
+³   ³   ³   ³                   ³   ³   ³   Section.kt
+³   ³   ³   ³                   ³   ³   ³   Task.kt
+³   ³   ³   ³                   ³   ³   ³   TaskLock.kt
+³   ³   ³   ³                   ³   ³   ³   Template.kt
+³   ³   ³   ³                   ³   ³   ³   WorkSession.kt
+³   ³   ³   ³                   ³   ³   ³   
+³   ³   ³   ³                   ³   ³   ÀÄÄÄworkflow
+³   ³   ³   ³                   ³   ³           CascadeEvent.kt
+³   ³   ³   ³                   ³   ³           FlowConfig.kt
+³   ³   ³   ³                   ³   ³           WorkflowConfig.kt
+³   ³   ³   ³                   ³   ³           WorkflowState.kt
+³   ³   ³   ³                   ³   ³           
+³   ³   ³   ³                   ³   ÃÄÄÄrendering
+³   ³   ³   ³                   ³   ³       MarkdownOptions.kt
+³   ³   ³   ³                   ³   ³       MarkdownRenderer.kt
+³   ³   ³   ³                   ³   ³       
+³   ³   ³   ³                   ³   ÃÄÄÄrepository
+³   ³   ³   ³                   ³   ³       BaseRepository.kt
+³   ³   ³   ³                   ³   ³       DependencyRepository.kt
+³   ³   ³   ³                   ³   ³       FeatureRepository.kt
+³   ³   ³   ³                   ³   ³       ProjectRepository.kt
+³   ³   ³   ³                   ³   ³       Result.kt
+³   ³   ³   ³                   ³   ³       SectionRepository.kt
+³   ³   ³   ³                   ³   ³       TaskRepository.kt
+³   ³   ³   ³                   ³   ³       TemplateRepository.kt
+³   ³   ³   ³                   ³   ³       
+³   ³   ³   ³                   ³   ÀÄÄÄvalidation
+³   ³   ³   ³                   ³           ValidationException.kt
+³   ³   ³   ³                   ³           
+³   ³   ³   ³                   ÃÄÄÄinfrastructure
+³   ³   ³   ³                   ³   ÃÄÄÄdatabase
+³   ³   ³   ³                   ³   ³   ³   DatabaseConfig.kt
+³   ³   ³   ³                   ³   ³   ³   DatabaseManager.kt
+³   ³   ³   ³                   ³   ³   ³   
+³   ³   ³   ³                   ³   ³   ÃÄÄÄmigration
+³   ³   ³   ³                   ³   ³   ³   ³   Migration.kt
+³   ³   ³   ³                   ³   ³   ³   ³   
+³   ³   ³   ³                   ³   ³   ³   ÀÄÄÄimpl
+³   ³   ³   ³                   ³   ³   ³           M001InitialSchema.kt
+³   ³   ³   ³                   ³   ³   ³           
+³   ³   ³   ³                   ³   ³   ÃÄÄÄrepository
+³   ³   ³   ³                   ³   ³   ³       CachedTemplateRepository.kt
+³   ³   ³   ³                   ³   ³   ³       SQLiteBusinessEntityRepository.kt
+³   ³   ³   ³                   ³   ³   ³       SQLiteDependencyRepository.kt
+³   ³   ³   ³                   ³   ³   ³       SQLiteFeatureRepository.kt
+³   ³   ³   ³                   ³   ³   ³       SQLiteProjectRepository.kt
+³   ³   ³   ³                   ³   ³   ³       SQLiteSectionRepository.kt
+³   ³   ³   ³                   ³   ³   ³       SQLiteTaskRepository.kt
+³   ³   ³   ³                   ³   ³   ³       SQLiteTemplateRepository.kt
+³   ³   ³   ³                   ³   ³   ³       
+³   ³   ³   ³                   ³   ³   ÀÄÄÄschema
+³   ³   ³   ³                   ³   ³       ³   DependenciesTable.kt
+³   ³   ³   ³                   ³   ³       ³   EntityAssignmentsTable.kt
+³   ³   ³   ³                   ³   ³       ³   EntityTagsTable.kt
+³   ³   ³   ³                   ³   ³       ³   FeaturesTable.kt
+³   ³   ³   ³                   ³   ³       ³   ProjectsTable.kt
+³   ³   ³   ³                   ³   ³       ³   SectionsTable.kt
+³   ³   ³   ³                   ³   ³       ³   TaskLocksTable.kt
+³   ³   ³   ³                   ³   ³       ³   TaskTable.kt
+³   ³   ³   ³                   ³   ³       ³   TemplatesTable.kt
+³   ³   ³   ³                   ³   ³       ³   WorkSessionsTable.kt
+³   ³   ³   ³                   ³   ³       ³   
+³   ³   ³   ³                   ³   ³       ÀÄÄÄmanagement
+³   ³   ³   ³                   ³   ³               DatabaseSchemaManager.kt
+³   ³   ³   ³                   ³   ³               DirectDatabaseSchemaManager.kt
+³   ³   ³   ³                   ³   ³               FlywayDatabaseSchemaManager.kt
+³   ³   ³   ³                   ³   ³               SchemaManagerFactory.kt
+³   ³   ³   ³                   ³   ³               
+³   ³   ³   ³                   ³   ÃÄÄÄfilesystem
+³   ³   ³   ³                   ³   ³       AgentDirectoryManager.kt
+³   ³   ³   ³                   ³   ³       TaskOrchestratorConfigManager.kt
+³   ³   ³   ³                   ³   ³       
+³   ³   ³   ³                   ³   ÃÄÄÄlogging
+³   ³   ³   ³                   ³   ³       LoggingUtils.kt
+³   ³   ³   ³                   ³   ³       
+³   ³   ³   ³                   ³   ÃÄÄÄrepository
+³   ³   ³   ³                   ³   ³       DefaultRepositoryProvider.kt
+³   ³   ³   ³                   ³   ³       RepositoryProvider.kt
+³   ³   ³   ³                   ³   ³       
+³   ³   ³   ³                   ³   ÀÄÄÄutil
+³   ³   ³   ³                   ³           ErrorCodes.kt
+³   ³   ³   ³                   ³           ResponseExtensions.kt
+³   ³   ³   ³                   ³           ResponseUtil.kt
+³   ³   ³   ³                   ³           
+³   ³   ³   ³                   ÀÄÄÄinterfaces
+³   ³   ³   ³                       ÃÄÄÄapi
+³   ³   ³   ³                       ³   ³   ApiResponse.kt
+³   ³   ³   ³                       ³   ³   PaginationParameters.kt
+³   ³   ³   ³                       ³   ³   
+³   ³   ³   ³                       ³   ÀÄÄÄresponse
+³   ³   ³   ³                       ³           ApiResponse.kt
+³   ³   ³   ³                       ³           ResponseUtils.kt
+³   ³   ³   ³                       ³           
+³   ³   ³   ³                       ÀÄÄÄmcp
+³   ³   ³   ³                               AgentResources.kt
+³   ³   ³   ³                               MarkdownResourceProvider.kt
+³   ³   ³   ³                               McpServer.kt
+³   ³   ³   ³                               McpServerAiGuidance.kt
+³   ³   ³   ³                               McpToolAdapter.kt
+³   ³   ³   ³                               TaskOrchestratorResources.kt
+³   ³   ³   ³                               ToolDocumentationResources.kt
+³   ³   ³   ³                               WorkflowPromptsGuidance.kt
+³   ³   ³   ³                               
+³   ³   ³   ÀÄÄÄresources
+³   ³   ³       ³   logback.xml
+³   ³   ³       ³   
+³   ³   ³       ÃÄÄÄdb
+³   ³   ³       ³   ÀÄÄÄmigration
+³   ³   ³       ³           README.md
+³   ³   ³       ³           V1__Initial_Schema.sql
+³   ³   ³       ³           V2__Add_Migration_Test_Table.sql
+³   ³   ³       ³           V3__Add_Optimistic_Locking_Versions.sql
+³   ³   ³       ³           V4__Add_Performance_Indexes.sql
+³   ³   ³       ³           V5__update_simplified_templates.sql
+³   ³   ³       ³           V6__Upgrade_To_V2_Schema.sql
+³   ³   ³       ³           V7__Add_Missing_Templates_And_Update_Tags.sql
+³   ³   ³       ³           
+³   ³   ³       ÃÄÄÄucm
+³   ³   ³       ³   ÃÄÄÄconfiguration
+³   ³   ³       ³   ³       agent-mapping.yaml
+³   ³   ³       ³   ³       default-config.yaml
+³   ³   ³       ³   ³       
+³   ³   ³       ³   ÀÄÄÄskills
+³   ³   ³       ³       ÃÄÄÄbackend-implementation
+³   ³   ³       ³       ³       SKILL.md
+³   ³   ³       ³       ³       
+³   ³   ³       ³       ÃÄÄÄdatabase-implementation
+³   ³   ³       ³       ³       SKILL.md
+³   ³   ³       ³       ³       
+³   ³   ³       ³       ÃÄÄÄdocumentation-implementation
+³   ³   ³       ³       ³       SKILL.md
+³   ³   ³       ³       ³       
+³   ³   ³       ³       ÃÄÄÄfrontend-implementation
+³   ³   ³       ³       ³       SKILL.md
+³   ³   ³       ³       ³       
+³   ³   ³       ³       ÃÄÄÄtesting-implementation
+³   ³   ³       ³       ³       SKILL.md
+³   ³   ³       ³       ³       
+³   ³   ³       ³       ÀÄÄÄucm-integration
+³   ³   ³       ³               SKILL.md
+³   ³   ³       ³               
+³   ³   ³       ÀÄÄÄworkflows
+³   ³   ³               coordinate-feature-development.md
+³   ³   ³               initialize-task-orchestrator.md
+³   ³   ³               project-setup-workflow.md
+³   ³   ³               update-project-config.md
+³   ³   ³               
+³   ³   ÀÄÄÄtest
+³   ³       ÀÄÄÄkotlin
+³   ³           ÀÄÄÄio
+³   ³               ÀÄÄÄgithub
+³   ³                   ÀÄÄÄjpicklyk
+³   ³                       ÀÄÄÄmcptask
+³   ³                           ÃÄÄÄapplication
+³   ³                           ³   ÃÄÄÄservice
+³   ³                           ³   ³   ³   LockErrorHandlerTest.kt
+³   ³                           ³   ³   ³   SimpleLockingServiceTest.kt
+³   ³                           ³   ³   ³   SimpleSessionManagerTest.kt
+³   ³                           ³   ³   ³   StatusValidatorTest.kt
+³   ³                           ³   ³   ³   ValidateTransitionSignatureTest.kt
+³   ³                           ³   ³   ³   WorkflowConfigLoaderTest.kt
+³   ³                           ³   ³   ³   WorkflowIntegrationTest.kt
+³   ³                           ³   ³   ³   WorkflowServiceTest.kt
+³   ³                           ³   ³   ³   
+³   ³                           ³   ³   ÃÄÄÄagent
+³   ³                           ³   ³   ³       AgentRecommendationServiceImplTest.kt
+³   ³                           ³   ³   ³       
+³   ³                           ³   ³   ÃÄÄÄprogression
+³   ³                           ³   ³   ³       StatusProgressionIntegrationTest.kt
+³   ³                           ³   ³   ³       StatusProgressionServiceImplTest.kt
+³   ³                           ³   ³   ³       
+³   ³                           ³   ³   ÀÄÄÄtemplates
+³   ³                           ³   ³           BugReportTemplateCreatorTest.kt
+³   ³                           ³   ³           
+³   ³                           ³   ÀÄÄÄtools
+³   ³                           ³       ³   ListTagsToolTest.kt
+³   ³                           ³       ³   ManageContainerToolTest.kt
+³   ³                           ³       ³   ParallelTaskProcessingIntegrationTest.kt
+³   ³                           ³       ³   QueryContainerToolFilterParsingTest.kt
+³   ³                           ³       ³   QueryContainerToolTest.kt
+³   ³                           ³       ³   QueryTemplatesToolTest.kt
+³   ³                           ³       ³   ToolRegistryTest.kt
+³   ³                           ³       ³   UpdateEfficiencyIntegrationTest.kt
+³   ³                           ³       ³   UpdateToolsDocumentationTest.kt
+³   ³                           ³       ³   
+³   ³                           ³       ÃÄÄÄagent
+³   ³                           ³       ³       SetupProjectToolTest.kt
+³   ³                           ³       ³       
+³   ³                           ³       ÃÄÄÄbase
+³   ³                           ³       ³       BaseToolDefinitionTest.kt
+³   ³                           ³       ³       SimpleLockAwareToolDefinitionTest.kt
+³   ³                           ³       ³       
+³   ³                           ³       ÃÄÄÄdependency
+³   ³                           ³       ³       ManageDependencyToolTest.kt
+³   ³                           ³       ³       QueryDependenciesToolTest.kt
+³   ³                           ³       ³       
+³   ³                           ³       ÃÄÄÄsection
+³   ³                           ³       ³       ManageSectionsToolTest.kt
+³   ³                           ³       ³       QuerySectionsToolTest.kt
+³   ³                           ³       ³       TextUpdateUtilTest.kt
+³   ³                           ³       ³       
+³   ³                           ³       ÃÄÄÄstatus
+³   ³                           ³       ³       GetNextStatusToolTest.kt
+³   ³                           ³       ³       
+³   ³                           ³       ÃÄÄÄtag
+³   ³                           ³       ³       GetTagUsageToolTest.kt
+³   ³                           ³       ³       RenameTagToolTest.kt
+³   ³                           ³       ³       
+³   ³                           ³       ÀÄÄÄtemplate
+³   ³                           ³               ApplyTemplateToolTest.kt
+³   ³                           ³               ManageTemplateToolTest.kt
+³   ³                           ³               
+³   ³                           ÃÄÄÄdomain
+³   ³                           ³   ÃÄÄÄmodel
+³   ³                           ³   ³       DependencyTest.kt
+³   ³                           ³   ³       FeatureTest.kt
+³   ³                           ³   ³       ProjectStatusTest.kt
+³   ³                           ³   ³       ProjectTest.kt
+³   ³                           ³   ³       SectionTest.kt
+³   ³                           ³   ³       StatusFilterTest.kt
+³   ³                           ³   ³       TaskTest.kt
+³   ³                           ³   ³       
+³   ³                           ³   ÃÄÄÄrendering
+³   ³                           ³   ³       MarkdownRendererTest.kt
+³   ³                           ³   ³       
+³   ³                           ³   ÀÄÄÄrepository
+³   ³                           ³           ResultTest.kt
+³   ³                           ³           
+³   ³                           ÃÄÄÄinfrastructure
+³   ³                           ³   ÃÄÄÄdatabase
+³   ³                           ³   ³   ³   SchemaConfigAlignmentTest.kt
+³   ³                           ³   ³   ³   
+³   ³                           ³   ³   ÃÄÄÄmigration
+³   ³                           ³   ³   ³       CollapsedMigrationSchemaTest.kt
+³   ³                           ³   ³   ³       FlywayMigrationTestFramework.kt
+³   ³                           ³   ³   ³       MigrationPathComparisonTest.kt
+³   ³                           ³   ³   ³       TemplateDataMigrationTest.kt
+³   ³                           ³   ³   ³       UpgradePathTest.kt
+³   ³                           ³   ³   ³       
+³   ³                           ³   ³   ÃÄÄÄrepository
+³   ³                           ³   ³   ³       CachedTemplateRepositoryTest.kt
+³   ³                           ³   ³   ³       OptimisticLockingConcurrencyTest.kt
+³   ³                           ³   ³   ³       SQLiteFeatureRepositoryTest.kt
+³   ³                           ³   ³   ³       SQLiteProjectRepositoryTest.kt
+³   ³                           ³   ³   ³       SQLiteSectionRepositoryTest.kt
+³   ³                           ³   ³   ³       
+³   ³                           ³   ³   ÀÄÄÄschema
+³   ³                           ³   ³       ÀÄÄÄmanagement
+³   ³                           ³   ³               DatabaseSchemaIntegrationTest.kt
+³   ³                           ³   ³               
+³   ³                           ³   ÃÄÄÄfilesystem
+³   ³                           ³   ³       AgentMappingConfigTest.kt
+³   ³                           ³   ³       
+³   ³                           ³   ÀÄÄÄutil
+³   ³                           ³           ResponseExtensionsTest.kt
+³   ³                           ³           
+³   ³                           ÃÄÄÄintegration
+³   ³                           ³       CascadeDeletionBehaviorTest.kt
+³   ³                           ³       DependencyCyclePreventionTest.kt
+³   ³                           ³       DuplicateTemplateSectionPreventionTest.kt
+³   ³                           ³       FeatureDependencyStatisticsTest.kt
+³   ³                           ³       GetProjectTaskFilteringTest.kt
+³   ³                           ³       LockingSystemConcurrencyTest.kt
+³   ³                           ³       LockingSystemIntegrationTest.kt
+³   ³                           ³       McpResourcesIntegrationTest.kt
+³   ³                           ³       MultipleFilterSearchBugTest.kt
+³   ³                           ³       ProjectCascadeDeleteTest.kt
+³   ³                           ³       ProjectFeatureRelationshipTest.kt
+³   ³                           ³       ProjectIntegrationTest.kt
+³   ³                           ³       ProjectSearchFilterTest.kt
+³   ³                           ³       ProjectSectionTest.kt
+³   ³                           ³       StatusValidationRulesTest.kt
+³   ³                           ³       StatusValidatorPerformanceTest.kt
+³   ³                           ³       TagDebugger.kt
+³   ³                           ³       TagFunctionalityTest.kt
+³   ³                           ³       TagIntegrationTest.kt
+³   ³                           ³       TemplateOrdinalConflictTest.kt
+³   ³                           ³       ValidationPipelineIntegrationTest.kt
+³   ³                           ³       
+³   ³                           ÃÄÄÄinterfaces
+³   ³                           ³   ÃÄÄÄapi
+³   ³                           ³   ³   ³   ApiResponseTest.kt
+³   ³                           ³   ³   ³   
+³   ³                           ³   ³   ÀÄÄÄresponse
+³   ³                           ³   ³           ApiResponseTest.kt
+³   ³                           ³   ³           ResponseUtilsTest.kt
+³   ³                           ³   ³           
+³   ³                           ³   ÀÄÄÄmcp
+³   ³                           ³           McpToolAdapterTest.kt
+³   ³                           ³           ToolDocumentationResourcesTest.kt
+³   ³                           ³           
+³   ³                           ÀÄÄÄtest
+³   ³                               ÃÄÄÄmock
+³   ³                               ³       MockDependencyRepository.kt
+³   ³                               ³       MockFeatureRepository.kt
+³   ³                               ³       MockProjectRepository.kt
+³   ³                               ³       MockRepositoryProvider.kt
+³   ³                               ³       MockSectionRepository.kt
+³   ³                               ³       MockSectionRepositoryTest.kt
+³   ³                               ³       MockTaskRepository.kt
+³   ³                               ³       MockTemplateRepository.kt
+³   ³                               ³       MockToolDefinition.kt
+³   ³                               ³       
+³   ³                               ÃÄÄÄutil
+³   ³                               ³       ResponseAssertions.kt
+³   ³                               ³       
+³   ³                               ÀÄÄÄutils
+³   ³                                       ResponseTestUtils.kt
+³   ³                                       
+³   ÀÄÄÄtests
+³           workflow-testing-plan.md
+³           
+ÀÄÄÄVault_System_1.0
+    ³   tree.txt
+    ³   
+    ÃÄÄÄ.venv
+    ³   ³   .gitignore
+    ³   ³   pyvenv.cfg
+    ³   ³   
+    ³   ÃÄÄÄInclude
+    ³   ÃÄÄÄLib
+    ³   ³   ÀÄÄÄsite-packages
+    ³   ³       ³   distutils-precedence.pth
+    ³   ³       ³   typing_extensions.py
+    ³   ³       ³   _cffi_backend.cp311-win_amd64.pyd
+    ³   ³       ³   
+    ³   ³       ÃÄÄÄannotated_types
+    ³   ³       ³       py.typed
+    ³   ³       ³       test_cases.py
+    ³   ³       ³       __init__.py
+    ³   ³       ³       
+    ³   ³       ÃÄÄÄannotated_types-0.7.0.dist-info
+    ³   ³       ³   ³   INSTALLER
+    ³   ³       ³   ³   METADATA
+    ³   ³       ³   ³   RECORD
+    ³   ³       ³   ³   WHEEL
+    ³   ³       ³   ³   
+    ³   ³       ³   ÀÄÄÄlicenses
+    ³   ³       ³           LICENSE
+    ³   ³       ³           
+    ³   ³       ÃÄÄÄcffi
+    ³   ³       ³       api.py
+    ³   ³       ³       backend_ctypes.py
+    ³   ³       ³       cffi_opcode.py
+    ³   ³       ³       commontypes.py
+    ³   ³       ³       cparser.py
+    ³   ³       ³       error.py
+    ³   ³       ³       ffiplatform.py
+    ³   ³       ³       lock.py
+    ³   ³       ³       model.py
+    ³   ³       ³       parse_c_type.h
+    ³   ³       ³       pkgconfig.py
+    ³   ³       ³       recompiler.py
+    ³   ³       ³       setuptools_ext.py
+    ³   ³       ³       vengine_cpy.py
+    ³   ³       ³       vengine_gen.py
+    ³   ³       ³       verifier.py
+    ³   ³       ³       _cffi_errors.h
+    ³   ³       ³       _cffi_include.h
+    ³   ³       ³       _embedding.h
+    ³   ³       ³       _imp_emulation.py
+    ³   ³       ³       _shimmed_dist_utils.py
+    ³   ³       ³       __init__.py
+    ³   ³       ³       
+    ³   ³       ÃÄÄÄcffi-2.0.0.dist-info
+    ³   ³       ³   ³   entry_points.txt
+    ³   ³       ³   ³   INSTALLER
+    ³   ³       ³   ³   METADATA
+    ³   ³       ³   ³   RECORD
+    ³   ³       ³   ³   top_level.txt
+    ³   ³       ³   ³   WHEEL
+    ³   ³       ³   ³   
+    ³   ³       ³   ÀÄÄÄlicenses
+    ³   ³       ³           AUTHORS
+    ³   ³       ³           LICENSE
+    ³   ³       ³           
+    ³   ³       ÃÄÄÄcryptography
+    ³   ³       ³   ³   exceptions.py
+    ³   ³       ³   ³   fernet.py
+    ³   ³       ³   ³   py.typed
+    ³   ³       ³   ³   utils.py
+    ³   ³       ³   ³   __about__.py
+    ³   ³       ³   ³   __init__.py
+    ³   ³       ³   ³   
+    ³   ³       ³   ÃÄÄÄhazmat
+    ³   ³       ³   ³   ³   _oid.py
+    ³   ³       ³   ³   ³   __init__.py
+    ³   ³       ³   ³   ³   
+    ³   ³       ³   ³   ÃÄÄÄasn1
+    ³   ³       ³   ³   ³       asn1.py
+    ³   ³       ³   ³   ³       __init__.py
+    ³   ³       ³   ³   ³       
+    ³   ³       ³   ³   ÃÄÄÄbackends
+    ³   ³       ³   ³   ³   ³   __init__.py
+    ³   ³       ³   ³   ³   ³   
+    ³   ³       ³   ³   ³   ÀÄÄÄopenssl
+    ³   ³       ³   ³   ³           backend.py
+    ³   ³       ³   ³   ³           __init__.py
+    ³   ³       ³   ³   ³           
+    ³   ³       ³   ³   ÃÄÄÄbindings
+    ³   ³       ³   ³   ³   ³   _rust.pyd
+    ³   ³       ³   ³   ³   ³   __init__.py
+    ³   ³       ³   ³   ³   ³   
+    ³   ³       ³   ³   ³   ÃÄÄÄopenssl
+    ³   ³       ³   ³   ³   ³       binding.py
+    ³   ³       ³   ³   ³   ³       _conditional.py
+    ³   ³       ³   ³   ³   ³       __init__.py
+    ³   ³       ³   ³   ³   ³       
+    ³   ³       ³   ³   ³   ÀÄÄÄ_rust
+    ³   ³       ³   ³   ³       ³   asn1.pyi
+    ³   ³       ³   ³   ³       ³   declarative_asn1.pyi
+    ³   ³       ³   ³   ³       ³   exceptions.pyi
+    ³   ³       ³   ³   ³       ³   ocsp.pyi
+    ³   ³       ³   ³   ³       ³   pkcs12.pyi
+    ³   ³       ³   ³   ³       ³   pkcs7.pyi
+    ³   ³       ³   ³   ³       ³   test_support.pyi
+    ³   ³       ³   ³   ³       ³   x509.pyi
+    ³   ³       ³   ³   ³       ³   _openssl.pyi
+    ³   ³       ³   ³   ³       ³   __init__.pyi
+    ³   ³       ³   ³   ³       ³   
+    ³   ³       ³   ³   ³       ÀÄÄÄopenssl
+    ³   ³       ³   ³   ³               aead.pyi
+    ³   ³       ³   ³   ³               ciphers.pyi
+    ³   ³       ³   ³   ³               cmac.pyi
+    ³   ³       ³   ³   ³               dh.pyi
+    ³   ³       ³   ³   ³               dsa.pyi
+    ³   ³       ³   ³   ³               ec.pyi
+    ³   ³       ³   ³   ³               ed25519.pyi
+    ³   ³       ³   ³   ³               ed448.pyi
+    ³   ³       ³   ³   ³               hashes.pyi
+    ³   ³       ³   ³   ³               hmac.pyi
+    ³   ³       ³   ³   ³               kdf.pyi
+    ³   ³       ³   ³   ³               keys.pyi
+    ³   ³       ³   ³   ³               poly1305.pyi
+    ³   ³       ³   ³   ³               rsa.pyi
+    ³   ³       ³   ³   ³               x25519.pyi
+    ³   ³       ³   ³   ³               x448.pyi
+    ³   ³       ³   ³   ³               __init__.pyi
+    ³   ³       ³   ³   ³               
+    ³   ³       ³   ³   ÃÄÄÄdecrepit
+    ³   ³       ³   ³   ³   ³   __init__.py
+    ³   ³       ³   ³   ³   ³   
+    ³   ³       ³   ³   ³   ÀÄÄÄciphers
+    ³   ³       ³   ³   ³           algorithms.py
+    ³   ³       ³   ³   ³           __init__.py
+    ³   ³       ³   ³   ³           
+    ³   ³       ³   ³   ÀÄÄÄprimitives
+    ³   ³       ³   ³       ³   cmac.py
+    ³   ³       ³   ³       ³   constant_time.py
+    ³   ³       ³   ³       ³   hashes.py
+    ³   ³       ³   ³       ³   hmac.py
+    ³   ³       ³   ³       ³   keywrap.py
+    ³   ³       ³   ³       ³   padding.py
+    ³   ³       ³   ³       ³   poly1305.py
+    ³   ³       ³   ³       ³   _asymmetric.py
+    ³   ³       ³   ³       ³   _cipheralgorithm.py
+    ³   ³       ³   ³       ³   _serialization.py
+    ³   ³       ³   ³       ³   __init__.py
+    ³   ³       ³   ³       ³   
+    ³   ³       ³   ³       ÃÄÄÄasymmetric
+    ³   ³       ³   ³       ³       dh.py
+    ³   ³       ³   ³       ³       dsa.py
+    ³   ³       ³   ³       ³       ec.py
+    ³   ³       ³   ³       ³       ed25519.py
+    ³   ³       ³   ³       ³       ed448.py
+    ³   ³       ³   ³       ³       padding.py
+    ³   ³       ³   ³       ³       rsa.py
+    ³   ³       ³   ³       ³       types.py
+    ³   ³       ³   ³       ³       utils.py
+    ³   ³       ³   ³       ³       x25519.py
+    ³   ³       ³   ³       ³       x448.py
+    ³   ³       ³   ³       ³       __init__.py
+    ³   ³       ³   ³       ³       
+    ³   ³       ³   ³       ÃÄÄÄciphers
+    ³   ³       ³   ³       ³       aead.py
+    ³   ³       ³   ³       ³       algorithms.py
+    ³   ³       ³   ³       ³       base.py
+    ³   ³       ³   ³       ³       modes.py
+    ³   ³       ³   ³       ³       __init__.py
+    ³   ³       ³   ³       ³       
+    ³   ³       ³   ³       ÃÄÄÄkdf
+    ³   ³       ³   ³       ³       argon2.py
+    ³   ³       ³   ³       ³       concatkdf.py
+    ³   ³       ³   ³       ³       hkdf.py
+    ³   ³       ³   ³       ³       kbkdf.py
+    ³   ³       ³   ³       ³       pbkdf2.py
+    ³   ³       ³   ³       ³       scrypt.py
+    ³   ³       ³   ³       ³       x963kdf.py
+    ³   ³       ³   ³       ³       __init__.py
+    ³   ³       ³   ³       ³       
+    ³   ³       ³   ³       ÃÄÄÄserialization
+    ³   ³       ³   ³       ³       base.py
+    ³   ³       ³   ³       ³       pkcs12.py
+    ³   ³       ³   ³       ³       pkcs7.py
+    ³   ³       ³   ³       ³       ssh.py
+    ³   ³       ³   ³       ³       __init__.py
+    ³   ³       ³   ³       ³       
+    ³   ³       ³   ³       ÀÄÄÄtwofactor
+    ³   ³       ³   ³               hotp.py
+    ³   ³       ³   ³               totp.py
+    ³   ³       ³   ³               __init__.py
+    ³   ³       ³   ³               
+    ³   ³       ³   ÀÄÄÄx509
+    ³   ³       ³           base.py
+    ³   ³       ³           certificate_transparency.py
+    ³   ³       ³           extensions.py
+    ³   ³       ³           general_name.py
+    ³   ³       ³           name.py
+    ³   ³       ³           ocsp.py
+    ³   ³       ³           oid.py
+    ³   ³       ³           verification.py
+    ³   ³       ³           __init__.py
+    ³   ³       ³           
+    ³   ³       ÃÄÄÄcryptography-46.0.3.dist-info
+    ³   ³       ³   ³   INSTALLER
+    ³   ³       ³   ³   METADATA
+    ³   ³       ³   ³   RECORD
+    ³   ³       ³   ³   REQUESTED
+    ³   ³       ³   ³   WHEEL
+    ³   ³       ³   ³   
+    ³   ³       ³   ÀÄÄÄlicenses
+    ³   ³       ³           LICENSE
+    ³   ³       ³           LICENSE.APACHE
+    ³   ³       ³           LICENSE.BSD
+    ³   ³       ³           
+    ³   ³       ÃÄÄÄnumpy
+    ³   ³       ³   ³   conftest.py
+    ³   ³       ³   ³   dtypes.py
+    ³   ³       ³   ³   dtypes.pyi
+    ³   ³       ³   ³   exceptions.py
+    ³   ³       ³   ³   exceptions.pyi
+    ³   ³       ³   ³   matlib.py
+    ³   ³       ³   ³   matlib.pyi
+    ³   ³       ³   ³   py.typed
+    ³   ³       ³   ³   version.py
+    ³   ³       ³   ³   version.pyi
+    ³   ³       ³   ³   _array_api_info.py
+    ³   ³       ³   ³   _array_api_info.pyi
+    ³   ³       ³   ³   _configtool.py
+    ³   ³       ³   ³   _configtool.pyi
+    ³   ³       ³   ³   _distributor_init.py
+    ³   ³       ³   ³   _distributor_init.pyi
+    ³   ³       ³   ³   _expired_attrs_2_0.py
+    ³   ³       ³   ³   _expired_attrs_2_0.pyi
+    ³   ³       ³   ³   _globals.py
+    ³   ³       ³   ³   _globals.pyi
+    ³   ³       ³   ³   _pytesttester.py
+    ³   ³       ³   ³   _pytesttester.pyi
+    ³   ³       ³   ³   __config__.py
+    ³   ³       ³   ³   __config__.pyi
+    ³   ³       ³   ³   __init__.cython-30.pxd
+    ³   ³       ³   ³   __init__.pxd
+    ³   ³       ³   ³   __init__.py
+    ³   ³       ³   ³   __init__.pyi
+    ³   ³       ³   ³   
+    ³   ³       ³   ÃÄÄÄchar
+    ³   ³       ³   ³       __init__.py
+    ³   ³       ³   ³       __init__.pyi
+    ³   ³       ³   ³       
+    ³   ³       ³   ÃÄÄÄcore
+    ³   ³       ³   ³       arrayprint.py
+    ³   ³       ³   ³       defchararray.py
+    ³   ³       ³   ³       einsumfunc.py
+    ³   ³       ³   ³       fromnumeric.py
+    ³   ³       ³   ³       function_base.py
+    ³   ³       ³   ³       getlimits.py
+    ³   ³       ³   ³       multiarray.py
+    ³   ³       ³   ³       numeric.py
+    ³   ³       ³   ³       numerictypes.py
+    ³   ³       ³   ³       overrides.py
+    ³   ³       ³   ³       overrides.pyi
+    ³   ³       ³   ³       records.py
+    ³   ³       ³   ³       shape_base.py
+    ³   ³       ³   ³       umath.py
+    ³   ³       ³   ³       _dtype.py
+    ³   ³       ³   ³       _dtype.pyi
+    ³   ³       ³   ³       _dtype_ctypes.py
+    ³   ³       ³   ³       _dtype_ctypes.pyi
+    ³   ³       ³   ³       _internal.py
+    ³   ³       ³   ³       _multiarray_umath.py
+    ³   ³       ³   ³       _utils.py
+    ³   ³       ³   ³       __init__.py
+    ³   ³       ³   ³       __init__.pyi
+    ³   ³       ³   ³       
+    ³   ³       ³   ÃÄÄÄctypeslib
+    ³   ³       ³   ³       _ctypeslib.py
+    ³   ³       ³   ³       _ctypeslib.pyi
+    ³   ³       ³   ³       __init__.py
+    ³   ³       ³   ³       __init__.pyi
+    ³   ³       ³   ³       
+    ³   ³       ³   ÃÄÄÄdistutils
+    ³   ³       ³   ³   ³   armccompiler.py
+    ³   ³       ³   ³   ³   ccompiler.py
+    ³   ³       ³   ³   ³   ccompiler_opt.py
+    ³   ³       ³   ³   ³   conv_template.py
+    ³   ³       ³   ³   ³   core.py
+    ³   ³       ³   ³   ³   cpuinfo.py
+    ³   ³       ³   ³   ³   exec_command.py
+    ³   ³       ³   ³   ³   extension.py
+    ³   ³       ³   ³   ³   from_template.py
+    ³   ³       ³   ³   ³   fujitsuccompiler.py
+    ³   ³       ³   ³   ³   intelccompiler.py
+    ³   ³       ³   ³   ³   lib2def.py
+    ³   ³       ³   ³   ³   line_endings.py
+    ³   ³       ³   ³   ³   log.py
+    ³   ³       ³   ³   ³   mingw32ccompiler.py
+    ³   ³       ³   ³   ³   misc_util.py
+    ³   ³       ³   ³   ³   msvc9compiler.py
+    ³   ³       ³   ³   ³   msvccompiler.py
+    ³   ³       ³   ³   ³   npy_pkg_config.py
+    ³   ³       ³   ³   ³   numpy_distribution.py
+    ³   ³       ³   ³   ³   pathccompiler.py
+    ³   ³       ³   ³   ³   system_info.py
+    ³   ³       ³   ³   ³   unixccompiler.py
+    ³   ³       ³   ³   ³   _shell_utils.py
+    ³   ³       ³   ³   ³   __init__.py
+    ³   ³       ³   ³   ³   __init__.pyi
+    ³   ³       ³   ³   ³   
+    ³   ³       ³   ³   ÃÄÄÄchecks
+    ³   ³       ³   ³   ³       cpu_asimd.c
+    ³   ³       ³   ³   ³       cpu_asimddp.c
+    ³   ³       ³   ³   ³       cpu_asimdfhm.c
+    ³   ³       ³   ³   ³       cpu_asimdhp.c
+    ³   ³       ³   ³   ³       cpu_avx.c
+    ³   ³       ³   ³   ³       cpu_avx2.c
+    ³   ³       ³   ³   ³       cpu_avx512cd.c
+    ³   ³       ³   ³   ³       cpu_avx512f.c
+    ³   ³       ³   ³   ³       cpu_avx512_clx.c
+    ³   ³       ³   ³   ³       cpu_avx512_cnl.c
+    ³   ³       ³   ³   ³       cpu_avx512_icl.c
+    ³   ³       ³   ³   ³       cpu_avx512_knl.c
+    ³   ³       ³   ³   ³       cpu_avx512_knm.c
+    ³   ³       ³   ³   ³       cpu_avx512_skx.c
+    ³   ³       ³   ³   ³       cpu_avx512_spr.c
+    ³   ³       ³   ³   ³       cpu_f16c.c
+    ³   ³       ³   ³   ³       cpu_fma3.c
+    ³   ³       ³   ³   ³       cpu_fma4.c
+    ³   ³       ³   ³   ³       cpu_lsx.c
+    ³   ³       ³   ³   ³       cpu_neon.c
+    ³   ³       ³   ³   ³       cpu_neon_fp16.c
+    ³   ³       ³   ³   ³       cpu_neon_vfpv4.c
+    ³   ³       ³   ³   ³       cpu_popcnt.c
+    ³   ³       ³   ³   ³       cpu_rvv.c
+    ³   ³       ³   ³   ³       cpu_sse.c
+    ³   ³       ³   ³   ³       cpu_sse2.c
+    ³   ³       ³   ³   ³       cpu_sse3.c
+    ³   ³       ³   ³   ³       cpu_sse41.c
+    ³   ³       ³   ³   ³       cpu_sse42.c
+    ³   ³       ³   ³   ³       cpu_ssse3.c
+    ³   ³       ³   ³   ³       cpu_sve.c
+    ³   ³       ³   ³   ³       cpu_vsx.c
+    ³   ³       ³   ³   ³       cpu_vsx2.c
+    ³   ³       ³   ³   ³       cpu_vsx3.c
+    ³   ³       ³   ³   ³       cpu_vsx4.c
+    ³   ³       ³   ³   ³       cpu_vx.c
+    ³   ³       ³   ³   ³       cpu_vxe.c
+    ³   ³       ³   ³   ³       cpu_vxe2.c
+    ³   ³       ³   ³   ³       cpu_xop.c
+    ³   ³       ³   ³   ³       extra_avx512bw_mask.c
+    ³   ³       ³   ³   ³       extra_avx512dq_mask.c
+    ³   ³       ³   ³   ³       extra_avx512f_reduce.c
+    ³   ³       ³   ³   ³       extra_vsx3_half_double.c
+    ³   ³       ³   ³   ³       extra_vsx4_mma.c
+    ³   ³       ³   ³   ³       extra_vsx_asm.c
+    ³   ³       ³   ³   ³       test_flags.c
+    ³   ³       ³   ³   ³       
+    ³   ³       ³   ³   ÃÄÄÄcommand
+    ³   ³       ³   ³   ³       autodist.py
+    ³   ³       ³   ³   ³       bdist_rpm.py
+    ³   ³       ³   ³   ³       build.py
+    ³   ³       ³   ³   ³       build_clib.py
+    ³   ³       ³   ³   ³       build_ext.py
+    ³   ³       ³   ³   ³       build_py.py
+    ³   ³       ³   ³   ³       build_scripts.py
+    ³   ³       ³   ³   ³       build_src.py
+    ³   ³       ³   ³   ³       config.py
+    ³   ³       ³   ³   ³       config_compiler.py
+    ³   ³       ³   ³   ³       develop.py
+    ³   ³       ³   ³   ³       egg_info.py
+    ³   ³       ³   ³   ³       install.py
+    ³   ³       ³   ³   ³       install_clib.py
+    ³   ³       ³   ³   ³       install_data.py
+    ³   ³       ³   ³   ³       install_headers.py
+    ³   ³       ³   ³   ³       sdist.py
+    ³   ³       ³   ³   ³       __init__.py
+    ³   ³       ³   ³   ³       
+    ³   ³       ³   ³   ÃÄÄÄfcompiler
+    ³   ³       ³   ³   ³       absoft.py
+    ³   ³       ³   ³   ³       arm.py
+    ³   ³       ³   ³   ³       compaq.py
+    ³   ³       ³   ³   ³       environment.py
+    ³   ³       ³   ³   ³       fujitsu.py
+    ³   ³       ³   ³   ³       g95.py
+    ³   ³       ³   ³   ³       gnu.py
+    ³   ³       ³   ³   ³       hpux.py
+    ³   ³       ³   ³   ³       ibm.py
+    ³   ³       ³   ³   ³       intel.py
+    ³   ³       ³   ³   ³       lahey.py
+    ³   ³       ³   ³   ³       mips.py
+    ³   ³       ³   ³   ³       nag.py
+    ³   ³       ³   ³   ³       none.py
+    ³   ³       ³   ³   ³       nv.py
+    ³   ³       ³   ³   ³       pathf95.py
+    ³   ³       ³   ³   ³       pg.py
+    ³   ³       ³   ³   ³       sun.py
+    ³   ³       ³   ³   ³       vast.py
+    ³   ³       ³   ³   ³       __init__.py
+    ³   ³       ³   ³   ³       
+    ³   ³       ³   ³   ÃÄÄÄmingw
+    ³   ³       ³   ³   ³       gfortran_vs2003_hack.c
+    ³   ³       ³   ³   ³       
+    ³   ³       ³   ³   ÀÄÄÄtests
+    ³   ³       ³   ³           test_build_ext.py
+    ³   ³       ³   ³           test_ccompiler_opt.py
+    ³   ³       ³   ³           test_ccompiler_opt_conf.py
+    ³   ³       ³   ³           test_exec_command.py
+    ³   ³       ³   ³           test_fcompiler.py
+    ³   ³       ³   ³           test_fcompiler_gnu.py
+    ³   ³       ³   ³           test_fcompiler_intel.py
+    ³   ³       ³   ³           test_fcompiler_nagfor.py
+    ³   ³       ³   ³           test_from_template.py
+    ³   ³       ³   ³           test_log.py
+    ³   ³       ³   ³           test_mingw32ccompiler.py
+    ³   ³       ³   ³           test_misc_util.py
+    ³   ³       ³   ³           test_npy_pkg_config.py
+    ³   ³       ³   ³           test_shell_utils.py
+    ³   ³       ³   ³           test_system_info.py
+    ³   ³       ³   ³           utilities.py
+    ³   ³       ³   ³           __init__.py
+    ³   ³       ³   ³           
+    ³   ³       ³   ÃÄÄÄdoc
+    ³   ³       ³   ³       ufuncs.py
+    ³   ³       ³   ³       
+    ³   ³       ³   ÃÄÄÄf2py
+    ³   ³       ³   ³   ³   auxfuncs.py
+    ³   ³       ³   ³   ³   auxfuncs.pyi
+    ³   ³       ³   ³   ³   capi_maps.py
+    ³   ³       ³   ³   ³   capi_maps.pyi
+    ³   ³       ³   ³   ³   cb_rules.py
+    ³   ³       ³   ³   ³   cb_rules.pyi
+    ³   ³       ³   ³   ³   cfuncs.py
+    ³   ³       ³   ³   ³   cfuncs.pyi
+    ³   ³       ³   ³   ³   common_rules.py
+    ³   ³       ³   ³   ³   common_rules.pyi
+    ³   ³       ³   ³   ³   crackfortran.py
+    ³   ³       ³   ³   ³   crackfortran.pyi
+    ³   ³       ³   ³   ³   diagnose.py
+    ³   ³       ³   ³   ³   diagnose.pyi
+    ³   ³       ³   ³   ³   f2py2e.py
+    ³   ³       ³   ³   ³   f2py2e.pyi
+    ³   ³       ³   ³   ³   f90mod_rules.py
+    ³   ³       ³   ³   ³   f90mod_rules.pyi
+    ³   ³       ³   ³   ³   func2subr.py
+    ³   ³       ³   ³   ³   func2subr.pyi
+    ³   ³       ³   ³   ³   rules.py
+    ³   ³       ³   ³   ³   rules.pyi
+    ³   ³       ³   ³   ³   setup.cfg
+    ³   ³       ³   ³   ³   symbolic.py
+    ³   ³       ³   ³   ³   symbolic.pyi
+    ³   ³       ³   ³   ³   use_rules.py
+    ³   ³       ³   ³   ³   use_rules.pyi
+    ³   ³       ³   ³   ³   _isocbind.py
+    ³   ³       ³   ³   ³   _isocbind.pyi
+    ³   ³       ³   ³   ³   _src_pyf.py
+    ³   ³       ³   ³   ³   _src_pyf.pyi
+    ³   ³       ³   ³   ³   __init__.py
+    ³   ³       ³   ³   ³   __init__.pyi
+    ³   ³       ³   ³   ³   __main__.py
+    ³   ³       ³   ³   ³   __version__.py
+    ³   ³       ³   ³   ³   __version__.pyi
+    ³   ³       ³   ³   ³   
+    ³   ³       ³   ³   ÃÄÄÄsrc
+    ³   ³       ³   ³   ³       fortranobject.c
+    ³   ³       ³   ³   ³       fortranobject.h
+    ³   ³       ³   ³   ³       
+    ³   ³       ³   ³   ÃÄÄÄtests
+    ³   ³       ³   ³   ³   ³   test_abstract_interface.py
+    ³   ³       ³   ³   ³   ³   test_array_from_pyobj.py
+    ³   ³       ³   ³   ³   ³   test_assumed_shape.py
+    ³   ³       ³   ³   ³   ³   test_block_docstring.py
+    ³   ³       ³   ³   ³   ³   test_callback.py
+    ³   ³       ³   ³   ³   ³   test_character.py
+    ³   ³       ³   ³   ³   ³   test_common.py
+    ³   ³       ³   ³   ³   ³   test_crackfortran.py
+    ³   ³       ³   ³   ³   ³   test_data.py
+    ³   ³       ³   ³   ³   ³   test_docs.py
+    ³   ³       ³   ³   ³   ³   test_f2cmap.py
+    ³   ³       ³   ³   ³   ³   test_f2py2e.py
+    ³   ³       ³   ³   ³   ³   test_isoc.py
+    ³   ³       ³   ³   ³   ³   test_kind.py
+    ³   ³       ³   ³   ³   ³   test_mixed.py
+    ³   ³       ³   ³   ³   ³   test_modules.py
+    ³   ³       ³   ³   ³   ³   test_parameter.py
+    ³   ³       ³   ³   ³   ³   test_pyf_src.py
+    ³   ³       ³   ³   ³   ³   test_quoted_character.py
+    ³   ³       ³   ³   ³   ³   test_regression.py
+    ³   ³       ³   ³   ³   ³   test_return_character.py
+    ³   ³       ³   ³   ³   ³   test_return_complex.py
+    ³   ³       ³   ³   ³   ³   test_return_integer.py
+    ³   ³       ³   ³   ³   ³   test_return_logical.py
+    ³   ³       ³   ³   ³   ³   test_return_real.py
+    ³   ³       ³   ³   ³   ³   test_routines.py
+    ³   ³       ³   ³   ³   ³   test_semicolon_split.py
+    ³   ³       ³   ³   ³   ³   test_size.py
+    ³   ³       ³   ³   ³   ³   test_string.py
+    ³   ³       ³   ³   ³   ³   test_symbolic.py
+    ³   ³       ³   ³   ³   ³   test_value_attrspec.py
+    ³   ³       ³   ³   ³   ³   util.py
+    ³   ³       ³   ³   ³   ³   __init__.py
+    ³   ³       ³   ³   ³   ³   
+    ³   ³       ³   ³   ³   ÀÄÄÄsrc
+    ³   ³       ³   ³   ³       ÃÄÄÄabstract_interface
+    ³   ³       ³   ³   ³       ³       foo.f90
+    ³   ³       ³   ³   ³       ³       gh18403_mod.f90
+    ³   ³       ³   ³   ³       ³       
+    ³   ³       ³   ³   ³       ÃÄÄÄarray_from_pyobj
+    ³   ³       ³   ³   ³       ³       wrapmodule.c
+    ³   ³       ³   ³   ³       ³       
+    ³   ³       ³   ³   ³       ÃÄÄÄassumed_shape
+    ³   ³       ³   ³   ³       ³       .f2py_f2cmap
+    ³   ³       ³   ³   ³       ³       foo_free.f90
+    ³   ³       ³   ³   ³       ³       foo_mod.f90
+    ³   ³       ³   ³   ³       ³       foo_use.f90
+    ³   ³       ³   ³   ³       ³       precision.f90
+    ³   ³       ³   ³   ³       ³       
+    ³   ³       ³   ³   ³       ÃÄÄÄblock_docstring
+    ³   ³       ³   ³   ³       ³       foo.f
+    ³   ³       ³   ³   ³       ³       
+    ³   ³       ³   ³   ³       ÃÄÄÄcallback
+    ³   ³       ³   ³   ³       ³       foo.f
+    ³   ³       ³   ³   ³       ³       gh17797.f90
+    ³   ³       ³   ³   ³       ³       gh18335.f90
+    ³   ³       ³   ³   ³       ³       gh25211.f
+    ³   ³       ³   ³   ³       ³       gh25211.pyf
+    ³   ³       ³   ³   ³       ³       gh26681.f90
+    ³   ³       ³   ³   ³       ³       
+    ³   ³       ³   ³   ³       ÃÄÄÄcli
+    ³   ³       ³   ³   ³       ³       gh_22819.pyf
+    ³   ³       ³   ³   ³       ³       hi77.f
+    ³   ³       ³   ³   ³       ³       hiworld.f90
+    ³   ³       ³   ³   ³       ³       
+    ³   ³       ³   ³   ³       ÃÄÄÄcommon
+    ³   ³       ³   ³   ³       ³       block.f
+    ³   ³       ³   ³   ³       ³       gh19161.f90
+    ³   ³       ³   ³   ³       ³       
+    ³   ³       ³   ³   ³       ÃÄÄÄcrackfortran
+    ³   ³       ³   ³   ³       ³       accesstype.f90
+    ³   ³       ³   ³   ³       ³       common_with_division.f
+    ³   ³       ³   ³   ³       ³       data_common.f
+    ³   ³       ³   ³   ³       ³       data_multiplier.f
+    ³   ³       ³   ³   ³       ³       data_stmts.f90
+    ³   ³       ³   ³   ³       ³       data_with_comments.f
+    ³   ³       ³   ³   ³       ³       foo_deps.f90
+    ³   ³       ³   ³   ³       ³       gh15035.f
+    ³   ³       ³   ³   ³       ³       gh17859.f
+    ³   ³       ³   ³   ³       ³       gh22648.pyf
+    ³   ³       ³   ³   ³       ³       gh23533.f
+    ³   ³       ³   ³   ³       ³       gh23598.f90
+    ³   ³       ³   ³   ³       ³       gh23598Warn.f90
+    ³   ³       ³   ³   ³       ³       gh23879.f90
+    ³   ³       ³   ³   ³       ³       gh27697.f90
+    ³   ³       ³   ³   ³       ³       gh2848.f90
+    ³   ³       ³   ³   ³       ³       operators.f90
+    ³   ³       ³   ³   ³       ³       privatemod.f90
+    ³   ³       ³   ³   ³       ³       publicmod.f90
+    ³   ³       ³   ³   ³       ³       pubprivmod.f90
+    ³   ³       ³   ³   ³       ³       unicode_comment.f90
+    ³   ³       ³   ³   ³       ³       
+    ³   ³       ³   ³   ³       ÃÄÄÄf2cmap
+    ³   ³       ³   ³   ³       ³       .f2py_f2cmap
+    ³   ³       ³   ³   ³       ³       isoFortranEnvMap.f90
+    ³   ³       ³   ³   ³       ³       
+    ³   ³       ³   ³   ³       ÃÄÄÄisocintrin
+    ³   ³       ³   ³   ³       ³       isoCtests.f90
+    ³   ³       ³   ³   ³       ³       
+    ³   ³       ³   ³   ³       ÃÄÄÄkind
+    ³   ³       ³   ³   ³       ³       foo.f90
+    ³   ³       ³   ³   ³       ³       
+    ³   ³       ³   ³   ³       ÃÄÄÄmixed
+    ³   ³       ³   ³   ³       ³       foo.f
+    ³   ³       ³   ³   ³       ³       foo_fixed.f90
+    ³   ³       ³   ³   ³       ³       foo_free.f90
+    ³   ³       ³   ³   ³       ³       
+    ³   ³       ³   ³   ³       ÃÄÄÄmodules
+    ³   ³       ³   ³   ³       ³   ³   module_data_docstring.f90
+    ³   ³       ³   ³   ³       ³   ³   use_modules.f90
+    ³   ³       ³   ³   ³       ³   ³   
+    ³   ³       ³   ³   ³       ³   ÃÄÄÄgh25337
+    ³   ³       ³   ³   ³       ³   ³       data.f90
+    ³   ³       ³   ³   ³       ³   ³       use_data.f90
+    ³   ³       ³   ³   ³       ³   ³       
+    ³   ³       ³   ³   ³       ³   ÀÄÄÄgh26920
+    ³   ³       ³   ³   ³       ³           two_mods_with_no_public_entities.f90
+    ³   ³       ³   ³   ³       ³           two_mods_with_one_public_routine.f90
+    ³   ³       ³   ³   ³       ³           
+    ³   ³       ³   ³   ³       ÃÄÄÄnegative_bounds
+    ³   ³       ³   ³   ³       ³       issue_20853.f90
+    ³   ³       ³   ³   ³       ³       
+    ³   ³       ³   ³   ³       ÃÄÄÄparameter
+    ³   ³       ³   ³   ³       ³       constant_array.f90
+    ³   ³       ³   ³   ³       ³       constant_both.f90
+    ³   ³       ³   ³   ³       ³       constant_compound.f90
+    ³   ³       ³   ³   ³       ³       constant_integer.f90
+    ³   ³       ³   ³   ³       ³       constant_non_compound.f90
+    ³   ³       ³   ³   ³       ³       constant_real.f90
+    ³   ³       ³   ³   ³       ³       
+    ³   ³       ³   ³   ³       ÃÄÄÄquoted_character
+    ³   ³       ³   ³   ³       ³       foo.f
+    ³   ³       ³   ³   ³       ³       
+    ³   ³       ³   ³   ³       ÃÄÄÄregression
+    ³   ³       ³   ³   ³       ³       AB.inc
+    ³   ³       ³   ³   ³       ³       assignOnlyModule.f90
+    ³   ³       ³   ³   ³       ³       datonly.f90
+    ³   ³       ³   ³   ³       ³       f77comments.f
+    ³   ³       ³   ³   ³       ³       f77fixedform.f95
+    ³   ³       ³   ³   ³       ³       f90continuation.f90
+    ³   ³       ³   ³   ³       ³       incfile.f90
+    ³   ³       ³   ³   ³       ³       inout.f90
+    ³   ³       ³   ³   ³       ³       lower_f2py_fortran.f90
+    ³   ³       ³   ³   ³       ³       mod_derived_types.f90
+    ³   ³       ³   ³   ³       ³       
+    ³   ³       ³   ³   ³       ÃÄÄÄreturn_character
+    ³   ³       ³   ³   ³       ³       foo77.f
+    ³   ³       ³   ³   ³       ³       foo90.f90
+    ³   ³       ³   ³   ³       ³       
+    ³   ³       ³   ³   ³       ÃÄÄÄreturn_complex
+    ³   ³       ³   ³   ³       ³       foo77.f
+    ³   ³       ³   ³   ³       ³       foo90.f90
+    ³   ³       ³   ³   ³       ³       
+    ³   ³       ³   ³   ³       ÃÄÄÄreturn_integer
+    ³   ³       ³   ³   ³       ³       foo77.f
+    ³   ³       ³   ³   ³       ³       foo90.f90
+    ³   ³       ³   ³   ³       ³       
+    ³   ³       ³   ³   ³       ÃÄÄÄreturn_logical
+    ³   ³       ³   ³   ³       ³       foo77.f
+    ³   ³       ³   ³   ³       ³       foo90.f90
+    ³   ³       ³   ³   ³       ³       
+    ³   ³       ³   ³   ³       ÃÄÄÄreturn_real
+    ³   ³       ³   ³   ³       ³       foo77.f
+    ³   ³       ³   ³   ³       ³       foo90.f90
+    ³   ³       ³   ³   ³       ³       
+    ³   ³       ³   ³   ³       ÃÄÄÄroutines
+    ³   ³       ³   ³   ³       ³       funcfortranname.f
+    ³   ³       ³   ³   ³       ³       funcfortranname.pyf
+    ³   ³       ³   ³   ³       ³       subrout.f
+    ³   ³       ³   ³   ³       ³       subrout.pyf
+    ³   ³       ³   ³   ³       ³       
+    ³   ³       ³   ³   ³       ÃÄÄÄsize
+    ³   ³       ³   ³   ³       ³       foo.f90
+    ³   ³       ³   ³   ³       ³       
+    ³   ³       ³   ³   ³       ÃÄÄÄstring
+    ³   ³       ³   ³   ³       ³       char.f90
+    ³   ³       ³   ³   ³       ³       fixed_string.f90
+    ³   ³       ³   ³   ³       ³       gh24008.f
+    ³   ³       ³   ³   ³       ³       gh24662.f90
+    ³   ³       ³   ³   ³       ³       gh25286.f90
+    ³   ³       ³   ³   ³       ³       gh25286.pyf
+    ³   ³       ³   ³   ³       ³       gh25286_bc.pyf
+    ³   ³       ³   ³   ³       ³       scalar_string.f90
+    ³   ³       ³   ³   ³       ³       string.f
+    ³   ³       ³   ³   ³       ³       
+    ³   ³       ³   ³   ³       ÀÄÄÄvalue_attrspec
+    ³   ³       ³   ³   ³               gh21665.f90
+    ³   ³       ³   ³   ³               
+    ³   ³       ³   ³   ÀÄÄÄ_backends
+    ³   ³       ³   ³           meson.build.template
+    ³   ³       ³   ³           _backend.py
+    ³   ³       ³   ³           _backend.pyi
+    ³   ³       ³   ³           _distutils.py
+    ³   ³       ³   ³           _distutils.pyi
+    ³   ³       ³   ³           _meson.py
+    ³   ³       ³   ³           _meson.pyi
+    ³   ³       ³   ³           __init__.py
+    ³   ³       ³   ³           __init__.pyi
+    ³   ³       ³   ³           
+    ³   ³       ³   ÃÄÄÄfft
+    ³   ³       ³   ³   ³   helper.py
+    ³   ³       ³   ³   ³   helper.pyi
+    ³   ³       ³   ³   ³   _helper.py
+    ³   ³       ³   ³   ³   _helper.pyi
+    ³   ³       ³   ³   ³   _pocketfft.py
+    ³   ³       ³   ³   ³   _pocketfft.pyi
+    ³   ³       ³   ³   ³   _pocketfft_umath.cp311-win_amd64.lib
+    ³   ³       ³   ³   ³   _pocketfft_umath.cp311-win_amd64.pyd
+    ³   ³       ³   ³   ³   __init__.py
+    ³   ³       ³   ³   ³   __init__.pyi
+    ³   ³       ³   ³   ³   
+    ³   ³       ³   ³   ÀÄÄÄtests
+    ³   ³       ³   ³           test_helper.py
+    ³   ³       ³   ³           test_pocketfft.py
+    ³   ³       ³   ³           __init__.py
+    ³   ³       ³   ³           
+    ³   ³       ³   ÃÄÄÄlib
+    ³   ³       ³   ³   ³   array_utils.py
+    ³   ³       ³   ³   ³   array_utils.pyi
+    ³   ³       ³   ³   ³   format.py
+    ³   ³       ³   ³   ³   format.pyi
+    ³   ³       ³   ³   ³   introspect.py
+    ³   ³       ³   ³   ³   introspect.pyi
+    ³   ³       ³   ³   ³   mixins.py
+    ³   ³       ³   ³   ³   mixins.pyi
+    ³   ³       ³   ³   ³   npyio.py
+    ³   ³       ³   ³   ³   npyio.pyi
+    ³   ³       ³   ³   ³   recfunctions.py
+    ³   ³       ³   ³   ³   recfunctions.pyi
+    ³   ³       ³   ³   ³   scimath.py
+    ³   ³       ³   ³   ³   scimath.pyi
+    ³   ³       ³   ³   ³   stride_tricks.py
+    ³   ³       ³   ³   ³   stride_tricks.pyi
+    ³   ³       ³   ³   ³   user_array.py
+    ³   ³       ³   ³   ³   user_array.pyi
+    ³   ³       ³   ³   ³   _arraypad_impl.py
+    ³   ³       ³   ³   ³   _arraypad_impl.pyi
+    ³   ³       ³   ³   ³   _arraysetops_impl.py
+    ³   ³       ³   ³   ³   _arraysetops_impl.pyi
+    ³   ³       ³   ³   ³   _arrayterator_impl.py
+    ³   ³       ³   ³   ³   _arrayterator_impl.pyi
+    ³   ³       ³   ³   ³   _array_utils_impl.py
+    ³   ³       ³   ³   ³   _array_utils_impl.pyi
+    ³   ³       ³   ³   ³   _datasource.py
+    ³   ³       ³   ³   ³   _datasource.pyi
+    ³   ³       ³   ³   ³   _format_impl.py
+    ³   ³       ³   ³   ³   _format_impl.pyi
+    ³   ³       ³   ³   ³   _function_base_impl.py
+    ³   ³       ³   ³   ³   _function_base_impl.pyi
+    ³   ³       ³   ³   ³   _histograms_impl.py
+    ³   ³       ³   ³   ³   _histograms_impl.pyi
+    ³   ³       ³   ³   ³   _index_tricks_impl.py
+    ³   ³       ³   ³   ³   _index_tricks_impl.pyi
+    ³   ³       ³   ³   ³   _iotools.py
+    ³   ³       ³   ³   ³   _iotools.pyi
+    ³   ³       ³   ³   ³   _nanfunctions_impl.py
+    ³   ³       ³   ³   ³   _nanfunctions_impl.pyi
+    ³   ³       ³   ³   ³   _npyio_impl.py
+    ³   ³       ³   ³   ³   _npyio_impl.pyi
+    ³   ³       ³   ³   ³   _polynomial_impl.py
+    ³   ³       ³   ³   ³   _polynomial_impl.pyi
+    ³   ³       ³   ³   ³   _scimath_impl.py
+    ³   ³       ³   ³   ³   _scimath_impl.pyi
+    ³   ³       ³   ³   ³   _shape_base_impl.py
+    ³   ³       ³   ³   ³   _shape_base_impl.pyi
+    ³   ³       ³   ³   ³   _stride_tricks_impl.py
+    ³   ³       ³   ³   ³   _stride_tricks_impl.pyi
+    ³   ³       ³   ³   ³   _twodim_base_impl.py
+    ³   ³       ³   ³   ³   _twodim_base_impl.pyi
+    ³   ³       ³   ³   ³   _type_check_impl.py
+    ³   ³       ³   ³   ³   _type_check_impl.pyi
+    ³   ³       ³   ³   ³   _ufunclike_impl.py
+    ³   ³       ³   ³   ³   _ufunclike_impl.pyi
+    ³   ³       ³   ³   ³   _user_array_impl.py
+    ³   ³       ³   ³   ³   _user_array_impl.pyi
+    ³   ³       ³   ³   ³   _utils_impl.py
+    ³   ³       ³   ³   ³   _utils_impl.pyi
+    ³   ³       ³   ³   ³   _version.py
+    ³   ³       ³   ³   ³   _version.pyi
+    ³   ³       ³   ³   ³   __init__.py
+    ³   ³       ³   ³   ³   __init__.pyi
+    ³   ³       ³   ³   ³   
+    ³   ³       ³   ³   ÀÄÄÄtests
+    ³   ³       ³   ³       ³   test_arraypad.py
+    ³   ³       ³   ³       ³   test_arraysetops.py
+    ³   ³       ³   ³       ³   test_arrayterator.py
+    ³   ³       ³   ³       ³   test_array_utils.py
+    ³   ³       ³   ³       ³   test_format.py
+    ³   ³       ³   ³       ³   test_function_base.py
+    ³   ³       ³   ³       ³   test_histograms.py
+    ³   ³       ³   ³       ³   test_index_tricks.py
+    ³   ³       ³   ³       ³   test_io.py
+    ³   ³       ³   ³       ³   test_loadtxt.py
+    ³   ³       ³   ³       ³   test_mixins.py
+    ³   ³       ³   ³       ³   test_nanfunctions.py
+    ³   ³       ³   ³       ³   test_packbits.py
+    ³   ³       ³   ³       ³   test_polynomial.py
+    ³   ³       ³   ³       ³   test_recfunctions.py
+    ³   ³       ³   ³       ³   test_regression.py
+    ³   ³       ³   ³       ³   test_shape_base.py
+    ³   ³       ³   ³       ³   test_stride_tricks.py
+    ³   ³       ³   ³       ³   test_twodim_base.py
+    ³   ³       ³   ³       ³   test_type_check.py
+    ³   ³       ³   ³       ³   test_ufunclike.py
+    ³   ³       ³   ³       ³   test_utils.py
+    ³   ³       ³   ³       ³   test__datasource.py
+    ³   ³       ³   ³       ³   test__iotools.py
+    ³   ³       ³   ³       ³   test__version.py
+    ³   ³       ³   ³       ³   __init__.py
+    ³   ³       ³   ³       ³   
+    ³   ³       ³   ³       ÀÄÄÄdata
+    ³   ³       ³   ³               py2-np0-objarr.npy
+    ³   ³       ³   ³               py2-objarr.npy
+    ³   ³       ³   ³               py2-objarr.npz
+    ³   ³       ³   ³               py3-objarr.npy
+    ³   ³       ³   ³               py3-objarr.npz
+    ³   ³       ³   ³               python3.npy
+    ³   ³       ³   ³               win64python2.npy
+    ³   ³       ³   ³               
+    ³   ³       ³   ÃÄÄÄlinalg
+    ³   ³       ³   ³   ³   lapack_lite.cp311-win_amd64.lib
+    ³   ³       ³   ³   ³   lapack_lite.cp311-win_amd64.pyd
+    ³   ³       ³   ³   ³   lapack_lite.pyi
+    ³   ³       ³   ³   ³   linalg.py
+    ³   ³       ³   ³   ³   linalg.pyi
+    ³   ³       ³   ³   ³   _linalg.py
+    ³   ³       ³   ³   ³   _linalg.pyi
+    ³   ³       ³   ³   ³   _umath_linalg.cp311-win_amd64.lib
+    ³   ³       ³   ³   ³   _umath_linalg.cp311-win_amd64.pyd
+    ³   ³       ³   ³   ³   _umath_linalg.pyi
+    ³   ³       ³   ³   ³   __init__.py
+    ³   ³       ³   ³   ³   __init__.pyi
+    ³   ³       ³   ³   ³   
+    ³   ³       ³   ³   ÀÄÄÄtests
+    ³   ³       ³   ³           test_deprecations.py
+    ³   ³       ³   ³           test_linalg.py
+    ³   ³       ³   ³           test_regression.py
+    ³   ³       ³   ³           __init__.py
+    ³   ³       ³   ³           
+    ³   ³       ³   ÃÄÄÄma
+    ³   ³       ³   ³   ³   API_CHANGES.txt
+    ³   ³       ³   ³   ³   core.py
+    ³   ³       ³   ³   ³   core.pyi
+    ³   ³       ³   ³   ³   extras.py
+    ³   ³       ³   ³   ³   extras.pyi
+    ³   ³       ³   ³   ³   LICENSE
+    ³   ³       ³   ³   ³   mrecords.py
+    ³   ³       ³   ³   ³   mrecords.pyi
+    ³   ³       ³   ³   ³   README.rst
+    ³   ³       ³   ³   ³   testutils.py
+    ³   ³       ³   ³   ³   __init__.py
+    ³   ³       ³   ³   ³   __init__.pyi
+    ³   ³       ³   ³   ³   
+    ³   ³       ³   ³   ÀÄÄÄtests
+    ³   ³       ³   ³           test_arrayobject.py
+    ³   ³       ³   ³           test_core.py
+    ³   ³       ³   ³           test_deprecations.py
+    ³   ³       ³   ³           test_extras.py
+    ³   ³       ³   ³           test_mrecords.py
+    ³   ³       ³   ³           test_old_ma.py
+    ³   ³       ³   ³           test_regression.py
+    ³   ³       ³   ³           test_subclassing.py
+    ³   ³       ³   ³           __init__.py
+    ³   ³       ³   ³           
+    ³   ³       ³   ÃÄÄÄmatrixlib
+    ³   ³       ³   ³   ³   defmatrix.py
+    ³   ³       ³   ³   ³   defmatrix.pyi
+    ³   ³       ³   ³   ³   __init__.py
+    ³   ³       ³   ³   ³   __init__.pyi
+    ³   ³       ³   ³   ³   
+    ³   ³       ³   ³   ÀÄÄÄtests
+    ³   ³       ³   ³           test_defmatrix.py
+    ³   ³       ³   ³           test_interaction.py
+    ³   ³       ³   ³           test_masked_matrix.py
+    ³   ³       ³   ³           test_matrix_linalg.py
+    ³   ³       ³   ³           test_multiarray.py
+    ³   ³       ³   ³           test_numeric.py
+    ³   ³       ³   ³           test_regression.py
+    ³   ³       ³   ³           __init__.py
+    ³   ³       ³   ³           
+    ³   ³       ³   ÃÄÄÄpolynomial
+    ³   ³       ³   ³   ³   chebyshev.py
+    ³   ³       ³   ³   ³   chebyshev.pyi
+    ³   ³       ³   ³   ³   hermite.py
+    ³   ³       ³   ³   ³   hermite.pyi
+    ³   ³       ³   ³   ³   hermite_e.py
+    ³   ³       ³   ³   ³   hermite_e.pyi
+    ³   ³       ³   ³   ³   laguerre.py
+    ³   ³       ³   ³   ³   laguerre.pyi
+    ³   ³       ³   ³   ³   legendre.py
+    ³   ³       ³   ³   ³   legendre.pyi
+    ³   ³       ³   ³   ³   polynomial.py
+    ³   ³       ³   ³   ³   polynomial.pyi
+    ³   ³       ³   ³   ³   polyutils.py
+    ³   ³       ³   ³   ³   polyutils.pyi
+    ³   ³       ³   ³   ³   _polybase.py
+    ³   ³       ³   ³   ³   _polybase.pyi
+    ³   ³       ³   ³   ³   _polytypes.pyi
+    ³   ³       ³   ³   ³   __init__.py
+    ³   ³       ³   ³   ³   __init__.pyi
+    ³   ³       ³   ³   ³   
+    ³   ³       ³   ³   ÀÄÄÄtests
+    ³   ³       ³   ³           test_chebyshev.py
+    ³   ³       ³   ³           test_classes.py
+    ³   ³       ³   ³           test_hermite.py
+    ³   ³       ³   ³           test_hermite_e.py
+    ³   ³       ³   ³           test_laguerre.py
+    ³   ³       ³   ³           test_legendre.py
+    ³   ³       ³   ³           test_polynomial.py
+    ³   ³       ³   ³           test_polyutils.py
+    ³   ³       ³   ³           test_printing.py
+    ³   ³       ³   ³           test_symbol.py
+    ³   ³       ³   ³           __init__.py
+    ³   ³       ³   ³           
+    ³   ³       ³   ÃÄÄÄrandom
+    ³   ³       ³   ³   ³   bit_generator.cp311-win_amd64.lib
+    ³   ³       ³   ³   ³   bit_generator.cp311-win_amd64.pyd
+    ³   ³       ³   ³   ³   bit_generator.pxd
+    ³   ³       ³   ³   ³   bit_generator.pyi
+    ³   ³       ³   ³   ³   c_distributions.pxd
+    ³   ³       ³   ³   ³   LICENSE.md
+    ³   ³       ³   ³   ³   mtrand.cp311-win_amd64.lib
+    ³   ³       ³   ³   ³   mtrand.cp311-win_amd64.pyd
+    ³   ³       ³   ³   ³   mtrand.pyi
+    ³   ³       ³   ³   ³   _bounded_integers.cp311-win_amd64.lib
+    ³   ³       ³   ³   ³   _bounded_integers.cp311-win_amd64.pyd
+    ³   ³       ³   ³   ³   _bounded_integers.pxd
+    ³   ³       ³   ³   ³   _bounded_integers.pyi
+    ³   ³       ³   ³   ³   _common.cp311-win_amd64.lib
+    ³   ³       ³   ³   ³   _common.cp311-win_amd64.pyd
+    ³   ³       ³   ³   ³   _common.pxd
+    ³   ³       ³   ³   ³   _common.pyi
+    ³   ³       ³   ³   ³   _generator.cp311-win_amd64.lib
+    ³   ³       ³   ³   ³   _generator.cp311-win_amd64.pyd
+    ³   ³       ³   ³   ³   _generator.pyi
+    ³   ³       ³   ³   ³   _mt19937.cp311-win_amd64.lib
+    ³   ³       ³   ³   ³   _mt19937.cp311-win_amd64.pyd
+    ³   ³       ³   ³   ³   _mt19937.pyi
+    ³   ³       ³   ³   ³   _pcg64.cp311-win_amd64.lib
+    ³   ³       ³   ³   ³   _pcg64.cp311-win_amd64.pyd
+    ³   ³       ³   ³   ³   _pcg64.pyi
+    ³   ³       ³   ³   ³   _philox.cp311-win_amd64.lib
+    ³   ³       ³   ³   ³   _philox.cp311-win_amd64.pyd
+    ³   ³       ³   ³   ³   _philox.pyi
+    ³   ³       ³   ³   ³   _pickle.py
+    ³   ³       ³   ³   ³   _pickle.pyi
+    ³   ³       ³   ³   ³   _sfc64.cp311-win_amd64.lib
+    ³   ³       ³   ³   ³   _sfc64.cp311-win_amd64.pyd
+    ³   ³       ³   ³   ³   _sfc64.pyi
+    ³   ³       ³   ³   ³   __init__.pxd
+    ³   ³       ³   ³   ³   __init__.py
+    ³   ³       ³   ³   ³   __init__.pyi
+    ³   ³       ³   ³   ³   
+    ³   ³       ³   ³   ÃÄÄÄlib
+    ³   ³       ³   ³   ³       npyrandom.lib
+    ³   ³       ³   ³   ³       
+    ³   ³       ³   ³   ÃÄÄÄtests
+    ³   ³       ³   ³   ³   ³   test_direct.py
+    ³   ³       ³   ³   ³   ³   test_extending.py
+    ³   ³       ³   ³   ³   ³   test_generator_mt19937.py
+    ³   ³       ³   ³   ³   ³   test_generator_mt19937_regressions.py
+    ³   ³       ³   ³   ³   ³   test_random.py
+    ³   ³       ³   ³   ³   ³   test_randomstate.py
+    ³   ³       ³   ³   ³   ³   test_randomstate_regression.py
+    ³   ³       ³   ³   ³   ³   test_regression.py
+    ³   ³       ³   ³   ³   ³   test_seed_sequence.py
+    ³   ³       ³   ³   ³   ³   test_smoke.py
+    ³   ³       ³   ³   ³   ³   __init__.py
+    ³   ³       ³   ³   ³   ³   
+    ³   ³       ³   ³   ³   ÀÄÄÄdata
+    ³   ³       ³   ³   ³           generator_pcg64_np121.pkl.gz
+    ³   ³       ³   ³   ³           generator_pcg64_np126.pkl.gz
+    ³   ³       ³   ³   ³           mt19937-testset-1.csv
+    ³   ³       ³   ³   ³           mt19937-testset-2.csv
+    ³   ³       ³   ³   ³           pcg64-testset-1.csv
+    ³   ³       ³   ³   ³           pcg64-testset-2.csv
+    ³   ³       ³   ³   ³           pcg64dxsm-testset-1.csv
+    ³   ³       ³   ³   ³           pcg64dxsm-testset-2.csv
+    ³   ³       ³   ³   ³           philox-testset-1.csv
+    ³   ³       ³   ³   ³           philox-testset-2.csv
+    ³   ³       ³   ³   ³           sfc64-testset-1.csv
+    ³   ³       ³   ³   ³           sfc64-testset-2.csv
+    ³   ³       ³   ³   ³           sfc64_np126.pkl.gz
+    ³   ³       ³   ³   ³           __init__.py
+    ³   ³       ³   ³   ³           
+    ³   ³       ³   ³   ÀÄÄÄ_examples
+    ³   ³       ³   ³       ÃÄÄÄcffi
+    ³   ³       ³   ³       ³       extending.py
+    ³   ³       ³   ³       ³       parse.py
+    ³   ³       ³   ³       ³       
+    ³   ³       ³   ³       ÃÄÄÄcython
+    ³   ³       ³   ³       ³       extending.pyx
+    ³   ³       ³   ³       ³       extending_distributions.pyx
+    ³   ³       ³   ³       ³       meson.build
+    ³   ³       ³   ³       ³       
+    ³   ³       ³   ³       ÀÄÄÄnumba
+    ³   ³       ³   ³               extending.py
+    ³   ³       ³   ³               extending_distributions.py
+    ³   ³       ³   ³               
+    ³   ³       ³   ÃÄÄÄrec
+    ³   ³       ³   ³       __init__.py
+    ³   ³       ³   ³       __init__.pyi
+    ³   ³       ³   ³       
+    ³   ³       ³   ÃÄÄÄstrings
+    ³   ³       ³   ³       __init__.py
+    ³   ³       ³   ³       __init__.pyi
+    ³   ³       ³   ³       
+    ³   ³       ³   ÃÄÄÄtesting
+    ³   ³       ³   ³   ³   overrides.py
+    ³   ³       ³   ³   ³   overrides.pyi
+    ³   ³       ³   ³   ³   print_coercion_tables.py
+    ³   ³       ³   ³   ³   print_coercion_tables.pyi
+    ³   ³       ³   ³   ³   __init__.py
+    ³   ³       ³   ³   ³   __init__.pyi
+    ³   ³       ³   ³   ³   
+    ³   ³       ³   ³   ÃÄÄÄtests
+    ³   ³       ³   ³   ³       test_utils.py
+    ³   ³       ³   ³   ³       __init__.py
+    ³   ³       ³   ³   ³       
+    ³   ³       ³   ³   ÀÄÄÄ_private
+    ³   ³       ³   ³           extbuild.py
+    ³   ³       ³   ³           extbuild.pyi
+    ³   ³       ³   ³           utils.py
+    ³   ³       ³   ³           utils.pyi
+    ³   ³       ³   ³           __init__.py
+    ³   ³       ³   ³           __init__.pyi
+    ³   ³       ³   ³           
+    ³   ³       ³   ÃÄÄÄtests
+    ³   ³       ³   ³       test_configtool.py
+    ³   ³       ³   ³       test_ctypeslib.py
+    ³   ³       ³   ³       test_lazyloading.py
+    ³   ³       ³   ³       test_matlib.py
+    ³   ³       ³   ³       test_numpy_config.py
+    ³   ³       ³   ³       test_numpy_version.py
+    ³   ³       ³   ³       test_public_api.py
+    ³   ³       ³   ³       test_reloading.py
+    ³   ³       ³   ³       test_scripts.py
+    ³   ³       ³   ³       test_warnings.py
+    ³   ³       ³   ³       test__all__.py
+    ³   ³       ³   ³       __init__.py
+    ³   ³       ³   ³       
+    ³   ³       ³   ÃÄÄÄtyping
+    ³   ³       ³   ³   ³   mypy_plugin.py
+    ³   ³       ³   ³   ³   __init__.py
+    ³   ³       ³   ³   ³   
+    ³   ³       ³   ³   ÀÄÄÄtests
+    ³   ³       ³   ³       ³   test_isfile.py
+    ³   ³       ³   ³       ³   test_runtime.py
+    ³   ³       ³   ³       ³   test_typing.py
+    ³   ³       ³   ³       ³   __init__.py
+    ³   ³       ³   ³       ³   
+    ³   ³       ³   ³       ÀÄÄÄdata
+    ³   ³       ³   ³           ³   mypy.ini
+    ³   ³       ³   ³           ³   
+    ³   ³       ³   ³           ÃÄÄÄfail
+    ³   ³       ³   ³           ³       arithmetic.pyi
+    ³   ³       ³   ³           ³       arrayprint.pyi
+    ³   ³       ³   ³           ³       arrayterator.pyi
+    ³   ³       ³   ³           ³       array_constructors.pyi
+    ³   ³       ³   ³           ³       array_like.pyi
+    ³   ³       ³   ³           ³       array_pad.pyi
+    ³   ³       ³   ³           ³       bitwise_ops.pyi
+    ³   ³       ³   ³           ³       char.pyi
+    ³   ³       ³   ³           ³       chararray.pyi
+    ³   ³       ³   ³           ³       comparisons.pyi
+    ³   ³       ³   ³           ³       constants.pyi
+    ³   ³       ³   ³           ³       datasource.pyi
+    ³   ³       ³   ³           ³       dtype.pyi
+    ³   ³       ³   ³           ³       einsumfunc.pyi
+    ³   ³       ³   ³           ³       flatiter.pyi
+    ³   ³       ³   ³           ³       fromnumeric.pyi
+    ³   ³       ³   ³           ³       histograms.pyi
+    ³   ³       ³   ³           ³       index_tricks.pyi
+    ³   ³       ³   ³           ³       lib_function_base.pyi
+    ³   ³       ³   ³           ³       lib_polynomial.pyi
+    ³   ³       ³   ³           ³       lib_utils.pyi
+    ³   ³       ³   ³           ³       lib_version.pyi
+    ³   ³       ³   ³           ³       linalg.pyi
+    ³   ³       ³   ³           ³       ma.pyi
+    ³   ³       ³   ³           ³       memmap.pyi
+    ³   ³       ³   ³           ³       modules.pyi
+    ³   ³       ³   ³           ³       multiarray.pyi
+    ³   ³       ³   ³           ³       ndarray.pyi
+    ³   ³       ³   ³           ³       ndarray_misc.pyi
+    ³   ³       ³   ³           ³       nditer.pyi
+    ³   ³       ³   ³           ³       nested_sequence.pyi
+    ³   ³       ³   ³           ³       npyio.pyi
+    ³   ³       ³   ³           ³       numerictypes.pyi
+    ³   ³       ³   ³           ³       random.pyi
+    ³   ³       ³   ³           ³       rec.pyi
+    ³   ³       ³   ³           ³       scalars.pyi
+    ³   ³       ³   ³           ³       shape.pyi
+    ³   ³       ³   ³           ³       shape_base.pyi
+    ³   ³       ³   ³           ³       stride_tricks.pyi
+    ³   ³       ³   ³           ³       strings.pyi
+    ³   ³       ³   ³           ³       testing.pyi
+    ³   ³       ³   ³           ³       twodim_base.pyi
+    ³   ³       ³   ³           ³       type_check.pyi
+    ³   ³       ³   ³           ³       ufunclike.pyi
+    ³   ³       ³   ³           ³       ufuncs.pyi
+    ³   ³       ³   ³           ³       ufunc_config.pyi
+    ³   ³       ³   ³           ³       warnings_and_errors.pyi
+    ³   ³       ³   ³           ³       
+    ³   ³       ³   ³           ÃÄÄÄmisc
+    ³   ³       ³   ³           ³       extended_precision.pyi
+    ³   ³       ³   ³           ³       
+    ³   ³       ³   ³           ÃÄÄÄpass
+    ³   ³       ³   ³           ³       arithmetic.py
+    ³   ³       ³   ³           ³       arrayprint.py
+    ³   ³       ³   ³           ³       arrayterator.py
+    ³   ³       ³   ³           ³       array_constructors.py
+    ³   ³       ³   ³           ³       array_like.py
+    ³   ³       ³   ³           ³       bitwise_ops.py
+    ³   ³       ³   ³           ³       comparisons.py
+    ³   ³       ³   ³           ³       dtype.py
+    ³   ³       ³   ³           ³       einsumfunc.py
+    ³   ³       ³   ³           ³       flatiter.py
+    ³   ³       ³   ³           ³       fromnumeric.py
+    ³   ³       ³   ³           ³       index_tricks.py
+    ³   ³       ³   ³           ³       lib_user_array.py
+    ³   ³       ³   ³           ³       lib_utils.py
+    ³   ³       ³   ³           ³       lib_version.py
+    ³   ³       ³   ³           ³       literal.py
+    ³   ³       ³   ³           ³       ma.py
+    ³   ³       ³   ³           ³       mod.py
+    ³   ³       ³   ³           ³       modules.py
+    ³   ³       ³   ³           ³       multiarray.py
+    ³   ³       ³   ³           ³       ndarray_conversion.py
+    ³   ³       ³   ³           ³       ndarray_misc.py
+    ³   ³       ³   ³           ³       ndarray_shape_manipulation.py
+    ³   ³       ³   ³           ³       nditer.py
+    ³   ³       ³   ³           ³       numeric.py
+    ³   ³       ³   ³           ³       numerictypes.py
+    ³   ³       ³   ³           ³       random.py
+    ³   ³       ³   ³           ³       recfunctions.py
+    ³   ³       ³   ³           ³       scalars.py
+    ³   ³       ³   ³           ³       shape.py
+    ³   ³       ³   ³           ³       simple.py
+    ³   ³       ³   ³           ³       simple_py3.py
+    ³   ³       ³   ³           ³       ufunclike.py
+    ³   ³       ³   ³           ³       ufuncs.py
+    ³   ³       ³   ³           ³       ufunc_config.py
+    ³   ³       ³   ³           ³       warnings_and_errors.py
+    ³   ³       ³   ³           ³       
+    ³   ³       ³   ³           ÀÄÄÄreveal
+    ³   ³       ³   ³                   arithmetic.pyi
+    ³   ³       ³   ³                   arraypad.pyi
+    ³   ³       ³   ³                   arrayprint.pyi
+    ³   ³       ³   ³                   arraysetops.pyi
+    ³   ³       ³   ³                   arrayterator.pyi
+    ³   ³       ³   ³                   array_api_info.pyi
+    ³   ³       ³   ³                   array_constructors.pyi
+    ³   ³       ³   ³                   bitwise_ops.pyi
+    ³   ³       ³   ³                   char.pyi
+    ³   ³       ³   ³                   chararray.pyi
+    ³   ³       ³   ³                   comparisons.pyi
+    ³   ³       ³   ³                   constants.pyi
+    ³   ³       ³   ³                   ctypeslib.pyi
+    ³   ³       ³   ³                   datasource.pyi
+    ³   ³       ³   ³                   dtype.pyi
+    ³   ³       ³   ³                   einsumfunc.pyi
+    ³   ³       ³   ³                   emath.pyi
+    ³   ³       ³   ³                   fft.pyi
+    ³   ³       ³   ³                   flatiter.pyi
+    ³   ³       ³   ³                   fromnumeric.pyi
+    ³   ³       ³   ³                   getlimits.pyi
+    ³   ³       ³   ³                   histograms.pyi
+    ³   ³       ³   ³                   index_tricks.pyi
+    ³   ³       ³   ³                   lib_function_base.pyi
+    ³   ³       ³   ³                   lib_polynomial.pyi
+    ³   ³       ³   ³                   lib_utils.pyi
+    ³   ³       ³   ³                   lib_version.pyi
+    ³   ³       ³   ³                   linalg.pyi
+    ³   ³       ³   ³                   ma.pyi
+    ³   ³       ³   ³                   matrix.pyi
+    ³   ³       ³   ³                   memmap.pyi
+    ³   ³       ³   ³                   mod.pyi
+    ³   ³       ³   ³                   modules.pyi
+    ³   ³       ³   ³                   multiarray.pyi
+    ³   ³       ³   ³                   nbit_base_example.pyi
+    ³   ³       ³   ³                   ndarray_assignability.pyi
+    ³   ³       ³   ³                   ndarray_conversion.pyi
+    ³   ³       ³   ³                   ndarray_misc.pyi
+    ³   ³       ³   ³                   ndarray_shape_manipulation.pyi
+    ³   ³       ³   ³                   nditer.pyi
+    ³   ³       ³   ³                   nested_sequence.pyi
+    ³   ³       ³   ³                   npyio.pyi
+    ³   ³       ³   ³                   numeric.pyi
+    ³   ³       ³   ³                   numerictypes.pyi
+    ³   ³       ³   ³                   polynomial_polybase.pyi
+    ³   ³       ³   ³                   polynomial_polyutils.pyi
+    ³   ³       ³   ³                   polynomial_series.pyi
+    ³   ³       ³   ³                   random.pyi
+    ³   ³       ³   ³                   rec.pyi
+    ³   ³       ³   ³                   scalars.pyi
+    ³   ³       ³   ³                   shape.pyi
+    ³   ³       ³   ³                   shape_base.pyi
+    ³   ³       ³   ³                   stride_tricks.pyi
+    ³   ³       ³   ³                   strings.pyi
+    ³   ³       ³   ³                   testing.pyi
+    ³   ³       ³   ³                   twodim_base.pyi
+    ³   ³       ³   ³                   type_check.pyi
+    ³   ³       ³   ³                   ufunclike.pyi
+    ³   ³       ³   ³                   ufuncs.pyi
+    ³   ³       ³   ³                   ufunc_config.pyi
+    ³   ³       ³   ³                   warnings_and_errors.pyi
+    ³   ³       ³   ³                   
+    ³   ³       ³   ÃÄÄÄ_core
+    ³   ³       ³   ³   ³   arrayprint.py
+    ³   ³       ³   ³   ³   arrayprint.pyi
+    ³   ³       ³   ³   ³   cversions.py
+    ³   ³       ³   ³   ³   defchararray.py
+    ³   ³       ³   ³   ³   defchararray.pyi
+    ³   ³       ³   ³   ³   einsumfunc.py
+    ³   ³       ³   ³   ³   einsumfunc.pyi
+    ³   ³       ³   ³   ³   fromnumeric.py
+    ³   ³       ³   ³   ³   fromnumeric.pyi
+    ³   ³       ³   ³   ³   function_base.py
+    ³   ³       ³   ³   ³   function_base.pyi
+    ³   ³       ³   ³   ³   getlimits.py
+    ³   ³       ³   ³   ³   getlimits.pyi
+    ³   ³       ³   ³   ³   memmap.py
+    ³   ³       ³   ³   ³   memmap.pyi
+    ³   ³       ³   ³   ³   multiarray.py
+    ³   ³       ³   ³   ³   multiarray.pyi
+    ³   ³       ³   ³   ³   numeric.py
+    ³   ³       ³   ³   ³   numeric.pyi
+    ³   ³       ³   ³   ³   numerictypes.py
+    ³   ³       ³   ³   ³   numerictypes.pyi
+    ³   ³       ³   ³   ³   overrides.py
+    ³   ³       ³   ³   ³   overrides.pyi
+    ³   ³       ³   ³   ³   printoptions.py
+    ³   ³       ³   ³   ³   printoptions.pyi
+    ³   ³       ³   ³   ³   records.py
+    ³   ³       ³   ³   ³   records.pyi
+    ³   ³       ³   ³   ³   shape_base.py
+    ³   ³       ³   ³   ³   shape_base.pyi
+    ³   ³       ³   ³   ³   strings.py
+    ³   ³       ³   ³   ³   strings.pyi
+    ³   ³       ³   ³   ³   umath.py
+    ³   ³       ³   ³   ³   umath.pyi
+    ³   ³       ³   ³   ³   _add_newdocs.py
+    ³   ³       ³   ³   ³   _add_newdocs.pyi
+    ³   ³       ³   ³   ³   _add_newdocs_scalars.py
+    ³   ³       ³   ³   ³   _add_newdocs_scalars.pyi
+    ³   ³       ³   ³   ³   _asarray.py
+    ³   ³       ³   ³   ³   _asarray.pyi
+    ³   ³       ³   ³   ³   _dtype.py
+    ³   ³       ³   ³   ³   _dtype.pyi
+    ³   ³       ³   ³   ³   _dtype_ctypes.py
+    ³   ³       ³   ³   ³   _dtype_ctypes.pyi
+    ³   ³       ³   ³   ³   _exceptions.py
+    ³   ³       ³   ³   ³   _exceptions.pyi
+    ³   ³       ³   ³   ³   _internal.py
+    ³   ³       ³   ³   ³   _internal.pyi
+    ³   ³       ³   ³   ³   _machar.py
+    ³   ³       ³   ³   ³   _machar.pyi
+    ³   ³       ³   ³   ³   _methods.py
+    ³   ³       ³   ³   ³   _methods.pyi
+    ³   ³       ³   ³   ³   _multiarray_tests.cp311-win_amd64.lib
+    ³   ³       ³   ³   ³   _multiarray_tests.cp311-win_amd64.pyd
+    ³   ³       ³   ³   ³   _multiarray_umath.cp311-win_amd64.lib
+    ³   ³       ³   ³   ³   _multiarray_umath.cp311-win_amd64.pyd
+    ³   ³       ³   ³   ³   _operand_flag_tests.cp311-win_amd64.lib
+    ³   ³       ³   ³   ³   _operand_flag_tests.cp311-win_amd64.pyd
+    ³   ³       ³   ³   ³   _rational_tests.cp311-win_amd64.lib
+    ³   ³       ³   ³   ³   _rational_tests.cp311-win_amd64.pyd
+    ³   ³       ³   ³   ³   _simd.cp311-win_amd64.lib
+    ³   ³       ³   ³   ³   _simd.cp311-win_amd64.pyd
+    ³   ³       ³   ³   ³   _simd.pyi
+    ³   ³       ³   ³   ³   _string_helpers.py
+    ³   ³       ³   ³   ³   _string_helpers.pyi
+    ³   ³       ³   ³   ³   _struct_ufunc_tests.cp311-win_amd64.lib
+    ³   ³       ³   ³   ³   _struct_ufunc_tests.cp311-win_amd64.pyd
+    ³   ³       ³   ³   ³   _type_aliases.py
+    ³   ³       ³   ³   ³   _type_aliases.pyi
+    ³   ³       ³   ³   ³   _ufunc_config.py
+    ³   ³       ³   ³   ³   _ufunc_config.pyi
+    ³   ³       ³   ³   ³   _umath_tests.cp311-win_amd64.lib
+    ³   ³       ³   ³   ³   _umath_tests.cp311-win_amd64.pyd
+    ³   ³       ³   ³   ³   __init__.py
+    ³   ³       ³   ³   ³   __init__.pyi
+    ³   ³       ³   ³   ³   
+    ³   ³       ³   ³   ÃÄÄÄinclude
+    ³   ³       ³   ³   ³   ÀÄÄÄnumpy
+    ³   ³       ³   ³   ³       ³   arrayobject.h
+    ³   ³       ³   ³   ³       ³   arrayscalars.h
+    ³   ³       ³   ³   ³       ³   dtype_api.h
+    ³   ³       ³   ³   ³       ³   halffloat.h
+    ³   ³       ³   ³   ³       ³   ndarrayobject.h
+    ³   ³       ³   ³   ³       ³   ndarraytypes.h
+    ³   ³       ³   ³   ³       ³   npy_2_compat.h
+    ³   ³       ³   ³   ³       ³   npy_2_complexcompat.h
+    ³   ³       ³   ³   ³       ³   npy_3kcompat.h
+    ³   ³       ³   ³   ³       ³   npy_common.h
+    ³   ³       ³   ³   ³       ³   npy_cpu.h
+    ³   ³       ³   ³   ³       ³   npy_endian.h
+    ³   ³       ³   ³   ³       ³   npy_math.h
+    ³   ³       ³   ³   ³       ³   npy_no_deprecated_api.h
+    ³   ³       ³   ³   ³       ³   npy_os.h
+    ³   ³       ³   ³   ³       ³   numpyconfig.h
+    ³   ³       ³   ³   ³       ³   ufuncobject.h
+    ³   ³       ³   ³   ³       ³   utils.h
+    ³   ³       ³   ³   ³       ³   _neighborhood_iterator_imp.h
+    ³   ³       ³   ³   ³       ³   _numpyconfig.h
+    ³   ³       ³   ³   ³       ³   _public_dtype_api_table.h
+    ³   ³       ³   ³   ³       ³   __multiarray_api.c
+    ³   ³       ³   ³   ³       ³   __multiarray_api.h
+    ³   ³       ³   ³   ³       ³   __ufunc_api.c
+    ³   ³       ³   ³   ³       ³   __ufunc_api.h
+    ³   ³       ³   ³   ³       ³   
+    ³   ³       ³   ³   ³       ÀÄÄÄrandom
+    ³   ³       ³   ³   ³               bitgen.h
+    ³   ³       ³   ³   ³               distributions.h
+    ³   ³       ³   ³   ³               libdivide.h
+    ³   ³       ³   ³   ³               LICENSE.txt
+    ³   ³       ³   ³   ³               
+    ³   ³       ³   ³   ÃÄÄÄlib
+    ³   ³       ³   ³   ³   ³   npymath.lib
+    ³   ³       ³   ³   ³   ³   
+    ³   ³       ³   ³   ³   ÃÄÄÄnpy-pkg-config
+    ³   ³       ³   ³   ³   ³       mlib.ini
+    ³   ³       ³   ³   ³   ³       npymath.ini
+    ³   ³       ³   ³   ³   ³       
+    ³   ³       ³   ³   ³   ÀÄÄÄpkgconfig
+    ³   ³       ³   ³   ³           numpy.pc
+    ³   ³       ³   ³   ³           
+    ³   ³       ³   ³   ÀÄÄÄtests
+    ³   ³       ³   ³       ³   test_abc.py
+    ³   ³       ³   ³       ³   test_api.py
+    ³   ³       ³   ³       ³   test_argparse.py
+    ³   ³       ³   ³       ³   test_arraymethod.py
+    ³   ³       ³   ³       ³   test_arrayobject.py
+    ³   ³       ³   ³       ³   test_arrayprint.py
+    ³   ³       ³   ³       ³   test_array_api_info.py
+    ³   ³       ³   ³       ³   test_array_coercion.py
+    ³   ³       ³   ³       ³   test_array_interface.py
+    ³   ³       ³   ³       ³   test_casting_floatingpoint_errors.py
+    ³   ³       ³   ³       ³   test_casting_unittests.py
+    ³   ³       ³   ³       ³   test_conversion_utils.py
+    ³   ³       ³   ³       ³   test_cpu_dispatcher.py
+    ³   ³       ³   ³       ³   test_cpu_features.py
+    ³   ³       ³   ³       ³   test_custom_dtypes.py
+    ³   ³       ³   ³       ³   test_cython.py
+    ³   ³       ³   ³       ³   test_datetime.py
+    ³   ³       ³   ³       ³   test_defchararray.py
+    ³   ³       ³   ³       ³   test_deprecations.py
+    ³   ³       ³   ³       ³   test_dlpack.py
+    ³   ³       ³   ³       ³   test_dtype.py
+    ³   ³       ³   ³       ³   test_einsum.py
+    ³   ³       ³   ³       ³   test_errstate.py
+    ³   ³       ³   ³       ³   test_extint128.py
+    ³   ³       ³   ³       ³   test_function_base.py
+    ³   ³       ³   ³       ³   test_getlimits.py
+    ³   ³       ³   ³       ³   test_half.py
+    ³   ³       ³   ³       ³   test_hashtable.py
+    ³   ³       ³   ³       ³   test_indexerrors.py
+    ³   ³       ³   ³       ³   test_indexing.py
+    ³   ³       ³   ³       ³   test_item_selection.py
+    ³   ³       ³   ³       ³   test_limited_api.py
+    ³   ³       ³   ³       ³   test_longdouble.py
+    ³   ³       ³   ³       ³   test_machar.py
+    ³   ³       ³   ³       ³   test_memmap.py
+    ³   ³       ³   ³       ³   test_mem_overlap.py
+    ³   ³       ³   ³       ³   test_mem_policy.py
+    ³   ³       ³   ³       ³   test_multiarray.py
+    ³   ³       ³   ³       ³   test_multithreading.py
+    ³   ³       ³   ³       ³   test_nditer.py
+    ³   ³       ³   ³       ³   test_nep50_promotions.py
+    ³   ³       ³   ³       ³   test_numeric.py
+    ³   ³       ³   ³       ³   test_numerictypes.py
+    ³   ³       ³   ³       ³   test_overrides.py
+    ³   ³       ³   ³       ³   test_print.py
+    ³   ³       ³   ³       ³   test_protocols.py
+    ³   ³       ³   ³       ³   test_records.py
+    ³   ³       ³   ³       ³   test_regression.py
+    ³   ³       ³   ³       ³   test_scalarbuffer.py
+    ³   ³       ³   ³       ³   test_scalarinherit.py
+    ³   ³       ³   ³       ³   test_scalarmath.py
+    ³   ³       ³   ³       ³   test_scalarprint.py
+    ³   ³       ³   ³       ³   test_scalar_ctors.py
+    ³   ³       ³   ³       ³   test_scalar_methods.py
+    ³   ³       ³   ³       ³   test_shape_base.py
+    ³   ³       ³   ³       ³   test_simd.py
+    ³   ³       ³   ³       ³   test_simd_module.py
+    ³   ³       ³   ³       ³   test_stringdtype.py
+    ³   ³       ³   ³       ³   test_strings.py
+    ³   ³       ³   ³       ³   test_ufunc.py
+    ³   ³       ³   ³       ³   test_umath.py
+    ³   ³       ³   ³       ³   test_umath_accuracy.py
+    ³   ³       ³   ³       ³   test_umath_complex.py
+    ³   ³       ³   ³       ³   test_unicode.py
+    ³   ³       ³   ³       ³   test__exceptions.py
+    ³   ³       ³   ³       ³   _locales.py
+    ³   ³       ³   ³       ³   _natype.py
+    ³   ³       ³   ³       ³   
+    ³   ³       ³   ³       ÃÄÄÄdata
+    ³   ³       ³   ³       ³       astype_copy.pkl
+    ³   ³       ³   ³       ³       generate_umath_validation_data.cpp
+    ³   ³       ³   ³       ³       recarray_from_file.fits
+    ³   ³       ³   ³       ³       umath-validation-set-arccos.csv
+    ³   ³       ³   ³       ³       umath-validation-set-arccosh.csv
+    ³   ³       ³   ³       ³       umath-validation-set-arcsin.csv
+    ³   ³       ³   ³       ³       umath-validation-set-arcsinh.csv
+    ³   ³       ³   ³       ³       umath-validation-set-arctan.csv
+    ³   ³       ³   ³       ³       umath-validation-set-arctanh.csv
+    ³   ³       ³   ³       ³       umath-validation-set-cbrt.csv
+    ³   ³       ³   ³       ³       umath-validation-set-cos.csv
+    ³   ³       ³   ³       ³       umath-validation-set-cosh.csv
+    ³   ³       ³   ³       ³       umath-validation-set-exp.csv
+    ³   ³       ³   ³       ³       umath-validation-set-exp2.csv
+    ³   ³       ³   ³       ³       umath-validation-set-expm1.csv
+    ³   ³       ³   ³       ³       umath-validation-set-log.csv
+    ³   ³       ³   ³       ³       umath-validation-set-log10.csv
+    ³   ³       ³   ³       ³       umath-validation-set-log1p.csv
+    ³   ³       ³   ³       ³       umath-validation-set-log2.csv
+    ³   ³       ³   ³       ³       umath-validation-set-README.txt
+    ³   ³       ³   ³       ³       umath-validation-set-sin.csv
+    ³   ³       ³   ³       ³       umath-validation-set-sinh.csv
+    ³   ³       ³   ³       ³       umath-validation-set-tan.csv
+    ³   ³       ³   ³       ³       umath-validation-set-tanh.csv
+    ³   ³       ³   ³       ³       
+    ³   ³       ³   ³       ÀÄÄÄexamples
+    ³   ³       ³   ³           ÃÄÄÄcython
+    ³   ³       ³   ³           ³       checks.pyx
+    ³   ³       ³   ³           ³       meson.build
+    ³   ³       ³   ³           ³       setup.py
+    ³   ³       ³   ³           ³       
+    ³   ³       ³   ³           ÀÄÄÄlimited_api
+    ³   ³       ³   ³                   limited_api1.c
+    ³   ³       ³   ³                   limited_api2.pyx
+    ³   ³       ³   ³                   limited_api_latest.c
+    ³   ³       ³   ³                   meson.build
+    ³   ³       ³   ³                   setup.py
+    ³   ³       ³   ³                   
+    ³   ³       ³   ÃÄÄÄ_pyinstaller
+    ³   ³       ³   ³   ³   hook-numpy.py
+    ³   ³       ³   ³   ³   hook-numpy.pyi
+    ³   ³       ³   ³   ³   __init__.py
+    ³   ³       ³   ³   ³   __init__.pyi
+    ³   ³       ³   ³   ³   
+    ³   ³       ³   ³   ÀÄÄÄtests
+    ³   ³       ³   ³           pyinstaller-smoke.py
+    ³   ³       ³   ³           test_pyinstaller.py
+    ³   ³       ³   ³           __init__.py
+    ³   ³       ³   ³           
+    ³   ³       ³   ÃÄÄÄ_typing
+    ³   ³       ³   ³       _add_docstring.py
+    ³   ³       ³   ³       _array_like.py
+    ³   ³       ³   ³       _char_codes.py
+    ³   ³       ³   ³       _dtype_like.py
+    ³   ³       ³   ³       _extended_precision.py
+    ³   ³       ³   ³       _nbit.py
+    ³   ³       ³   ³       _nbit_base.py
+    ³   ³       ³   ³       _nbit_base.pyi
+    ³   ³       ³   ³       _nested_sequence.py
+    ³   ³       ³   ³       _scalars.py
+    ³   ³       ³   ³       _shape.py
+    ³   ³       ³   ³       _ufunc.py
+    ³   ³       ³   ³       _ufunc.pyi
+    ³   ³       ³   ³       __init__.py
+    ³   ³       ³   ³       
+    ³   ³       ³   ÀÄÄÄ_utils
+    ³   ³       ³           _convertions.py
+    ³   ³       ³           _convertions.pyi
+    ³   ³       ³           _inspect.py
+    ³   ³       ³           _inspect.pyi
+    ³   ³       ³           _pep440.py
+    ³   ³       ³           _pep440.pyi
+    ³   ³       ³           __init__.py
+    ³   ³       ³           __init__.pyi
+    ³   ³       ³           
+    ³   ³       ÃÄÄÄnumpy-2.3.5.dist-info
+    ³   ³       ³       DELVEWHEEL
+    ³   ³       ³       entry_points.txt
+    ³   ³       ³       INSTALLER
+    ³   ³       ³       LICENSE.txt
+    ³   ³       ³       METADATA
+    ³   ³       ³       RECORD
+    ³   ³       ³       REQUESTED
+    ³   ³       ³       WHEEL
+    ³   ³       ³       
+    ³   ³       ÃÄÄÄnumpy.libs
+    ³   ³       ³       libscipy_openblas64_-9e3e5a4229c1ca39f10dc82bba9e2b2b.dll
+    ³   ³       ³       msvcp140-a4c2229bdc2a2a630acdc095b4d86008.dll
+    ³   ³       ³       
+    ³   ³       ÃÄÄÄpip
+    ³   ³       ³   ³   py.typed
+    ³   ³       ³   ³   __init__.py
+    ³   ³       ³   ³   __main__.py
+    ³   ³       ³   ³   __pip-runner__.py
+    ³   ³       ³   ³   
+    ³   ³       ³   ÃÄÄÄ_internal
+    ³   ³       ³   ³   ³   build_env.py
+    ³   ³       ³   ³   ³   cache.py
+    ³   ³       ³   ³   ³   configuration.py
+    ³   ³       ³   ³   ³   exceptions.py
+    ³   ³       ³   ³   ³   main.py
+    ³   ³       ³   ³   ³   pyproject.py
+    ³   ³       ³   ³   ³   self_outdated_check.py
+    ³   ³       ³   ³   ³   wheel_builder.py
+    ³   ³       ³   ³   ³   __init__.py
+    ³   ³       ³   ³   ³   
+    ³   ³       ³   ³   ÃÄÄÄcli
+    ³   ³       ³   ³   ³       autocompletion.py
+    ³   ³       ³   ³   ³       base_command.py
+    ³   ³       ³   ³   ³       cmdoptions.py
+    ³   ³       ³   ³   ³       command_context.py
+    ³   ³       ³   ³   ³       index_command.py
+    ³   ³       ³   ³   ³       main.py
+    ³   ³       ³   ³   ³       main_parser.py
+    ³   ³       ³   ³   ³       parser.py
+    ³   ³       ³   ³   ³       progress_bars.py
+    ³   ³       ³   ³   ³       req_command.py
+    ³   ³       ³   ³   ³       spinners.py
+    ³   ³       ³   ³   ³       status_codes.py
+    ³   ³       ³   ³   ³       __init__.py
+    ³   ³       ³   ³   ³       
+    ³   ³       ³   ³   ÃÄÄÄcommands
+    ³   ³       ³   ³   ³       cache.py
+    ³   ³       ³   ³   ³       check.py
+    ³   ³       ³   ³   ³       completion.py
+    ³   ³       ³   ³   ³       configuration.py
+    ³   ³       ³   ³   ³       debug.py
+    ³   ³       ³   ³   ³       download.py
+    ³   ³       ³   ³   ³       freeze.py
+    ³   ³       ³   ³   ³       hash.py
+    ³   ³       ³   ³   ³       help.py
+    ³   ³       ³   ³   ³       index.py
+    ³   ³       ³   ³   ³       inspect.py
+    ³   ³       ³   ³   ³       install.py
+    ³   ³       ³   ³   ³       list.py
+    ³   ³       ³   ³   ³       lock.py
+    ³   ³       ³   ³   ³       search.py
+    ³   ³       ³   ³   ³       show.py
+    ³   ³       ³   ³   ³       uninstall.py
+    ³   ³       ³   ³   ³       wheel.py
+    ³   ³       ³   ³   ³       __init__.py
+    ³   ³       ³   ³   ³       
+    ³   ³       ³   ³   ÃÄÄÄdistributions
+    ³   ³       ³   ³   ³       base.py
+    ³   ³       ³   ³   ³       installed.py
+    ³   ³       ³   ³   ³       sdist.py
+    ³   ³       ³   ³   ³       wheel.py
+    ³   ³       ³   ³   ³       __init__.py
+    ³   ³       ³   ³   ³       
+    ³   ³       ³   ³   ÃÄÄÄindex
+    ³   ³       ³   ³   ³       collector.py
+    ³   ³       ³   ³   ³       package_finder.py
+    ³   ³       ³   ³   ³       sources.py
+    ³   ³       ³   ³   ³       __init__.py
+    ³   ³       ³   ³   ³       
+    ³   ³       ³   ³   ÃÄÄÄlocations
+    ³   ³       ³   ³   ³       base.py
+    ³   ³       ³   ³   ³       _distutils.py
+    ³   ³       ³   ³   ³       _sysconfig.py
+    ³   ³       ³   ³   ³       __init__.py
+    ³   ³       ³   ³   ³       
+    ³   ³       ³   ³   ÃÄÄÄmetadata
+    ³   ³       ³   ³   ³   ³   base.py
+    ³   ³       ³   ³   ³   ³   pkg_resources.py
+    ³   ³       ³   ³   ³   ³   _json.py
+    ³   ³       ³   ³   ³   ³   __init__.py
+    ³   ³       ³   ³   ³   ³   
+    ³   ³       ³   ³   ³   ÀÄÄÄimportlib
+    ³   ³       ³   ³   ³           _compat.py
+    ³   ³       ³   ³   ³           _dists.py
+    ³   ³       ³   ³   ³           _envs.py
+    ³   ³       ³   ³   ³           __init__.py
+    ³   ³       ³   ³   ³           
+    ³   ³       ³   ³   ÃÄÄÄmodels
+    ³   ³       ³   ³   ³       candidate.py
+    ³   ³       ³   ³   ³       direct_url.py
+    ³   ³       ³   ³   ³       format_control.py
+    ³   ³       ³   ³   ³       index.py
+    ³   ³       ³   ³   ³       installation_report.py
+    ³   ³       ³   ³   ³       link.py
+    ³   ³       ³   ³   ³       pylock.py
+    ³   ³       ³   ³   ³       scheme.py
+    ³   ³       ³   ³   ³       search_scope.py
+    ³   ³       ³   ³   ³       selection_prefs.py
+    ³   ³       ³   ³   ³       target_python.py
+    ³   ³       ³   ³   ³       wheel.py
+    ³   ³       ³   ³   ³       __init__.py
+    ³   ³       ³   ³   ³       
+    ³   ³       ³   ³   ÃÄÄÄnetwork
+    ³   ³       ³   ³   ³       auth.py
+    ³   ³       ³   ³   ³       cache.py
+    ³   ³       ³   ³   ³       download.py
+    ³   ³       ³   ³   ³       lazy_wheel.py
+    ³   ³       ³   ³   ³       session.py
+    ³   ³       ³   ³   ³       utils.py
+    ³   ³       ³   ³   ³       xmlrpc.py
+    ³   ³       ³   ³   ³       __init__.py
+    ³   ³       ³   ³   ³       
+    ³   ³       ³   ³   ÃÄÄÄoperations
+    ³   ³       ³   ³   ³   ³   check.py
+    ³   ³       ³   ³   ³   ³   freeze.py
+    ³   ³       ³   ³   ³   ³   prepare.py
+    ³   ³       ³   ³   ³   ³   __init__.py
+    ³   ³       ³   ³   ³   ³   
+    ³   ³       ³   ³   ³   ÃÄÄÄbuild
+    ³   ³       ³   ³   ³   ³       build_tracker.py
+    ³   ³       ³   ³   ³   ³       metadata.py
+    ³   ³       ³   ³   ³   ³       metadata_editable.py
+    ³   ³       ³   ³   ³   ³       wheel.py
+    ³   ³       ³   ³   ³   ³       wheel_editable.py
+    ³   ³       ³   ³   ³   ³       __init__.py
+    ³   ³       ³   ³   ³   ³       
+    ³   ³       ³   ³   ³   ÀÄÄÄinstall
+    ³   ³       ³   ³   ³           wheel.py
+    ³   ³       ³   ³   ³           __init__.py
+    ³   ³       ³   ³   ³           
+    ³   ³       ³   ³   ÃÄÄÄreq
+    ³   ³       ³   ³   ³       constructors.py
+    ³   ³       ³   ³   ³       req_dependency_group.py
+    ³   ³       ³   ³   ³       req_file.py
+    ³   ³       ³   ³   ³       req_install.py
+    ³   ³       ³   ³   ³       req_set.py
+    ³   ³       ³   ³   ³       req_uninstall.py
+    ³   ³       ³   ³   ³       __init__.py
+    ³   ³       ³   ³   ³       
+    ³   ³       ³   ³   ÃÄÄÄresolution
+    ³   ³       ³   ³   ³   ³   base.py
+    ³   ³       ³   ³   ³   ³   __init__.py
+    ³   ³       ³   ³   ³   ³   
+    ³   ³       ³   ³   ³   ÃÄÄÄlegacy
+    ³   ³       ³   ³   ³   ³       resolver.py
+    ³   ³       ³   ³   ³   ³       __init__.py
+    ³   ³       ³   ³   ³   ³       
+    ³   ³       ³   ³   ³   ÀÄÄÄresolvelib
+    ³   ³       ³   ³   ³           base.py
+    ³   ³       ³   ³   ³           candidates.py
+    ³   ³       ³   ³   ³           factory.py
+    ³   ³       ³   ³   ³           found_candidates.py
+    ³   ³       ³   ³   ³           provider.py
+    ³   ³       ³   ³   ³           reporter.py
+    ³   ³       ³   ³   ³           requirements.py
+    ³   ³       ³   ³   ³           resolver.py
+    ³   ³       ³   ³   ³           __init__.py
+    ³   ³       ³   ³   ³           
+    ³   ³       ³   ³   ÃÄÄÄutils
+    ³   ³       ³   ³   ³       appdirs.py
+    ³   ³       ³   ³   ³       compat.py
+    ³   ³       ³   ³   ³       compatibility_tags.py
+    ³   ³       ³   ³   ³       datetime.py
+    ³   ³       ³   ³   ³       deprecation.py
+    ³   ³       ³   ³   ³       direct_url_helpers.py
+    ³   ³       ³   ³   ³       egg_link.py
+    ³   ³       ³   ³   ³       entrypoints.py
+    ³   ³       ³   ³   ³       filesystem.py
+    ³   ³       ³   ³   ³       filetypes.py
+    ³   ³       ³   ³   ³       glibc.py
+    ³   ³       ³   ³   ³       hashes.py
+    ³   ³       ³   ³   ³       logging.py
+    ³   ³       ³   ³   ³       misc.py
+    ³   ³       ³   ³   ³       packaging.py
+    ³   ³       ³   ³   ³       retry.py
+    ³   ³       ³   ³   ³       subprocess.py
+    ³   ³       ³   ³   ³       temp_dir.py
+    ³   ³       ³   ³   ³       unpacking.py
+    ³   ³       ³   ³   ³       urls.py
+    ³   ³       ³   ³   ³       virtualenv.py
+    ³   ³       ³   ³   ³       wheel.py
+    ³   ³       ³   ³   ³       _jaraco_text.py
+    ³   ³       ³   ³   ³       _log.py
+    ³   ³       ³   ³   ³       __init__.py
+    ³   ³       ³   ³   ³       
+    ³   ³       ³   ³   ÀÄÄÄvcs
+    ³   ³       ³   ³           bazaar.py
+    ³   ³       ³   ³           git.py
+    ³   ³       ³   ³           mercurial.py
+    ³   ³       ³   ³           subversion.py
+    ³   ³       ³   ³           versioncontrol.py
+    ³   ³       ³   ³           __init__.py
+    ³   ³       ³   ³           
+    ³   ³       ³   ÀÄÄÄ_vendor
+    ³   ³       ³       ³   README.rst
+    ³   ³       ³       ³   vendor.txt
+    ³   ³       ³       ³   __init__.py
+    ³   ³       ³       ³   
+    ³   ³       ³       ÃÄÄÄcachecontrol
+    ³   ³       ³       ³   ³   adapter.py
+    ³   ³       ³       ³   ³   cache.py
+    ³   ³       ³       ³   ³   controller.py
+    ³   ³       ³       ³   ³   filewrapper.py
+    ³   ³       ³       ³   ³   heuristics.py
+    ³   ³       ³       ³   ³   LICENSE.txt
+    ³   ³       ³       ³   ³   py.typed
+    ³   ³       ³       ³   ³   serialize.py
+    ³   ³       ³       ³   ³   wrapper.py
+    ³   ³       ³       ³   ³   _cmd.py
+    ³   ³       ³       ³   ³   __init__.py
+    ³   ³       ³       ³   ³   
+    ³   ³       ³       ³   ÀÄÄÄcaches
+    ³   ³       ³       ³           file_cache.py
+    ³   ³       ³       ³           redis_cache.py
+    ³   ³       ³       ³           __init__.py
+    ³   ³       ³       ³           
+    ³   ³       ³       ÃÄÄÄcertifi
+    ³   ³       ³       ³       cacert.pem
+    ³   ³       ³       ³       core.py
+    ³   ³       ³       ³       LICENSE
+    ³   ³       ³       ³       py.typed
+    ³   ³       ³       ³       __init__.py
+    ³   ³       ³       ³       __main__.py
+    ³   ³       ³       ³       
+    ³   ³       ³       ÃÄÄÄdependency_groups
+    ³   ³       ³       ³       LICENSE.txt
+    ³   ³       ³       ³       py.typed
+    ³   ³       ³       ³       _implementation.py
+    ³   ³       ³       ³       _lint_dependency_groups.py
+    ³   ³       ³       ³       _pip_wrapper.py
+    ³   ³       ³       ³       _toml_compat.py
+    ³   ³       ³       ³       __init__.py
+    ³   ³       ³       ³       __main__.py
+    ³   ³       ³       ³       
+    ³   ³       ³       ÃÄÄÄdistlib
+    ³   ³       ³       ³       compat.py
+    ³   ³       ³       ³       LICENSE.txt
+    ³   ³       ³       ³       resources.py
+    ³   ³       ³       ³       scripts.py
+    ³   ³       ³       ³       t32.exe
+    ³   ³       ³       ³       t64-arm.exe
+    ³   ³       ³       ³       t64.exe
+    ³   ³       ³       ³       util.py
+    ³   ³       ³       ³       w32.exe
+    ³   ³       ³       ³       w64-arm.exe
+    ³   ³       ³       ³       w64.exe
+    ³   ³       ³       ³       __init__.py
+    ³   ³       ³       ³       
+    ³   ³       ³       ÃÄÄÄdistro
+    ³   ³       ³       ³       distro.py
+    ³   ³       ³       ³       LICENSE
+    ³   ³       ³       ³       py.typed
+    ³   ³       ³       ³       __init__.py
+    ³   ³       ³       ³       __main__.py
+    ³   ³       ³       ³       
+    ³   ³       ³       ÃÄÄÄidna
+    ³   ³       ³       ³       codec.py
+    ³   ³       ³       ³       compat.py
+    ³   ³       ³       ³       core.py
+    ³   ³       ³       ³       idnadata.py
+    ³   ³       ³       ³       intranges.py
+    ³   ³       ³       ³       LICENSE.md
+    ³   ³       ³       ³       package_data.py
+    ³   ³       ³       ³       py.typed
+    ³   ³       ³       ³       uts46data.py
+    ³   ³       ³       ³       __init__.py
+    ³   ³       ³       ³       
+    ³   ³       ³       ÃÄÄÄmsgpack
+    ³   ³       ³       ³       COPYING
+    ³   ³       ³       ³       exceptions.py
+    ³   ³       ³       ³       ext.py
+    ³   ³       ³       ³       fallback.py
+    ³   ³       ³       ³       __init__.py
+    ³   ³       ³       ³       
+    ³   ³       ³       ÃÄÄÄpackaging
+    ³   ³       ³       ³   ³   LICENSE
+    ³   ³       ³       ³   ³   LICENSE.APACHE
+    ³   ³       ³       ³   ³   LICENSE.BSD
+    ³   ³       ³       ³   ³   markers.py
+    ³   ³       ³       ³   ³   metadata.py
+    ³   ³       ³       ³   ³   py.typed
+    ³   ³       ³       ³   ³   requirements.py
+    ³   ³       ³       ³   ³   specifiers.py
+    ³   ³       ³       ³   ³   tags.py
+    ³   ³       ³       ³   ³   utils.py
+    ³   ³       ³       ³   ³   version.py
+    ³   ³       ³       ³   ³   _elffile.py
+    ³   ³       ³       ³   ³   _manylinux.py
+    ³   ³       ³       ³   ³   _musllinux.py
+    ³   ³       ³       ³   ³   _parser.py
+    ³   ³       ³       ³   ³   _structures.py
+    ³   ³       ³       ³   ³   _tokenizer.py
+    ³   ³       ³       ³   ³   __init__.py
+    ³   ³       ³       ³   ³   
+    ³   ³       ³       ³   ÀÄÄÄlicenses
+    ³   ³       ³       ³           _spdx.py
+    ³   ³       ³       ³           __init__.py
+    ³   ³       ³       ³           
+    ³   ³       ³       ÃÄÄÄpkg_resources
+    ³   ³       ³       ³       LICENSE
+    ³   ³       ³       ³       __init__.py
+    ³   ³       ³       ³       
+    ³   ³       ³       ÃÄÄÄplatformdirs
+    ³   ³       ³       ³       android.py
+    ³   ³       ³       ³       api.py
+    ³   ³       ³       ³       LICENSE
+    ³   ³       ³       ³       macos.py
+    ³   ³       ³       ³       py.typed
+    ³   ³       ³       ³       unix.py
+    ³   ³       ³       ³       version.py
+    ³   ³       ³       ³       windows.py
+    ³   ³       ³       ³       __init__.py
+    ³   ³       ³       ³       __main__.py
+    ³   ³       ³       ³       
+    ³   ³       ³       ÃÄÄÄpygments
+    ³   ³       ³       ³   ³   console.py
+    ³   ³       ³       ³   ³   filter.py
+    ³   ³       ³       ³   ³   formatter.py
+    ³   ³       ³       ³   ³   lexer.py
+    ³   ³       ³       ³   ³   LICENSE
+    ³   ³       ³       ³   ³   modeline.py
+    ³   ³       ³       ³   ³   plugin.py
+    ³   ³       ³       ³   ³   regexopt.py
+    ³   ³       ³       ³   ³   scanner.py
+    ³   ³       ³       ³   ³   sphinxext.py
+    ³   ³       ³       ³   ³   style.py
+    ³   ³       ³       ³   ³   token.py
+    ³   ³       ³       ³   ³   unistring.py
+    ³   ³       ³       ³   ³   util.py
+    ³   ³       ³       ³   ³   __init__.py
+    ³   ³       ³       ³   ³   __main__.py
+    ³   ³       ³       ³   ³   
+    ³   ³       ³       ³   ÃÄÄÄfilters
+    ³   ³       ³       ³   ³       __init__.py
+    ³   ³       ³       ³   ³       
+    ³   ³       ³       ³   ÃÄÄÄformatters
+    ³   ³       ³       ³   ³       _mapping.py
+    ³   ³       ³       ³   ³       __init__.py
+    ³   ³       ³       ³   ³       
+    ³   ³       ³       ³   ÃÄÄÄlexers
+    ³   ³       ³       ³   ³       python.py
+    ³   ³       ³       ³   ³       _mapping.py
+    ³   ³       ³       ³   ³       __init__.py
+    ³   ³       ³       ³   ³       
+    ³   ³       ³       ³   ÀÄÄÄstyles
+    ³   ³       ³       ³           _mapping.py
+    ³   ³       ³       ³           __init__.py
+    ³   ³       ³       ³           
+    ³   ³       ³       ÃÄÄÄpyproject_hooks
+    ³   ³       ³       ³   ³   LICENSE
+    ³   ³       ³       ³   ³   py.typed
+    ³   ³       ³       ³   ³   _impl.py
+    ³   ³       ³       ³   ³   __init__.py
+    ³   ³       ³       ³   ³   
+    ³   ³       ³       ³   ÀÄÄÄ_in_process
+    ³   ³       ³       ³           _in_process.py
+    ³   ³       ³       ³           __init__.py
+    ³   ³       ³       ³           
+    ³   ³       ³       ÃÄÄÄrequests
+    ³   ³       ³       ³       adapters.py
+    ³   ³       ³       ³       api.py
+    ³   ³       ³       ³       auth.py
+    ³   ³       ³       ³       certs.py
+    ³   ³       ³       ³       compat.py
+    ³   ³       ³       ³       cookies.py
+    ³   ³       ³       ³       exceptions.py
+    ³   ³       ³       ³       help.py
+    ³   ³       ³       ³       hooks.py
+    ³   ³       ³       ³       LICENSE
+    ³   ³       ³       ³       models.py
+    ³   ³       ³       ³       packages.py
+    ³   ³       ³       ³       sessions.py
+    ³   ³       ³       ³       status_codes.py
+    ³   ³       ³       ³       structures.py
+    ³   ³       ³       ³       utils.py
+    ³   ³       ³       ³       _internal_utils.py
+    ³   ³       ³       ³       __init__.py
+    ³   ³       ³       ³       __version__.py
+    ³   ³       ³       ³       
+    ³   ³       ³       ÃÄÄÄresolvelib
+    ³   ³       ³       ³   ³   LICENSE
+    ³   ³       ³       ³   ³   providers.py
+    ³   ³       ³       ³   ³   py.typed
+    ³   ³       ³       ³   ³   reporters.py
+    ³   ³       ³       ³   ³   structs.py
+    ³   ³       ³       ³   ³   __init__.py
+    ³   ³       ³       ³   ³   
+    ³   ³       ³       ³   ÀÄÄÄresolvers
+    ³   ³       ³       ³           abstract.py
+    ³   ³       ³       ³           criterion.py
+    ³   ³       ³       ³           exceptions.py
+    ³   ³       ³       ³           resolution.py
+    ³   ³       ³       ³           __init__.py
+    ³   ³       ³       ³           
+    ³   ³       ³       ÃÄÄÄrich
+    ³   ³       ³       ³       abc.py
+    ³   ³       ³       ³       align.py
+    ³   ³       ³       ³       ansi.py
+    ³   ³       ³       ³       bar.py
+    ³   ³       ³       ³       box.py
+    ³   ³       ³       ³       cells.py
+    ³   ³       ³       ³       color.py
+    ³   ³       ³       ³       color_triplet.py
+    ³   ³       ³       ³       columns.py
+    ³   ³       ³       ³       console.py
+    ³   ³       ³       ³       constrain.py
+    ³   ³       ³       ³       containers.py
+    ³   ³       ³       ³       control.py
+    ³   ³       ³       ³       default_styles.py
+    ³   ³       ³       ³       diagnose.py
+    ³   ³       ³       ³       emoji.py
+    ³   ³       ³       ³       errors.py
+    ³   ³       ³       ³       filesize.py
+    ³   ³       ³       ³       file_proxy.py
+    ³   ³       ³       ³       highlighter.py
+    ³   ³       ³       ³       json.py
+    ³   ³       ³       ³       jupyter.py
+    ³   ³       ³       ³       layout.py
+    ³   ³       ³       ³       LICENSE
+    ³   ³       ³       ³       live.py
+    ³   ³       ³       ³       live_render.py
+    ³   ³       ³       ³       logging.py
+    ³   ³       ³       ³       markup.py
+    ³   ³       ³       ³       measure.py
+    ³   ³       ³       ³       padding.py
+    ³   ³       ³       ³       pager.py
+    ³   ³       ³       ³       palette.py
+    ³   ³       ³       ³       panel.py
+    ³   ³       ³       ³       pretty.py
+    ³   ³       ³       ³       progress.py
+    ³   ³       ³       ³       progress_bar.py
+    ³   ³       ³       ³       prompt.py
+    ³   ³       ³       ³       protocol.py
+    ³   ³       ³       ³       py.typed
+    ³   ³       ³       ³       region.py
+    ³   ³       ³       ³       repr.py
+    ³   ³       ³       ³       rule.py
+    ³   ³       ³       ³       scope.py
+    ³   ³       ³       ³       screen.py
+    ³   ³       ³       ³       segment.py
+    ³   ³       ³       ³       spinner.py
+    ³   ³       ³       ³       status.py
+    ³   ³       ³       ³       style.py
+    ³   ³       ³       ³       styled.py
+    ³   ³       ³       ³       syntax.py
+    ³   ³       ³       ³       table.py
+    ³   ³       ³       ³       terminal_theme.py
+    ³   ³       ³       ³       text.py
+    ³   ³       ³       ³       theme.py
+    ³   ³       ³       ³       themes.py
+    ³   ³       ³       ³       traceback.py
+    ³   ³       ³       ³       tree.py
+    ³   ³       ³       ³       _cell_widths.py
+    ³   ³       ³       ³       _emoji_codes.py
+    ³   ³       ³       ³       _emoji_replace.py
+    ³   ³       ³       ³       _export_format.py
+    ³   ³       ³       ³       _extension.py
+    ³   ³       ³       ³       _fileno.py
+    ³   ³       ³       ³       _inspect.py
+    ³   ³       ³       ³       _log_render.py
+    ³   ³       ³       ³       _loop.py
+    ³   ³       ³       ³       _null_file.py
+    ³   ³       ³       ³       _palettes.py
+    ³   ³       ³       ³       _pick.py
+    ³   ³       ³       ³       _ratio.py
+    ³   ³       ³       ³       _spinners.py
+    ³   ³       ³       ³       _stack.py
+    ³   ³       ³       ³       _timer.py
+    ³   ³       ³       ³       _win32_console.py
+    ³   ³       ³       ³       _windows.py
+    ³   ³       ³       ³       _windows_renderer.py
+    ³   ³       ³       ³       _wrap.py
+    ³   ³       ³       ³       __init__.py
+    ³   ³       ³       ³       __main__.py
+    ³   ³       ³       ³       
+    ³   ³       ³       ÃÄÄÄtomli
+    ³   ³       ³       ³       LICENSE
+    ³   ³       ³       ³       py.typed
+    ³   ³       ³       ³       _parser.py
+    ³   ³       ³       ³       _re.py
+    ³   ³       ³       ³       _types.py
+    ³   ³       ³       ³       __init__.py
+    ³   ³       ³       ³       
+    ³   ³       ³       ÃÄÄÄtomli_w
+    ³   ³       ³       ³       LICENSE
+    ³   ³       ³       ³       py.typed
+    ³   ³       ³       ³       _writer.py
+    ³   ³       ³       ³       __init__.py
+    ³   ³       ³       ³       
+    ³   ³       ³       ÃÄÄÄtruststore
+    ³   ³       ³       ³       LICENSE
+    ³   ³       ³       ³       py.typed
+    ³   ³       ³       ³       _api.py
+    ³   ³       ³       ³       _macos.py
+    ³   ³       ³       ³       _openssl.py
+    ³   ³       ³       ³       _ssl_constants.py
+    ³   ³       ³       ³       _windows.py
+    ³   ³       ³       ³       __init__.py
+    ³   ³       ³       ³       
+    ³   ³       ³       ÀÄÄÄurllib3
+    ³   ³       ³           ³   connection.py
+    ³   ³       ³           ³   connectionpool.py
+    ³   ³       ³           ³   exceptions.py
+    ³   ³       ³           ³   fields.py
+    ³   ³       ³           ³   filepost.py
+    ³   ³       ³           ³   LICENSE.txt
+    ³   ³       ³           ³   poolmanager.py
+    ³   ³       ³           ³   request.py
+    ³   ³       ³           ³   response.py
+    ³   ³       ³           ³   _collections.py
+    ³   ³       ³           ³   _version.py
+    ³   ³       ³           ³   __init__.py
+    ³   ³       ³           ³   
+    ³   ³       ³           ÃÄÄÄcontrib
+    ³   ³       ³           ³   ³   appengine.py
+    ³   ³       ³           ³   ³   ntlmpool.py
+    ³   ³       ³           ³   ³   pyopenssl.py
+    ³   ³       ³           ³   ³   securetransport.py
+    ³   ³       ³           ³   ³   socks.py
+    ³   ³       ³           ³   ³   _appengine_environ.py
+    ³   ³       ³           ³   ³   __init__.py
+    ³   ³       ³           ³   ³   
+    ³   ³       ³           ³   ÀÄÄÄ_securetransport
+    ³   ³       ³           ³           bindings.py
+    ³   ³       ³           ³           low_level.py
+    ³   ³       ³           ³           __init__.py
+    ³   ³       ³           ³           
+    ³   ³       ³           ÃÄÄÄpackages
+    ³   ³       ³           ³   ³   six.py
+    ³   ³       ³           ³   ³   __init__.py
+    ³   ³       ³           ³   ³   
+    ³   ³       ³           ³   ÀÄÄÄbackports
+    ³   ³       ³           ³           makefile.py
+    ³   ³       ³           ³           weakref_finalize.py
+    ³   ³       ³           ³           __init__.py
+    ³   ³       ³           ³           
+    ³   ³       ³           ÀÄÄÄutil
+    ³   ³       ³                   connection.py
+    ³   ³       ³                   proxy.py
+    ³   ³       ³                   queue.py
+    ³   ³       ³                   request.py
+    ³   ³       ³                   response.py
+    ³   ³       ³                   retry.py
+    ³   ³       ³                   ssltransport.py
+    ³   ³       ³                   ssl_.py
+    ³   ³       ³                   ssl_match_hostname.py
+    ³   ³       ³                   timeout.py
+    ³   ³       ³                   url.py
+    ³   ³       ³                   wait.py
+    ³   ³       ³                   __init__.py
+    ³   ³       ³                   
+    ³   ³       ÃÄÄÄpip-25.3.dist-info
+    ³   ³       ³   ³   entry_points.txt
+    ³   ³       ³   ³   INSTALLER
+    ³   ³       ³   ³   METADATA
+    ³   ³       ³   ³   RECORD
+    ³   ³       ³   ³   REQUESTED
+    ³   ³       ³   ³   WHEEL
+    ³   ³       ³   ³   
+    ³   ³       ³   ÀÄÄÄlicenses
+    ³   ³       ³       ³   AUTHORS.txt
+    ³   ³       ³       ³   LICENSE.txt
+    ³   ³       ³       ³   
+    ³   ³       ³       ÀÄÄÄsrc
+    ³   ³       ³           ÀÄÄÄpip
+    ³   ³       ³               ÀÄÄÄ_vendor
+    ³   ³       ³                   ÃÄÄÄcachecontrol
+    ³   ³       ³                   ³       LICENSE.txt
+    ³   ³       ³                   ³       
+    ³   ³       ³                   ÃÄÄÄcertifi
+    ³   ³       ³                   ³       LICENSE
+    ³   ³       ³                   ³       
+    ³   ³       ³                   ÃÄÄÄdependency_groups
+    ³   ³       ³                   ³       LICENSE.txt
+    ³   ³       ³                   ³       
+    ³   ³       ³                   ÃÄÄÄdistlib
+    ³   ³       ³                   ³       LICENSE.txt
+    ³   ³       ³                   ³       
+    ³   ³       ³                   ÃÄÄÄdistro
+    ³   ³       ³                   ³       LICENSE
+    ³   ³       ³                   ³       
+    ³   ³       ³                   ÃÄÄÄidna
+    ³   ³       ³                   ³       LICENSE.md
+    ³   ³       ³                   ³       
+    ³   ³       ³                   ÃÄÄÄmsgpack
+    ³   ³       ³                   ³       COPYING
+    ³   ³       ³                   ³       
+    ³   ³       ³                   ÃÄÄÄpackaging
+    ³   ³       ³                   ³       LICENSE
+    ³   ³       ³                   ³       LICENSE.APACHE
+    ³   ³       ³                   ³       LICENSE.BSD
+    ³   ³       ³                   ³       
+    ³   ³       ³                   ÃÄÄÄpkg_resources
+    ³   ³       ³                   ³       LICENSE
+    ³   ³       ³                   ³       
+    ³   ³       ³                   ÃÄÄÄplatformdirs
+    ³   ³       ³                   ³       LICENSE
+    ³   ³       ³                   ³       
+    ³   ³       ³                   ÃÄÄÄpygments
+    ³   ³       ³                   ³       LICENSE
+    ³   ³       ³                   ³       
+    ³   ³       ³                   ÃÄÄÄpyproject_hooks
+    ³   ³       ³                   ³       LICENSE
+    ³   ³       ³                   ³       
+    ³   ³       ³                   ÃÄÄÄrequests
+    ³   ³       ³                   ³       LICENSE
+    ³   ³       ³                   ³       
+    ³   ³       ³                   ÃÄÄÄresolvelib
+    ³   ³       ³                   ³       LICENSE
+    ³   ³       ³                   ³       
+    ³   ³       ³                   ÃÄÄÄrich
+    ³   ³       ³                   ³       LICENSE
+    ³   ³       ³                   ³       
+    ³   ³       ³                   ÃÄÄÄtomli
+    ³   ³       ³                   ³       LICENSE
+    ³   ³       ³                   ³       
+    ³   ³       ³                   ÃÄÄÄtomli_w
+    ³   ³       ³                   ³       LICENSE
+    ³   ³       ³                   ³       
+    ³   ³       ³                   ÃÄÄÄtruststore
+    ³   ³       ³                   ³       LICENSE
+    ³   ³       ³                   ³       
+    ³   ³       ³                   ÀÄÄÄurllib3
+    ³   ³       ³                           LICENSE.txt
+    ³   ³       ³                           
+    ³   ³       ÃÄÄÄpkg_resources
+    ³   ³       ³   ³   __init__.py
+    ³   ³       ³   ³   
+    ³   ³       ³   ÃÄÄÄextern
+    ³   ³       ³   ³       __init__.py
+    ³   ³       ³   ³       
+    ³   ³       ³   ÀÄÄÄ_vendor
+    ³   ³       ³       ³   appdirs.py
+    ³   ³       ³       ³   zipp.py
+    ³   ³       ³       ³   __init__.py
+    ³   ³       ³       ³   
+    ³   ³       ³       ÃÄÄÄimportlib_resources
+    ³   ³       ³       ³       abc.py
+    ³   ³       ³       ³       readers.py
+    ³   ³       ³       ³       simple.py
+    ³   ³       ³       ³       _adapters.py
+    ³   ³       ³       ³       _common.py
+    ³   ³       ³       ³       _compat.py
+    ³   ³       ³       ³       _itertools.py
+    ³   ³       ³       ³       _legacy.py
+    ³   ³       ³       ³       __init__.py
+    ³   ³       ³       ³       
+    ³   ³       ³       ÃÄÄÄjaraco
+    ³   ³       ³       ³   ³   context.py
+    ³   ³       ³       ³   ³   functools.py
+    ³   ³       ³       ³   ³   __init__.py
+    ³   ³       ³       ³   ³   
+    ³   ³       ³       ³   ÀÄÄÄtext
+    ³   ³       ³       ³           __init__.py
+    ³   ³       ³       ³           
+    ³   ³       ³       ÃÄÄÄmore_itertools
+    ³   ³       ³       ³       more.py
+    ³   ³       ³       ³       recipes.py
+    ³   ³       ³       ³       __init__.py
+    ³   ³       ³       ³       
+    ³   ³       ³       ÃÄÄÄpackaging
+    ³   ³       ³       ³       markers.py
+    ³   ³       ³       ³       requirements.py
+    ³   ³       ³       ³       specifiers.py
+    ³   ³       ³       ³       tags.py
+    ³   ³       ³       ³       utils.py
+    ³   ³       ³       ³       version.py
+    ³   ³       ³       ³       _manylinux.py
+    ³   ³       ³       ³       _musllinux.py
+    ³   ³       ³       ³       _structures.py
+    ³   ³       ³       ³       __about__.py
+    ³   ³       ³       ³       __init__.py
+    ³   ³       ³       ³       
+    ³   ³       ³       ÀÄÄÄpyparsing
+    ³   ³       ³           ³   actions.py
+    ³   ³       ³           ³   common.py
+    ³   ³       ³           ³   core.py
+    ³   ³       ³           ³   exceptions.py
+    ³   ³       ³           ³   helpers.py
+    ³   ³       ³           ³   results.py
+    ³   ³       ³           ³   testing.py
+    ³   ³       ³           ³   unicode.py
+    ³   ³       ³           ³   util.py
+    ³   ³       ³           ³   __init__.py
+    ³   ³       ³           ³   
+    ³   ³       ³           ÀÄÄÄdiagram
+    ³   ³       ³                   __init__.py
+    ³   ³       ³                   
+    ³   ³       ÃÄÄÄpycparser
+    ³   ³       ³   ³   ast_transforms.py
+    ³   ³       ³   ³   c_ast.py
+    ³   ³       ³   ³   c_generator.py
+    ³   ³       ³   ³   c_lexer.py
+    ³   ³       ³   ³   c_parser.py
+    ³   ³       ³   ³   lextab.py
+    ³   ³       ³   ³   plyparser.py
+    ³   ³       ³   ³   yacctab.py
+    ³   ³       ³   ³   _ast_gen.py
+    ³   ³       ³   ³   _build_tables.py
+    ³   ³       ³   ³   _c_ast.cfg
+    ³   ³       ³   ³   __init__.py
+    ³   ³       ³   ³   
+    ³   ³       ³   ÀÄÄÄply
+    ³   ³       ³           cpp.py
+    ³   ³       ³           ctokens.py
+    ³   ³       ³           lex.py
+    ³   ³       ³           yacc.py
+    ³   ³       ³           ygen.py
+    ³   ³       ³           __init__.py
+    ³   ³       ³           
+    ³   ³       ÃÄÄÄpycparser-2.23.dist-info
+    ³   ³       ³       INSTALLER
+    ³   ³       ³       LICENSE
+    ³   ³       ³       METADATA
+    ³   ³       ³       RECORD
+    ³   ³       ³       top_level.txt
+    ³   ³       ³       WHEEL
+    ³   ³       ³       
+    ³   ³       ÃÄÄÄpydantic
+    ³   ³       ³   ³   aliases.py
+    ³   ³       ³   ³   alias_generators.py
+    ³   ³       ³   ³   annotated_handlers.py
+    ³   ³       ³   ³   class_validators.py
+    ³   ³       ³   ³   color.py
+    ³   ³       ³   ³   config.py
+    ³   ³       ³   ³   dataclasses.py
+    ³   ³       ³   ³   datetime_parse.py
+    ³   ³       ³   ³   decorator.py
+    ³   ³       ³   ³   env_settings.py
+    ³   ³       ³   ³   errors.py
+    ³   ³       ³   ³   error_wrappers.py
+    ³   ³       ³   ³   fields.py
+    ³   ³       ³   ³   functional_serializers.py
+    ³   ³       ³   ³   functional_validators.py
+    ³   ³       ³   ³   generics.py
+    ³   ³       ³   ³   json.py
+    ³   ³       ³   ³   json_schema.py
+    ³   ³       ³   ³   main.py
+    ³   ³       ³   ³   mypy.py
+    ³   ³       ³   ³   networks.py
+    ³   ³       ³   ³   parse.py
+    ³   ³       ³   ³   py.typed
+    ³   ³       ³   ³   root_model.py
+    ³   ³       ³   ³   schema.py
+    ³   ³       ³   ³   tools.py
+    ³   ³       ³   ³   types.py
+    ³   ³       ³   ³   type_adapter.py
+    ³   ³       ³   ³   typing.py
+    ³   ³       ³   ³   utils.py
+    ³   ³       ³   ³   validate_call_decorator.py
+    ³   ³       ³   ³   validators.py
+    ³   ³       ³   ³   version.py
+    ³   ³       ³   ³   warnings.py
+    ³   ³       ³   ³   _migration.py
+    ³   ³       ³   ³   __init__.py
+    ³   ³       ³   ³   
+    ³   ³       ³   ÃÄÄÄdeprecated
+    ³   ³       ³   ³       class_validators.py
+    ³   ³       ³   ³       config.py
+    ³   ³       ³   ³       copy_internals.py
+    ³   ³       ³   ³       decorator.py
+    ³   ³       ³   ³       json.py
+    ³   ³       ³   ³       parse.py
+    ³   ³       ³   ³       tools.py
+    ³   ³       ³   ³       __init__.py
+    ³   ³       ³   ³       
+    ³   ³       ³   ÃÄÄÄexperimental
+    ³   ³       ³   ³       arguments_schema.py
+    ³   ³       ³   ³       missing_sentinel.py
+    ³   ³       ³   ³       pipeline.py
+    ³   ³       ³   ³       __init__.py
+    ³   ³       ³   ³       
+    ³   ³       ³   ÃÄÄÄplugin
+    ³   ³       ³   ³       _loader.py
+    ³   ³       ³   ³       _schema_validator.py
+    ³   ³       ³   ³       __init__.py
+    ³   ³       ³   ³       
+    ³   ³       ³   ÃÄÄÄv1
+    ³   ³       ³   ³       annotated_types.py
+    ³   ³       ³   ³       class_validators.py
+    ³   ³       ³   ³       color.py
+    ³   ³       ³   ³       config.py
+    ³   ³       ³   ³       dataclasses.py
+    ³   ³       ³   ³       datetime_parse.py
+    ³   ³       ³   ³       decorator.py
+    ³   ³       ³   ³       env_settings.py
+    ³   ³       ³   ³       errors.py
+    ³   ³       ³   ³       error_wrappers.py
+    ³   ³       ³   ³       fields.py
+    ³   ³       ³   ³       generics.py
+    ³   ³       ³   ³       json.py
+    ³   ³       ³   ³       main.py
+    ³   ³       ³   ³       mypy.py
+    ³   ³       ³   ³       networks.py
+    ³   ³       ³   ³       parse.py
+    ³   ³       ³   ³       py.typed
+    ³   ³       ³   ³       schema.py
+    ³   ³       ³   ³       tools.py
+    ³   ³       ³   ³       types.py
+    ³   ³       ³   ³       typing.py
+    ³   ³       ³   ³       utils.py
+    ³   ³       ³   ³       validators.py
+    ³   ³       ³   ³       version.py
+    ³   ³       ³   ³       _hypothesis_plugin.py
+    ³   ³       ³   ³       __init__.py
+    ³   ³       ³   ³       
+    ³   ³       ³   ÀÄÄÄ_internal
+    ³   ³       ³           _config.py
+    ³   ³       ³           _core_metadata.py
+    ³   ³       ³           _core_utils.py
+    ³   ³       ³           _dataclasses.py
+    ³   ³       ³           _decorators.py
+    ³   ³       ³           _decorators_v1.py
+    ³   ³       ³           _discriminated_union.py
+    ³   ³       ³           _docs_extraction.py
+    ³   ³       ³           _fields.py
+    ³   ³       ³           _forward_ref.py
+    ³   ³       ³           _generate_schema.py
+    ³   ³       ³           _generics.py
+    ³   ³       ³           _git.py
+    ³   ³       ³           _import_utils.py
+    ³   ³       ³           _internal_dataclass.py
+    ³   ³       ³           _known_annotated_metadata.py
+    ³   ³       ³           _mock_val_ser.py
+    ³   ³       ³           _model_construction.py
+    ³   ³       ³           _namespace_utils.py
+    ³   ³       ³           _repr.py
+    ³   ³       ³           _schema_gather.py
+    ³   ³       ³           _schema_generation_shared.py
+    ³   ³       ³           _serializers.py
+    ³   ³       ³           _signature.py
+    ³   ³       ³           _typing_extra.py
+    ³   ³       ³           _utils.py
+    ³   ³       ³           _validate_call.py
+    ³   ³       ³           _validators.py
+    ³   ³       ³           __init__.py
+    ³   ³       ³           
+    ³   ³       ÃÄÄÄpydantic-2.12.4.dist-info
+    ³   ³       ³   ³   INSTALLER
+    ³   ³       ³   ³   METADATA
+    ³   ³       ³   ³   RECORD
+    ³   ³       ³   ³   REQUESTED
+    ³   ³       ³   ³   WHEEL
+    ³   ³       ³   ³   
+    ³   ³       ³   ÀÄÄÄlicenses
+    ³   ³       ³           LICENSE
+    ³   ³       ³           
+    ³   ³       ÃÄÄÄpydantic_core
+    ³   ³       ³       core_schema.py
+    ³   ³       ³       py.typed
+    ³   ³       ³       _pydantic_core.cp311-win_amd64.pyd
+    ³   ³       ³       _pydantic_core.pyi
+    ³   ³       ³       __init__.py
+    ³   ³       ³       
+    ³   ³       ÃÄÄÄpydantic_core-2.41.5.dist-info
+    ³   ³       ³   ³   INSTALLER
+    ³   ³       ³   ³   METADATA
+    ³   ³       ³   ³   RECORD
+    ³   ³       ³   ³   WHEEL
+    ³   ³       ³   ³   
+    ³   ³       ³   ÀÄÄÄlicenses
+    ³   ³       ³           LICENSE
+    ³   ³       ³           
+    ³   ³       ÃÄÄÄsetuptools
+    ³   ³       ³   ³   archive_util.py
+    ³   ³       ³   ³   build_meta.py
+    ³   ³       ³   ³   cli-32.exe
+    ³   ³       ³   ³   cli-64.exe
+    ³   ³       ³   ³   cli-arm64.exe
+    ³   ³       ³   ³   cli.exe
+    ³   ³       ³   ³   depends.py
+    ³   ³       ³   ³   dep_util.py
+    ³   ³       ³   ³   discovery.py
+    ³   ³       ³   ³   dist.py
+    ³   ³       ³   ³   errors.py
+    ³   ³       ³   ³   extension.py
+    ³   ³       ³   ³   glob.py
+    ³   ³       ³   ³   gui-32.exe
+    ³   ³       ³   ³   gui-64.exe
+    ³   ³       ³   ³   gui-arm64.exe
+    ³   ³       ³   ³   gui.exe
+    ³   ³       ³   ³   installer.py
+    ³   ³       ³   ³   launch.py
+    ³   ³       ³   ³   logging.py
+    ³   ³       ³   ³   monkey.py
+    ³   ³       ³   ³   msvc.py
+    ³   ³       ³   ³   namespaces.py
+    ³   ³       ³   ³   package_index.py
+    ³   ³       ³   ³   py34compat.py
+    ³   ³       ³   ³   sandbox.py
+    ³   ³       ³   ³   script (dev).tmpl
+    ³   ³       ³   ³   script.tmpl
+    ³   ³       ³   ³   unicode_utils.py
+    ³   ³       ³   ³   version.py
+    ³   ³       ³   ³   wheel.py
+    ³   ³       ³   ³   windows_support.py
+    ³   ³       ³   ³   _deprecation_warning.py
+    ³   ³       ³   ³   _entry_points.py
+    ³   ³       ³   ³   _imp.py
+    ³   ³       ³   ³   _importlib.py
+    ³   ³       ³   ³   _itertools.py
+    ³   ³       ³   ³   _path.py
+    ³   ³       ³   ³   _reqs.py
+    ³   ³       ³   ³   __init__.py
+    ³   ³       ³   ³   
+    ³   ³       ³   ÃÄÄÄcommand
+    ³   ³       ³   ³       alias.py
+    ³   ³       ³   ³       bdist_egg.py
+    ³   ³       ³   ³       bdist_rpm.py
+    ³   ³       ³   ³       build.py
+    ³   ³       ³   ³       build_clib.py
+    ³   ³       ³   ³       build_ext.py
+    ³   ³       ³   ³       build_py.py
+    ³   ³       ³   ³       develop.py
+    ³   ³       ³   ³       dist_info.py
+    ³   ³       ³   ³       easy_install.py
+    ³   ³       ³   ³       editable_wheel.py
+    ³   ³       ³   ³       egg_info.py
+    ³   ³       ³   ³       install.py
+    ³   ³       ³   ³       install_egg_info.py
+    ³   ³       ³   ³       install_lib.py
+    ³   ³       ³   ³       install_scripts.py
+    ³   ³       ³   ³       launcher manifest.xml
+    ³   ³       ³   ³       py36compat.py
+    ³   ³       ³   ³       register.py
+    ³   ³       ³   ³       rotate.py
+    ³   ³       ³   ³       saveopts.py
+    ³   ³       ³   ³       sdist.py
+    ³   ³       ³   ³       setopt.py
+    ³   ³       ³   ³       test.py
+    ³   ³       ³   ³       upload.py
+    ³   ³       ³   ³       upload_docs.py
+    ³   ³       ³   ³       __init__.py
+    ³   ³       ³   ³       
+    ³   ³       ³   ÃÄÄÄconfig
+    ³   ³       ³   ³   ³   expand.py
+    ³   ³       ³   ³   ³   pyprojecttoml.py
+    ³   ³       ³   ³   ³   setupcfg.py
+    ³   ³       ³   ³   ³   _apply_pyprojecttoml.py
+    ³   ³       ³   ³   ³   __init__.py
+    ³   ³       ³   ³   ³   
+    ³   ³       ³   ³   ÀÄÄÄ_validate_pyproject
+    ³   ³       ³   ³           error_reporting.py
+    ³   ³       ³   ³           extra_validations.py
+    ³   ³       ³   ³           fastjsonschema_exceptions.py
+    ³   ³       ³   ³           fastjsonschema_validations.py
+    ³   ³       ³   ³           formats.py
+    ³   ³       ³   ³           __init__.py
+    ³   ³       ³   ³           
+    ³   ³       ³   ÃÄÄÄextern
+    ³   ³       ³   ³       __init__.py
+    ³   ³       ³   ³       
+    ³   ³       ³   ÃÄÄÄ_distutils
+    ³   ³       ³   ³   ³   archive_util.py
+    ³   ³       ³   ³   ³   bcppcompiler.py
+    ³   ³       ³   ³   ³   ccompiler.py
+    ³   ³       ³   ³   ³   cmd.py
+    ³   ³       ³   ³   ³   config.py
+    ³   ³       ³   ³   ³   core.py
+    ³   ³       ³   ³   ³   cygwinccompiler.py
+    ³   ³       ³   ³   ³   debug.py
+    ³   ³       ³   ³   ³   dep_util.py
+    ³   ³       ³   ³   ³   dir_util.py
+    ³   ³       ³   ³   ³   dist.py
+    ³   ³       ³   ³   ³   errors.py
+    ³   ³       ³   ³   ³   extension.py
+    ³   ³       ³   ³   ³   fancy_getopt.py
+    ³   ³       ³   ³   ³   filelist.py
+    ³   ³       ³   ³   ³   file_util.py
+    ³   ³       ³   ³   ³   log.py
+    ³   ³       ³   ³   ³   msvc9compiler.py
+    ³   ³       ³   ³   ³   msvccompiler.py
+    ³   ³       ³   ³   ³   py38compat.py
+    ³   ³       ³   ³   ³   py39compat.py
+    ³   ³       ³   ³   ³   spawn.py
+    ³   ³       ³   ³   ³   sysconfig.py
+    ³   ³       ³   ³   ³   text_file.py
+    ³   ³       ³   ³   ³   unixccompiler.py
+    ³   ³       ³   ³   ³   util.py
+    ³   ³       ³   ³   ³   version.py
+    ³   ³       ³   ³   ³   versionpredicate.py
+    ³   ³       ³   ³   ³   _collections.py
+    ³   ³       ³   ³   ³   _functools.py
+    ³   ³       ³   ³   ³   _macos_compat.py
+    ³   ³       ³   ³   ³   _msvccompiler.py
+    ³   ³       ³   ³   ³   __init__.py
+    ³   ³       ³   ³   ³   
+    ³   ³       ³   ³   ÀÄÄÄcommand
+    ³   ³       ³   ³           bdist.py
+    ³   ³       ³   ³           bdist_dumb.py
+    ³   ³       ³   ³           bdist_rpm.py
+    ³   ³       ³   ³           build.py
+    ³   ³       ³   ³           build_clib.py
+    ³   ³       ³   ³           build_ext.py
+    ³   ³       ³   ³           build_py.py
+    ³   ³       ³   ³           build_scripts.py
+    ³   ³       ³   ³           check.py
+    ³   ³       ³   ³           clean.py
+    ³   ³       ³   ³           config.py
+    ³   ³       ³   ³           install.py
+    ³   ³       ³   ³           install_data.py
+    ³   ³       ³   ³           install_egg_info.py
+    ³   ³       ³   ³           install_headers.py
+    ³   ³       ³   ³           install_lib.py
+    ³   ³       ³   ³           install_scripts.py
+    ³   ³       ³   ³           py37compat.py
+    ³   ³       ³   ³           register.py
+    ³   ³       ³   ³           sdist.py
+    ³   ³       ³   ³           upload.py
+    ³   ³       ³   ³           _framework_compat.py
+    ³   ³       ³   ³           __init__.py
+    ³   ³       ³   ³           
+    ³   ³       ³   ÀÄÄÄ_vendor
+    ³   ³       ³       ³   ordered_set.py
+    ³   ³       ³       ³   typing_extensions.py
+    ³   ³       ³       ³   zipp.py
+    ³   ³       ³       ³   __init__.py
+    ³   ³       ³       ³   
+    ³   ³       ³       ÃÄÄÄimportlib_metadata
+    ³   ³       ³       ³       _adapters.py
+    ³   ³       ³       ³       _collections.py
+    ³   ³       ³       ³       _compat.py
+    ³   ³       ³       ³       _functools.py
+    ³   ³       ³       ³       _itertools.py
+    ³   ³       ³       ³       _meta.py
+    ³   ³       ³       ³       _text.py
+    ³   ³       ³       ³       __init__.py
+    ³   ³       ³       ³       
+    ³   ³       ³       ÃÄÄÄimportlib_resources
+    ³   ³       ³       ³       abc.py
+    ³   ³       ³       ³       readers.py
+    ³   ³       ³       ³       simple.py
+    ³   ³       ³       ³       _adapters.py
+    ³   ³       ³       ³       _common.py
+    ³   ³       ³       ³       _compat.py
+    ³   ³       ³       ³       _itertools.py
+    ³   ³       ³       ³       _legacy.py
+    ³   ³       ³       ³       __init__.py
+    ³   ³       ³       ³       
+    ³   ³       ³       ÃÄÄÄjaraco
+    ³   ³       ³       ³   ³   context.py
+    ³   ³       ³       ³   ³   functools.py
+    ³   ³       ³       ³   ³   __init__.py
+    ³   ³       ³       ³   ³   
+    ³   ³       ³       ³   ÀÄÄÄtext
+    ³   ³       ³       ³           __init__.py
+    ³   ³       ³       ³           
+    ³   ³       ³       ÃÄÄÄmore_itertools
+    ³   ³       ³       ³       more.py
+    ³   ³       ³       ³       recipes.py
+    ³   ³       ³       ³       __init__.py
+    ³   ³       ³       ³       
+    ³   ³       ³       ÃÄÄÄpackaging
+    ³   ³       ³       ³       markers.py
+    ³   ³       ³       ³       requirements.py
+    ³   ³       ³       ³       specifiers.py
+    ³   ³       ³       ³       tags.py
+    ³   ³       ³       ³       utils.py
+    ³   ³       ³       ³       version.py
+    ³   ³       ³       ³       _manylinux.py
+    ³   ³       ³       ³       _musllinux.py
+    ³   ³       ³       ³       _structures.py
+    ³   ³       ³       ³       __about__.py
+    ³   ³       ³       ³       __init__.py
+    ³   ³       ³       ³       
+    ³   ³       ³       ÃÄÄÄpyparsing
+    ³   ³       ³       ³   ³   actions.py
+    ³   ³       ³       ³   ³   common.py
+    ³   ³       ³       ³   ³   core.py
+    ³   ³       ³       ³   ³   exceptions.py
+    ³   ³       ³       ³   ³   helpers.py
+    ³   ³       ³       ³   ³   results.py
+    ³   ³       ³       ³   ³   testing.py
+    ³   ³       ³       ³   ³   unicode.py
+    ³   ³       ³       ³   ³   util.py
+    ³   ³       ³       ³   ³   __init__.py
+    ³   ³       ³       ³   ³   
+    ³   ³       ³       ³   ÀÄÄÄdiagram
+    ³   ³       ³       ³           __init__.py
+    ³   ³       ³       ³           
+    ³   ³       ³       ÀÄÄÄtomli
+    ³   ³       ³               _parser.py
+    ³   ³       ³               _re.py
+    ³   ³       ³               _types.py
+    ³   ³       ³               __init__.py
+    ³   ³       ³               
+    ³   ³       ÃÄÄÄsetuptools-65.5.0.dist-info
+    ³   ³       ³       entry_points.txt
+    ³   ³       ³       INSTALLER
+    ³   ³       ³       LICENSE
+    ³   ³       ³       METADATA
+    ³   ³       ³       RECORD
+    ³   ³       ³       REQUESTED
+    ³   ³       ³       top_level.txt
+    ³   ³       ³       WHEEL
+    ³   ³       ³       
+    ³   ³       ÃÄÄÄtyping_extensions-4.15.0.dist-info
+    ³   ³       ³   ³   INSTALLER
+    ³   ³       ³   ³   METADATA
+    ³   ³       ³   ³   RECORD
+    ³   ³       ³   ³   WHEEL
+    ³   ³       ³   ³   
+    ³   ³       ³   ÀÄÄÄlicenses
+    ³   ³       ³           LICENSE
+    ³   ³       ³           
+    ³   ³       ÃÄÄÄtyping_inspection
+    ³   ³       ³       introspection.py
+    ³   ³       ³       py.typed
+    ³   ³       ³       typing_objects.py
+    ³   ³       ³       typing_objects.pyi
+    ³   ³       ³       __init__.py
+    ³   ³       ³       
+    ³   ³       ÃÄÄÄtyping_inspection-0.4.2.dist-info
+    ³   ³       ³   ³   INSTALLER
+    ³   ³       ³   ³   METADATA
+    ³   ³       ³   ³   RECORD
+    ³   ³       ³   ³   WHEEL
+    ³   ³       ³   ³   
+    ³   ³       ³   ÀÄÄÄlicenses
+    ³   ³       ³           LICENSE
+    ³   ³       ³           
+    ³   ³       ÀÄÄÄ_distutils_hack
+    ³   ³               override.py
+    ³   ³               __init__.py
+    ³   ³               
+    ³   ÀÄÄÄScripts
+    ³           activate
+    ³           activate.bat
+    ³           Activate.ps1
+    ³           deactivate.bat
+    ³           f2py.exe
+    ³           numpy-config.exe
+    ³           pip.exe
+    ³           pip3.11.exe
+    ³           pip3.exe
+    ³           python.exe
+    ³           pythonw.exe
+    ³           
+    ÀÄÄÄvault_system
+        ³   main.py
+        ³   philosophical_seeds.py
+        ³   requirements.txt
+        ³   
+        ÃÄÄÄapriori_posterior
+        ³       bayesian_engine.py
+        ³       recursive_apriori.py
+        ³       __init__.py
+        ³       
+        ÃÄÄÄassociative_memory
+        ³       memory_matrix.py
+        ³       __init__.py
+        ³       
+        ÃÄÄÄdecision_apriori
+        ³       decision_engine.py
+        ³       __init__.py
+        ³       
+        ÃÄÄÄglyph_trace
+        ³       glyph_generator.py
+        ³       __init__.py
+        ³       
+        ÃÄÄÄISS_bridge
+        ³       iss_connector.py
+        ³       __init__.py
+        ³       
+        ÃÄÄÄmodule_blueprints
+        ³       blueprint_manager.py
+        ³       __init__.py
+        ³       
+        ÃÄÄÄtelemetry_stream
+        ³       telemetry_manager.py
+        ³       __init__.py
+        ³       
+        ÃÄÄÄvault_core
+        ³       cryptographic_vault.py
+        ³       __init__.py
+        ³       
+        ÀÄÄÄvault_gate_filter
+                gatekeeper.py
+                __init__.py
+                

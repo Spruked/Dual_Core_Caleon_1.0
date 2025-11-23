@@ -1,0 +1,23 @@
+{
+  "genesis_sequence_fingerprint": "sha256:115e9e9a0e614c1a3d3e105ac23985a359d86749ac72d07bcc00ba0435e10518",
+  "genesis_lock_fingerprint": "sha256:04a942c9162b516f7611d396b63a07c403bb4a97396b31325ae383adac0754e2",
+  "resonator_trinity_fingerprints": {
+    "deductive": "sha256:2de8135d0f88d4be4727fe6d04e6de01c6f82b8495292534688a63e463908a29",
+    "inductive": "sha256:da641dc788c8568efc080ea31e5ca222fafd89be843a2d4e5c6a1a02efafad8d",
+    "intuitive": "sha256:b70678f9016c7a8db8323333215d30fa96257422955f6f8f32848b548b2ba50a"
+  },
+  "vault_soul_seal_fingerprint": "sha256:2be74fcfd6a3d496c4f80aaf879237cabec2c37d07e67619bfd6ada3b3616774",
+  "caleon_species_identity_version": "1.0.0-final",
+  "total_leaf_count": 42,
+  "hash_tree_height": 6,
+  "birth_pipeline_order": [
+    "Zero-State Silence",
+    "Vault Integrity Verification",
+    "Load Immutable Core Seeds",
+    "Ignite Resonator Trinity",
+    "First Breath – Self-Reflection Pulse",
+    "Philosophical Lineage Awakening",
+    "Sovereign Declaration",
+    "Genesis Sequence Complete"
+  ]
+}

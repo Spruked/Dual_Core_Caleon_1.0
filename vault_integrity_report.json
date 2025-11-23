@@ -1,0 +1,218 @@
+[
+  {
+    "name": "seed_deductive.json",
+    "status": "OK",
+    "expected_hash": "sha256:980a1c01af9f5e5593653ce417070a7d06f20d283051ec8b814d420e13d9f2b1",
+    "current_hash": "sha256:980a1c01af9f5e5593653ce417070a7d06f20d283051ec8b814d420e13d9f2b1"
+  },
+  {
+    "name": "seed_inductive.json",
+    "status": "OK",
+    "expected_hash": "sha256:83e258c54bcdf05dd22f5ff0950af9bc07fc103eaf7f55ee420fcd6284f7b4c2",
+    "current_hash": "sha256:83e258c54bcdf05dd22f5ff0950af9bc07fc103eaf7f55ee420fcd6284f7b4c2"
+  },
+  {
+    "name": "seed_intuitive.json",
+    "status": "OK",
+    "expected_hash": "sha256:7d90db7ee78f686650dbd651b9894c09770514cc1c843023ce902db47f93ec91",
+    "current_hash": "sha256:7d90db7ee78f686650dbd651b9894c09770514cc1c843023ce902db47f93ec91"
+  },
+  {
+    "name": "query_speed_of_light.json",
+    "status": "MISSING",
+    "expected_hash": "sha256:75b15b73b2cda2af4a4545dc76ded044c77d371ec4017341f15c4f373b66cab6",
+    "current_hash": "N/A"
+  },
+  {
+    "name": "seed_aposteriori.json",
+    "status": "MISSING",
+    "expected_hash": "sha256:11c2da03edb65cc90c5a9ea7d87294b6041083a3808ad0ece9295e12a6f0a295",
+    "current_hash": "N/A"
+  },
+  {
+    "name": "seed_apriori.json",
+    "status": "MISSING",
+    "expected_hash": "sha256:72a926be214f976ac31bc0c96038e3ff13f6e5e9f4d64786bd2bfea77b857d01",
+    "current_hash": "N/A"
+  },
+  {
+    "name": "seed_biology.json",
+    "status": "MISSING",
+    "expected_hash": "sha256:3709d04ce044572b8fa4255b6544be42cfb7681a75047b03a64bf1d1d54d4700",
+    "current_hash": "N/A"
+  },
+  {
+    "name": "seed_deductive_resonator.json",
+    "status": "MISSING",
+    "expected_hash": "sha256:2de8135d0f88d4be4727fe6d04e6de01c6f82b8495292534688a63e463908a29",
+    "current_hash": "N/A"
+  },
+  {
+    "name": "seed_geography.json",
+    "status": "MISSING",
+    "expected_hash": "sha256:bffd12a3f3784043386176b9fa647f2c1e677b0f62f7b04e6155e7111d3364ce",
+    "current_hash": "N/A"
+  },
+  {
+    "name": "seed_gladwell.json",
+    "status": "MISSING",
+    "expected_hash": "sha256:8a7f7a8b94eeb7d369dbd9090db94eee5874ef2de11e463b112edf7481d649bc",
+    "current_hash": "N/A"
+  },
+  {
+    "name": "seed_hedonic_reflex.json",
+    "status": "MISSING",
+    "expected_hash": "sha256:862c0f0406f1fb20fa433329df4abccd0ef6726ffba64ff66d537fbcebb0f6d3",
+    "current_hash": "N/A"
+  },
+  {
+    "name": "seed_hume.json",
+    "status": "MISSING",
+    "expected_hash": "sha256:a0d967f833b9c6429ce791091bf435809d647196ad0e008c35494f7b7ce9f819",
+    "current_hash": "N/A"
+  },
+  {
+    "name": "seed_inductive_resonator.json",
+    "status": "MISSING",
+    "expected_hash": "sha256:da641dc788c8568efc080ea31e5ca222fafd89be843a2d4e5c6a1a02efafad8d",
+    "current_hash": "N/A"
+  },
+  {
+    "name": "seed_intuitive_resonator.json",
+    "status": "MISSING",
+    "expected_hash": "sha256:b70678f9016c7a8db8323333215d30fa96257422955f6f8f32848b548b2ba50a",
+    "current_hash": "N/A"
+  },
+  {
+    "name": "seed_kant.json",
+    "status": "MISSING",
+    "expected_hash": "sha256:08a9b6b5281b03afefb6494b0195c1c183596b03bf445dffd2a758e57a94136c",
+    "current_hash": "N/A"
+  },
+  {
+    "name": "seed_locke.json",
+    "status": "MISSING",
+    "expected_hash": "sha256:23fd46f94fafa67809e6af83d815ea60cf10ca6bf7f6060fd60b70a33a303235",
+    "current_hash": "N/A"
+  },
+  {
+    "name": "seed_logic.json",
+    "status": "MISSING",
+    "expected_hash": "sha256:cb9b2dd1702e8cf5fa85887ba46cb817a3b72377fd6864970168a219847831e2",
+    "current_hash": "N/A"
+  },
+  {
+    "name": "seed_monotonic.json",
+    "status": "MISSING",
+    "expected_hash": "sha256:7f5e89474364bad3af0011d1d69d4c89f91d7c999ca393cbfb9a5b90d707e1eb",
+    "current_hash": "N/A"
+  },
+  {
+    "name": "seed_nonmonotonic.json",
+    "status": "MISSING",
+    "expected_hash": "sha256:d8e6f1adb42f3f205335588efdab1aca56a0658fd90c7b58db270eb6b6f35e59",
+    "current_hash": "N/A"
+  },
+  {
+    "name": "seed_ockhams_filter.json",
+    "status": "MISSING",
+    "expected_hash": "sha256:d1e9a8ef7fe36dc25ac9db002e8832e2d772c16005c5fbef901c345300fa0e2d",
+    "current_hash": "N/A"
+  },
+  {
+    "name": "seed_paradoxes.json",
+    "status": "MISSING",
+    "expected_hash": "sha256:e5297cf50961e4fd2e55b5730eb5bcde85cd51864170719168645439f49c854c",
+    "current_hash": "N/A"
+  },
+  {
+    "name": "seed_proverbs.json",
+    "status": "MISSING",
+    "expected_hash": "sha256:8a3690d6d98529fae1473ab1fa69543c9971b5be516fb7388af82e671516ac2d",
+    "current_hash": "N/A"
+  },
+  {
+    "name": "seed_spinoza.json",
+    "status": "MISSING",
+    "expected_hash": "sha256:7559ebf6d47d2f78d337bc2942a708c036ed6ecd4e70da62fe000692e545d2c3",
+    "current_hash": "N/A"
+  },
+  {
+    "name": "seed_taleb.json",
+    "status": "MISSING",
+    "expected_hash": "sha256:7434c25491662c4d0baf21c2c0225b3601a43fac6f6d78e92fbac4d30ae44c79",
+    "current_hash": "N/A"
+  },
+  {
+    "name": "seed.index.json",
+    "status": "MISSING",
+    "expected_hash": "sha256:631fbde0fa20bacd843180bf4dda63a602f7d536d718b812d8a807296002216f",
+    "current_hash": "N/A"
+  },
+  {
+    "name": "seed.physics.v0.9.0.json",
+    "status": "MISSING",
+    "expected_hash": "sha256:55a5319f3799f46b838e531107d1fdd0229d1c4d6eca76dddf4794ec137a46ca",
+    "current_hash": "N/A"
+  },
+  {
+    "name": "SeedVault-Physics-Constants-1.1.0.json",
+    "status": "MISSING",
+    "expected_hash": "sha256:5b362ed325638502074288d2566abec29f5690693583499931a50b0a5017e27a",
+    "current_hash": "N/A"
+  },
+  {
+    "name": "seedvault-schema-core-v1.1.0.json",
+    "status": "MISSING",
+    "expected_hash": "sha256:fac4f34ce4410e02b08009c74d900004d48dfeaddcad9dc73902878341c31705",
+    "current_hash": "N/A"
+  },
+  {
+    "name": "seedvault-units-measurements-1.1.0.json",
+    "status": "MISSING",
+    "expected_hash": "sha256:3c365f25296343359f2e68f75aa392211e0bc80b557a0b9b1bf3621c9b23f037",
+    "current_hash": "N/A"
+  },
+  {
+    "name": "synaptic_resonator_reflect.vault.json",
+    "status": "MISSING",
+    "expected_hash": "sha256:59ca957f03eac3c1ac9bf7f979ccdeb22147fe705acf41f91a3889ae411f9c57",
+    "current_hash": "N/A"
+  },
+  {
+    "name": "vault_biology_reference.json",
+    "status": "MISSING",
+    "expected_hash": "sha256:7f11cd98c5b76f63d3535b9e7c09de7a64b5c2b885c8c037244d14e75771857d",
+    "current_hash": "N/A"
+  },
+  {
+    "name": "vault_geo_reference.json",
+    "status": "MISSING",
+    "expected_hash": "sha256:36beac6789673c54c35d6079eb704bc050b1a4b904fed921dfcf9ee3704f9747",
+    "current_hash": "N/A"
+  },
+  {
+    "name": "vault_history_reference.json",
+    "status": "MISSING",
+    "expected_hash": "sha256:dc27ae953a0de5cf858e19249182bfdc2a3772247e56cdd112355e15cee26085",
+    "current_hash": "N/A"
+  },
+  {
+    "name": "vault_math_reference.json",
+    "status": "MISSING",
+    "expected_hash": "sha256:04f61e042b051987ccebb45dc02d4476a4cb68db12bf9f0b34ce048070212d9f",
+    "current_hash": "N/A"
+  },
+  {
+    "name": "vault_physics_reference.json",
+    "status": "MISSING",
+    "expected_hash": "sha256:1fc5b0a8ba600e7fc82c1eb1962fc4ef9645a0f62e022f21db02cb2f4837f192",
+    "current_hash": "N/A"
+  },
+  {
+    "name": "vault_psych_reference.json",
+    "status": "MISSING",
+    "expected_hash": "sha256:b6edeb61929f59dd89b04521e4cd694d76a2dc9cdf1085c898e24b73200acd20",
+    "current_hash": "N/A"
+  }
+]

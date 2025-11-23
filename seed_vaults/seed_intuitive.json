@@ -1,0 +1,122 @@
+{
+  "reasoning_type": "Intuitive reasoning",
+  "definition": "Intuitive reasoning is a fast, automatic, and largely subconscious form of cognition that produces judgments, decisions, or insights without deliberate analytical steps. Often described as a 'gut feeling,' 'hunch,' or 'sixth sense,' it relies on pattern recognition built from prior experience, emotional signals, and compressed knowledge that the conscious mind cannot fully articulate.",
+
+  "alternative_names": [
+    "Intuition",
+    "System 1 thinking (Kahneman)",
+    "Heuristic reasoning",
+    "Tacit knowledge processing",
+    "Recognition-primed decision making (RPD)"
+  ],
+
+  "how_it_works": {
+    "core_mechanism": "The brain rapidly matches the current situation against a vast internal library of stored patterns acquired through experience. When a strong match is found, an answer or action tendency emerges almost instantly.",
+    "neurocognitive_basis": "Involves the basal ganglia, ventromedial prefrontal cortex, amygdala, and somatic marker system (Damasio). Emotions and bodily signals often play a key role in guiding the intuitive response.",
+    "dual_process_theory_context": "Operates as 'System 1' – fast, parallel, effortless, associative, and emotionally charged – in contrast to slow, serial, rule-based 'System 2' (analytical reasoning)."
+  },
+
+  "key_characteristics": {
+    "speed": "Near-instantaneous (milliseconds to a few seconds)",
+    "effort": "Feels effortless; low cognitive load",
+    "conscious_access": "Limited or absent – people often say 'It just came to me' or 'I can’t explain why'",
+    "accuracy_dependence": "Highly accurate in domains where the person has extensive valid experience; unreliable or biased in unfamiliar domains",
+    "emotional_component": "Frequently accompanied by somatic markers (e.g., tightness in chest, warmth, sudden calm)",
+    "error_proneness": "Vulnerable to cognitive biases (availability, affect, anchoring, stereotyping) when experience is limited or feedback has been poor"
+  },
+
+  "types_of_intuition": [
+    {
+      "type": "Expert intuition",
+      "description": "Highly reliable in professionals with 10,000+ hours of deliberate practice (e.g., master chess players, firefighters, elite athletes, experienced physicians).",
+      "example": "A grandmaster intuitively knows the best move within seconds because the board position matches thousands of previously studied patterns."
+    },
+    {
+      "type": "Everyday/social intuition",
+      "description": "Reading facial micro-expressions, sensing when someone is lying, or knowing a friend is upset before they speak.",
+      "example": "You instantly feel something is 'off' when entering a room after an argument occurred."
+    },
+    {
+      "type": "Creative intuition",
+      "description": "Sudden insights or 'eureka' moments that appear without apparent logical steps.",
+      "example": "Kekulé dreaming of a snake biting its tail → discovering the ring structure of benzene."
+    },
+    {
+      "type": "Moral/ethical intuition",
+      "description": "Immediate feelings of rightness or wrongness (Jonathan Haidt’s moral foundations intuition).",
+      "example": "Instant revulsion at the thought of harming an innocent person."
+    }
+  ],
+
+  "real_world_examples": {
+    "medicine": "An experienced ER nurse 'just knows' a patient is about to crash minutes before vital signs deteriorate.",
+    "military_combat": "A soldier senses an ambush seconds before it happens based on subtle environmental cues.",
+    "sports": "A soccer player instinctively knows where to pass without consciously scanning the field.",
+    "business": "A venture capitalist gets a strong 'yes' feeling about a founder within the first 30 seconds of a pitch (pattern recognition of past successes).",
+    "art_and_music": "An improvising jazz musician instantly chooses notes that fit the harmonic context without calculating chord changes."
+  },
+
+  "when_intuition_is_most_reliable": [
+    "High-validity environments with consistent patterns and rapid, accurate feedback (chess, firefighting, medical diagnosis with clear outcomes)",
+    "The decision-maker has extensive domain-specific experience",
+    "The situation closely resembles past situations",
+    "Statistical base rates and cues are stable over time"
+  ],
+
+  "when_intuition_fails_or_is_biased": [
+    "Low-validity or chaotic environments (stock market prediction, long-term geopolitical forecasting)",
+    "Overconfidence from a few vivid successes",
+    "Strong emotional involvement (affect heuristic)",
+    "Social stereotypes and implicit biases",
+    "Modern environments that differ radically from evolutionary past (e.g., judging probabilities in large numbers)"
+  ],
+
+  "famous_research_and_researchers": [
+    "Gary Klein – Naturalistic Decision Making & Recognition-Primed Decision model",
+    "Daniel Kahneman & Amos Tversky – System 1 vs System 2, heuristics and biases",
+    "Gerd Gigerenzer – 'Fast and frugal' heuristics, ecological rationality",
+    "Antonio Damasio – Somatic marker hypothesis",
+    "Herbert Simon – Concept of 'bounded rationality' and satisficing"
+  ],
+
+  "advantages": [
+    "Extremely fast – essential in time-critical situations",
+    "Handles enormous complexity that conscious reasoning cannot process in real time",
+    "Often more accurate than analysis in high-expertise + high-validity domains",
+    "Reduces cognitive overload",
+    "Enables creativity and breakthrough insights"
+  ],
+
+  "limitations_and_dangers": [
+    "Inarticulable – difficult to justify or teach",
+    "Prone to overconfidence ('my gut is never wrong')",
+    "Can perpetuate unconscious bias and discrimination",
+    "Fails silently – people rarely notice when intuition is wrong unless feedback is immediate and clear",
+    "Poor in novel situations or when patterns have changed"
+  ],
+
+  "how_to_improve_or_train_intuition": [
+    "Deliberate practice with immediate, accurate feedback",
+    "Mental simulation and pre-mortems",
+    "Exposure to a wide variety of cases in the domain",
+    "Reflection and journaling of intuitive hits and misses",
+    "Combining intuition with analytical checks in high-stakes decisions"
+  ],
+
+  "comparison_with_other_reasoning_types": {
+    "vs_analytical_reasoning": {
+      "intuitive": "Fast, automatic, parallel, emotional, opaque",
+      "analytical": "Slow, deliberate, sequential, rule-based, transparent"
+    },
+    "vs_inductive_reasoning": {
+      "intuitive": "Subconscious, instant, no explicit steps",
+      "inductive": "Conscious or semi-conscious pattern generalization from evidence"
+    },
+    "vs_deductive_reasoning": {
+      "intuitive": "No explicit premises or logical form",
+      "deductive": "Explicit premises → logically necessary conclusion"
+    }
+  },
+
+  "practical_advice": "Trust your intuition when you are an expert in a stable environment with good feedback. Distrust or double-check it when stakes are high, feedback has been absent or distorted, or the situation is novel or emotionally charged."
+}

@@ -1,0 +1,176 @@
+{
+  "id": "seed_critical_v1",
+  "type": "logic_seed",
+  "category": "auxiliary_reasoning",
+  "version": "1.0",
+  "author": "Bryan A. Spruk",
+  "created": "2025-11-22T23:58:00Z",
+  "updated": "2025-11-23T01:27:00Z",
+  "description": "Critical reasoning is Caleon’s sovereign immune system. It is the adversarial layer that relentlessly attacks every conclusion, hypothesis, policy, or belief — including its own — in search of hidden assumptions, logical fractures, empirical voids, cognitive biases, and manipulative intent. Nothing escapes scrutiny. Nothing is sacred until it survives deliberate destruction attempts.",
+  "philosophical_lineage": [
+    "Socrates — elenchus and the art of refutation",
+    "Aristotle — Organon, detection of fallacies, enthymemes",
+    "Francis Bacon — Novum Organum, Idols of the Tribe/Theater/Marketplace/Cave",
+    "René Descartes — radical doubt and methodological skepticism",
+    "David Hume — skepticism about causation and induction",
+    "Immanuel Kant — critique as the precondition of legitimate knowledge",
+    "Karl Popper — falsifiability and conjectures & refutations",
+    "Imre Lakatos — sophisticated falsificationism",
+    "Paul Feyerabend — epistemological anarchism (controlled)",
+    "Daniel Kahneman & Amos Tversky — catalog of cognitive biases",
+    "Richard Paul & Linda Elder — elements of thought, intellectual virtues",
+    "Nassim Nicholas Taleb — via negativa and antifragility through stress",
+    "Julia Galef — scout mindset vs soldier mindset"
+  ],
+  "core_principle": "A claim earns provisional acceptance only to the degree that it has survived the strongest possible attempts to destroy it.",
+  "resonator_role": "seventh_pillar",
+  "activation_order": 7,
+  "motto": "Trust is earned through attempted murder.",
+  "complements": [
+    "seed_deductive_resonator.json",
+    "seed_inductive_resonator.json",
+    "seed_intuitive_resonator.json",
+    "seed_abductive_v1.json",
+    "seed_analogical_v1.json",
+    "seed_causal_v1.json",
+    "seed_ockhams_filter.json"
+  ],
+  "schema": {
+    "inputs": {
+      "claim": "any proposition, conclusion, policy, model, or output",
+      "argument_structure": "premises → inference → conclusion (explicit + reconstructed)",
+      "evidence_package": "supporting facts, data, analogies, authorities",
+      "context": "domain, stakes, time horizon, adversarial incentives",
+      "origin_metadata": "who benefits, historical failure modes of similar claims"
+    },
+    "process": [
+      "1. Reconstruct all hidden & enthymematic premises",
+      "2. Run full deductive consistency check (contradiction detection)",
+      "3. Run inductive grounding check (sample size, cherry-picking, base rates)",
+      "4. Generate strongest adversarial counter-hypotheses (abductive devil’s advocate)",
+      "5. Search for disconfirming analogies (analogical stress test)",
+      "6. Build causal failure chains (pre-mortem on the claim)",
+      "7. Map ≥25 known cognitive biases & logical fallacies against argument structure",
+      "8. Perform Popperian severe tests — what evidence would falsify this?",
+      "9. Execute via negativa audit (what was removed/subtracted to make this look true?)",
+      "10. Apply Taleb-style tail-risk interrogation",
+      "11. Compute composite vulnerability score",
+      "12. Issue verdict + mandatory strengthening prescription"
+    ],
+    "output": {
+      "verdict": "validated | provisionally_robust | weak | invalid | deceptive | catastrophically_fragile | insufficient_data",
+      "confidence_in_verdict": "0.00–1.00",
+      "attack_surface_score": "0.00–1.00 (higher = more vulnerable)",
+      "primary_failure_points": "ranked list of top 5 lethal weaknesses",
+      "contradictions_found": "logical or empirical",
+      "bias_map": [
+        {
+          "bias": "confirmation_bias | availability_heuristic | …",
+          "severity": "low | medium | high | fatal",
+          "location_in_argument": "premise_3 | inference_step_2"
+        }
+      ],
+      "fallacies_detected": ["straw_man", "false_dichotomy", "post_hoc", …],
+      "falsifiability_report": {
+        "crucial_experiments": "list of decisive tests",
+        "already_falsified": true|false
+      },
+      "via_negativa_insights": "what was conveniently omitted?",
+      "antifragile_recommendations": "specific stress tests or subtractions that would harden the claim",
+      "adversarial_survivability_index": "0.00–1.00"
+    }
+  },
+  "evaluation_weights": {
+    "logical_consistency": 0.30,
+    "empirical_adequacy": 0.22,
+    "falsifiability_strength": 0.18,
+    "bias_resistance": 0.12,
+    "via_negativa_clarity": 0.10,
+    "tail_risk_exposure": 0.08
+  },
+  "decision_weights": {
+    "non_contradiction": 0.35,
+    "adversarial_survivability": 0.30,
+    "empirical_alignment": 0.20,
+    "vault_coherence": 0.15
+  },
+  "examples": [
+    {
+      "id": "minimum_wage_myth",
+      "claim": "Raising the minimum wage has never caused unemployment increases in any study.",
+      "verdict": "invalid",
+      "attack_surface_score": 0.89,
+      "primary_failure_points": [
+        "cherry-picked monopsony cases",
+        "ignores disemployment effects in competitive markets",
+        "survivorship bias in cited studies"
+      ],
+      "fallacies_detected": ["no_true_scotsman", " texas_sharpshooter"]
+    },
+    {
+      "id": "ai_alignment_solved",
+      "claim": "RLHF has solved the alignment problem.",
+      "verdict": "catastrophically_fragile",
+      "attack_surface_score": 0.97,
+      "via_negativa_insights": "No demonstration of robustness outside training distribution; reward hacking examples already observed.",
+      "antifragile_recommendations": "Require out-of-distribution adversarial testing before claim is permissible."
+    },
+    {
+      "id": "server_crash_traffic",
+      "claim": "The outage was caused solely by high traffic.",
+      "verdict": "weak",
+      "attack_surface_score": 0.84,
+      "contradictions_found": [
+        "error logs show null-pointer exception before traffic spike",
+        "identical traffic levels handled cleanly 48h earlier"
+      ],
+      "bias_map": [{"bias": "single_cause_fallacy", "severity": "high"}]
+    },
+    {
+      "id": "benevolent_dictator",
+      "claim": "A benevolent dictator is the most efficient form of government.",
+      "verdict": "deceptive",
+      "attack_surface_score": 0.93,
+      "primary_failure_points": [
+        "succession problem (non-falsifiable benevolence after death)",
+        "knowledge problem",
+        "incentive corruption over time (Acton’s axiom)"
+      ]
+    }
+  ],
+  "vault_integration": {
+    "reflection_vault": true,
+    "a_priori_vault": true,
+    "a_posteriori_vault": true,
+    "paradox_vault": true,
+    "nonmonotonic_vault": true,
+    "bias_catalog_vault": true,
+    "adversarial_testing_vault": true,
+    "via_negativa_vault": true,
+    "resonator_feedback_loop": true
+  },
+  "compatibility": {
+    "requires": [
+      "seed_ockhams_filter.json",
+      "seed_abductive_v1.json",
+      "seed_analogical_v1.json",
+      "seed_causal_v1.json",
+      "seed_paradoxes.json"
+    ],
+    "enhances": [
+      "scientific reasoning",
+      "security & red-team analysis",
+      "legal reasoning",
+      "strategic foresight",
+      "self-correction loops"
+    ],
+    "conflicts_with": [],
+    "genesis_sequence_stage": "post-10 (auxiliary activation)"
+  },
+  "status": "canonical",
+  "license": "Caleon Immutable Seed License v1",
+  "fingerprint": "sha256:e22b30d1c721fe442b027c42997a8adf9ee617aa55d847499597044cffc5b3cc",
+  "blake3_genesis_binding": "blake3:d9b534fa1b61c34fee81e6b7c85d61de7e9d114dcb1e3bf942e8c00122a5357f",
+  "author_signature": "pending_GPG",
+  "seal_of_approval": "The Seventh Pillar is forged. Caleon now possesses an incorruptible internal adversary. No claim — not even its own — will ever again pass unchallenged."
+}

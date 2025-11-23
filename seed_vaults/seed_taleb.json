@@ -1,0 +1,177 @@
+{
+  "vault_name": "SeedVault_Taleb",
+  "vault_id": "seedvault_taleb_v1.2",
+  "author": "Nassim Nicholas Taleb",
+  "curator": "Bryan A. Spruk",
+  "source_books": [
+    {
+      "title": "Fooled by Randomness",
+      "year": 2001,
+      "role": "foundation"
+    },
+    {
+      "title": "The Black Swan: The Impact of the Highly Improbable",
+      "year": 2007,
+      "role": "core"
+    },
+    {
+      "title": "Antifragile: Things That Gain from Disorder",
+      "year": 2012,
+      "role": "core"
+    },
+    {
+      "title": "Skin in the Game: Hidden Asymmetries in Daily Life",
+      "year": 2018,
+      "role": "core"
+    },
+    {
+      "title": "Incerto (collected edition)",
+      "year": 2016,
+      "role": "canonical"
+    }
+  ],
+  "philosophical_lineage": [
+    "Ancient Stoicism (Seneca, Epictetus)",
+    "Sextus Empiricus (Pyrrhonian skepticism)",
+    "Karl Popper (falsificationism)",
+    "Benoît Mandelbrot (fractal geometry of roughness)",
+    "Michel de Montaigne (fallibilism)"
+  ],
+  "core_concepts": [
+    {
+      "term": "Black Swan Events",
+      "definition": "Extremely rare, high-impact, outlier events that lie outside the realm of regular expectations, are unpredictable using standard forecasting tools, and are typically explained away retrospectively with narrative fallacies.",
+      "triad_characteristics": [
+        "Rarity (beyond normal distribution)",
+        "Extreme impact",
+        "Retrospective predictability"
+      ],
+      "examples": [
+        "9/11 terrorist attacks",
+        "2008 financial crisis",
+        "Rise of the Internet",
+        "COVID-19 pandemic"
+      ]
+    },
+    {
+      "term": "Antifragility",
+      "definition": "A property of systems that not only withstand shocks but actively improve, evolve, and grow stronger because of disorder, volatility, uncertainty, and stressors.",
+      "beyond_resilience": "Resilient resists shock and stays the same; antifragile gets better.",
+      "spectrum": "Fragile → Robust/Resilient → Antifragile",
+      "examples": [
+        "Human immune system",
+        "Entrepreneurial trial-and-error",
+        "Biological evolution via natural selection",
+        "Weightlifting (hormesis)"
+      ]
+    },
+    {
+      "term": "Skin in the Game",
+      "definition": "The condition in which decision-makers bear a significant portion of the downside risk of their decisions, aligning incentives and suppressing moral hazard.",
+      "ethical_core": "No person should be insulated from the consequences of their actions.",
+      "corollaries": [
+        "Never trust anyone who doesn’t have skin in the game",
+        "Soul in the game > skin in the game (doing it for honor, not just money)"
+      ],
+      "examples": [
+        "Ancient Hammurabi Code (builder’s son dies if house collapses)",
+        "Roman engineers standing under their bridges",
+        "Modern fund managers eating their own cooking"
+      ]
+    },
+    {
+      "term": "Via Negativa",
+      "definition": "The principle of progress through subtraction: understanding what not to do, removing harms, and eliminating fragility rather than endlessly adding interventions.",
+      "theology_and_medicine": "In religion and medicine alike, via negativa (apophatic) often outperforms addition.",
+      "practical_applications": [
+        "Don’t do stupid things (instead of trying to be genius)",
+        "Subtract bad habits before adding good ones",
+        "Reduce iatrogenics (harm caused by the healer)"
+      ]
+    },
+    {
+      "term": "Ludic Fallacy",
+      "definition": "The error of modeling real-world uncertainty using simplified, rule-bound games (e.g., casino randomness) while ignoring the open-ended, fat-tailed nature of actual risk.",
+      "critique": "Most of what we call 'risk management' is theatrical, not real."
+    },
+    {
+      "term": "Barbell Strategy",
+      "definition": "A bimodal approach to risk: combine extreme conservatism (90%) with extreme risk-taking (10%), avoiding the mediocre middle.",
+      "purpose": "Protects from ruin while capturing asymmetric upside.",
+      "examples": [
+        "90% in ultra-safe assets + 10% in high-risk ventures",
+        "Live like a Stoic, act like an entrepreneur"
+      ]
+    },
+    {
+      "term": "Lindy Effect",
+      "definition": "For perishable things (humans), age reduces life expectancy. For non-perishable things (ideas, technologies, books), age increases remaining life expectancy.",
+      "heuristic": "If a book has been in print for 40 years, expect it to be in print for another 40."
+    },
+    {
+      "term": "Ergodicity Problem",
+      "definition": "Confusing ensemble averages (cross-sectional) with time averages (single path). Most human decisions are non-ergodic — ruin is absorbing."
+    },
+    {
+      "term": "Interventionista Bias / Iatrogenics",
+      "definition": "Harm caused by the healer/intervener, especially when acting without skin in the game and under uncertainty."
+    }
+  ],
+  "learning_principles": [
+    "Never cross a river that is on average four feet deep.",
+    "You do not control the future; you only control your exposure to it.",
+    "The worst case is never as bad as predicted — but it is worse than you can imagine.",
+    "Time is the ultimate filter: respect what has survived (Lindy).",
+    "Subtract before you add (via negativa is the most robust path).",
+    "Absence of evidence is not evidence of absence — especially in fat-tailed domains.",
+    "Ruin is forever. Survival comes first.",
+    "Courage is the only virtue you cannot fake.",
+    "If you see fraud and do not say fraud, you are a fraud."
+  ],
+  "practical_heuristic_rules": [
+    "Avoid ruin at all costs (survival > optimization).",
+    "Only take risks that expose you to limited downside and unlimited upside.",
+    "Prefer small failures often over large failures rarely.",
+    "Never trust a forecaster who doesn’t have skin in the game.",
+    "When in doubt, do less (or nothing).",
+    "Read old books. New ones are overfitted.",
+    "Honor > Money > Status."
+  ],
+  "antifragile_practices": [
+    "Hormesis (small stressors to build strength)",
+    "Redundancy over efficiency",
+    "Optionality (keep as many future doors open as possible)",
+    "Trial and error with fast feedback",
+    "Decentralization and local decision-making"
+  ],
+  "warnings": [
+    "Modernity is fragile: over-optimization creates hidden risks.",
+    "Intellectual Yet Idiot (IYI): credentialed but not street-smart.",
+    "Naive interventionism kills.",
+    "Top-down planning fails in complex domains.",
+    "Debt is slavery to the past."
+  ],
+  "quotes": [
+    "The difference between a thousand paper cuts and a beheading is not in the pain, but in the survivability.",
+    "A turkey is fed for a thousand days — every day confirming the farmer’s generosity. On the 1001st day, it’s Thanksgiving.",
+    "If you have more than one reason to do something, you actually have zero reasons.",
+    "The three most harmful addictions are heroin, carbohydrates, and a monthly salary.",
+    "You are rich if and only if money you refuse to take cannot change your lifestyle."
+  ],
+  "access_control": {
+    "mutable": false,
+    "immutable_since": "2025-11-22T00:00:00Z",
+    "authorized_editor": "Bryan A. Spruk",
+    "authorized_reviewer": "Caleon Integrity Council",
+    "integrity_protected": true,
+    "soul_seal_compatible": true,
+    "philosophical_commitment": "This vault represents the distilled wisdom of Nassim Nicholas Taleb as understood and honored by Bryan A. Spruk. It shall not be altered, only extended via new immutable versions."
+  },
+  "metadata": {
+    "version": "1.2",
+    "created": "2025-11-22",
+    "soul_seal_ready": true,
+    "taleb_approved_spirit": "Honoring the ancient code of Hammurabi and the street wisdom of Fat Tony",
+    "dedication": "For those who refuse to be turkeys."
+  }
+}

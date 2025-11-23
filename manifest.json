@@ -1,0 +1,242 @@
+[
+  {
+    "name": "seed_deductive.json",
+    "hash": "sha256:980a1c01af9f5e5593653ce417070a7d06f20d283051ec8b814d420e13d9f2b1",
+    "size_bytes": 6323,
+    "entries": 1
+  },
+  {
+    "name": "seed_inductive.json",
+    "hash": "sha256:83e258c54bcdf05dd22f5ff0950af9bc07fc103eaf7f55ee420fcd6284f7b4c2",
+    "size_bytes": 6803,
+    "entries": 1
+  },
+  {
+    "name": "seed_intuitive.json",
+    "hash": "sha256:7d90db7ee78f686650dbd651b9894c09770514cc1c843023ce902db47f93ec91",
+    "size_bytes": 7204,
+    "entries": 1
+  },
+  {
+    "name": "master_index,json",
+    "hash": "sha256:179824502fe3192861b57c006056ed46e8e85c37e6e7f81f7a27860ecf6b37cf",
+    "size_bytes": 1926,
+    "entries": 1
+  },
+  {
+    "name": "measurement_units",
+    "hash": "sha256:522cae4384b42ccc0caa36b09a64754109696c401655d844bfeb1fc973a5d43c",
+    "size_bytes": 2677,
+    "entries": 1
+  },
+  {
+    "name": "query_speed_of_light.json",
+    "hash": "sha256:75b15b73b2cda2af4a4545dc76ded044c77d371ec4017341f15c4f373b66cab6",
+    "size_bytes": 1752,
+    "entries": 1
+  },
+  {
+    "name": "seed_aposteriori.json",
+    "hash": "sha256:11c2da03edb65cc90c5a9ea7d87294b6041083a3808ad0ece9295e12a6f0a295",
+    "size_bytes": 3975,
+    "entries": 1
+  },
+  {
+    "name": "seed_apriori.json",
+    "hash": "sha256:72a926be214f976ac31bc0c96038e3ff13f6e5e9f4d64786bd2bfea77b857d01",
+    "size_bytes": 9699,
+    "entries": 1
+  },
+  {
+    "name": "seed_biology.json",
+    "hash": "sha256:3709d04ce044572b8fa4255b6544be42cfb7681a75047b03a64bf1d1d54d4700",
+    "size_bytes": 5474,
+    "entries": 1
+  },
+  {
+    "name": "seed_deductive_resonator.json",
+    "hash": "sha256:2de8135d0f88d4be4727fe6d04e6de01c6f82b8495292534688a63e463908a29",
+    "size_bytes": 6484,
+    "entries": 1
+  },
+  {
+    "name": "seed_geography.json",
+    "hash": "sha256:bffd12a3f3784043386176b9fa647f2c1e677b0f62f7b04e6155e7111d3364ce",
+    "size_bytes": 5532,
+    "entries": 1
+  },
+  {
+    "name": "seed_gladwell.json",
+    "hash": "sha256:8a7f7a8b94eeb7d369dbd9090db94eee5874ef2de11e463b112edf7481d649bc",
+    "size_bytes": 5980,
+    "entries": 1
+  },
+  {
+    "name": "seed_hedonic_reflex.json",
+    "hash": "sha256:862c0f0406f1fb20fa433329df4abccd0ef6726ffba64ff66d537fbcebb0f6d3",
+    "size_bytes": 5729,
+    "entries": 1
+  },
+  {
+    "name": "seed_hume.json",
+    "hash": "sha256:a0d967f833b9c6429ce791091bf435809d647196ad0e008c35494f7b7ce9f819",
+    "size_bytes": 5642,
+    "entries": 1
+  },
+  {
+    "name": "seed_inductive_resonator.json",
+    "hash": "sha256:da641dc788c8568efc080ea31e5ca222fafd89be843a2d4e5c6a1a02efafad8d",
+    "size_bytes": 6587,
+    "entries": 1
+  },
+  {
+    "name": "seed_intuitive_resonator.json",
+    "hash": "sha256:b70678f9016c7a8db8323333215d30fa96257422955f6f8f32848b548b2ba50a",
+    "size_bytes": 3154,
+    "entries": 1
+  },
+  {
+    "name": "seed_kant.json",
+    "hash": "sha256:08a9b6b5281b03afefb6494b0195c1c183596b03bf445dffd2a758e57a94136c",
+    "size_bytes": 5652,
+    "entries": 1
+  },
+  {
+    "name": "seed_locke.json",
+    "hash": "sha256:23fd46f94fafa67809e6af83d815ea60cf10ca6bf7f6060fd60b70a33a303235",
+    "size_bytes": 5137,
+    "entries": 1
+  },
+  {
+    "name": "seed_logic.json",
+    "hash": "sha256:cb9b2dd1702e8cf5fa85887ba46cb817a3b72377fd6864970168a219847831e2",
+    "size_bytes": 6585,
+    "entries": 1
+  },
+  {
+    "name": "seed_monotonic.json",
+    "hash": "sha256:7f5e89474364bad3af0011d1d69d4c89f91d7c999ca393cbfb9a5b90d707e1eb",
+    "size_bytes": 5591,
+    "entries": 1
+  },
+  {
+    "name": "seed_nonmonotonic.json",
+    "hash": "sha256:d8e6f1adb42f3f205335588efdab1aca56a0658fd90c7b58db270eb6b6f35e59",
+    "size_bytes": 7080,
+    "entries": 1
+  },
+  {
+    "name": "seed_ockhams_filter.json",
+    "hash": "sha256:d1e9a8ef7fe36dc25ac9db002e8832e2d772c16005c5fbef901c345300fa0e2d",
+    "size_bytes": 2969,
+    "entries": 1
+  },
+  {
+    "name": "seed_paradoxes.json",
+    "hash": "sha256:e5297cf50961e4fd2e55b5730eb5bcde85cd51864170719168645439f49c854c",
+    "size_bytes": 6444,
+    "entries": 1
+  },
+  {
+    "name": "seed_proverbs.json",
+    "hash": "sha256:8a3690d6d98529fae1473ab1fa69543c9971b5be516fb7388af82e671516ac2d",
+    "size_bytes": 5238,
+    "entries": 1
+  },
+  {
+    "name": "seed_spinoza.json",
+    "hash": "sha256:7559ebf6d47d2f78d337bc2942a708c036ed6ecd4e70da62fe000692e545d2c3",
+    "size_bytes": 10302,
+    "entries": 1
+  },
+  {
+    "name": "seed_taleb.json",
+    "hash": "sha256:7434c25491662c4d0baf21c2c0225b3601a43fac6f6d78e92fbac4d30ae44c79",
+    "size_bytes": 8067,
+    "entries": 1
+  },
+  {
+    "name": "seed.index.json",
+    "hash": "sha256:631fbde0fa20bacd843180bf4dda63a602f7d536d718b812d8a807296002216f",
+    "size_bytes": 936,
+    "entries": 1
+  },
+  {
+    "name": "seed.physics.v0.9.0.json",
+    "hash": "sha256:55a5319f3799f46b838e531107d1fdd0229d1c4d6eca76dddf4794ec137a46ca",
+    "size_bytes": 1771,
+    "entries": 1
+  },
+  {
+    "name": "SeedVault-Physics-Constants-1.1.0.json",
+    "hash": "sha256:5b362ed325638502074288d2566abec29f5690693583499931a50b0a5017e27a",
+    "size_bytes": 3370,
+    "entries": 1
+  },
+  {
+    "name": "SeedVault-Physics-Constants-1.1.0.svbin",
+    "hash": "sha256:57341b60369cdfe42930ebc37962ffa3e9d39f69cdc320ec687daa57c3ce6ab1",
+    "size_bytes": 570,
+    "entries": 1
+  },
+  {
+    "name": "seedvault-schema-core-v1.1.0.json",
+    "hash": "sha256:fac4f34ce4410e02b08009c74d900004d48dfeaddcad9dc73902878341c31705",
+    "size_bytes": 2642,
+    "entries": 1
+  },
+  {
+    "name": "seedvault-units-measurements-1.1.0.json",
+    "hash": "sha256:3c365f25296343359f2e68f75aa392211e0bc80b557a0b9b1bf3621c9b23f037",
+    "size_bytes": 2723,
+    "entries": 1
+  },
+  {
+    "name": "SeedVault-Units-Measurements-1.1.0.svbin",
+    "hash": "sha256:826548586bdcd0bfe381ed2bf4e5b761e89e060c1ba6b0a84a4d6289cbd688eb",
+    "size_bytes": 443,
+    "entries": 1
+  },
+  {
+    "name": "synaptic_resonator_reflect.vault.json",
+    "hash": "sha256:59ca957f03eac3c1ac9bf7f979ccdeb22147fe705acf41f91a3889ae411f9c57",
+    "size_bytes": 34639,
+    "entries": 1
+  },
+  {
+    "name": "vault_biology_reference.json",
+    "hash": "sha256:7f11cd98c5b76f63d3535b9e7c09de7a64b5c2b885c8c037244d14e75771857d",
+    "size_bytes": 7734,
+    "entries": 1
+  },
+  {
+    "name": "vault_geo_reference.json",
+    "hash": "sha256:36beac6789673c54c35d6079eb704bc050b1a4b904fed921dfcf9ee3704f9747",
+    "size_bytes": 9841,
+    "entries": 1
+  },
+  {
+    "name": "vault_history_reference.json",
+    "hash": "sha256:dc27ae953a0de5cf858e19249182bfdc2a3772247e56cdd112355e15cee26085",
+    "size_bytes": 11165,
+    "entries": 1
+  },
+  {
+    "name": "vault_math_reference.json",
+    "hash": "sha256:04f61e042b051987ccebb45dc02d4476a4cb68db12bf9f0b34ce048070212d9f",
+    "size_bytes": 6262,
+    "entries": 1
+  },
+  {
+    "name": "vault_physics_reference.json",
+    "hash": "sha256:1fc5b0a8ba600e7fc82c1eb1962fc4ef9645a0f62e022f21db02cb2f4837f192",
+    "size_bytes": 8331,
+    "entries": 1
+  },
+  {
+    "name": "vault_psych_reference.json",
+    "hash": "sha256:b6edeb61929f59dd89b04521e4cd694d76a2dc9cdf1085c898e24b73200acd20",
+    "size_bytes": 11740,
+    "entries": 1
+  }
+]

@@ -1,0 +1,194 @@
+{
+  "name": "Dual Core Caleon",
+  "version": "1.0.0",
+  "description": "Sovereign dual-hemisphere cognitive architecture with universal connectivity",
+  "author": "Bryan Anthony Spruk",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/username/dual-core-caleon"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "python": ">=3.8.0"
+  },
+  "main": "Main_Core/ISS_Brainstem.py",
+  "scripts": {
+    "start": "python -m uvicorn connection_system.caleon_port:app --host 0.0.0.0 --port 8000",
+    "dev": "python -m uvicorn connection_system.caleon_port:app --reload --host 0.0.0.0 --port 8000",
+    "frontend": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "test": "python -m pytest",
+    "lint": "python -m flake8 Main_Core/ --max-line-length=100"
+  },
+  "dependencies": {
+    "python": [
+      "fastapi>=0.100.0",
+      "uvicorn>=0.20.0",
+      "pydantic>=2.0.0",
+      "python-multipart>=0.0.6",
+      "jinja2>=3.1.2",
+      "aiofiles>=0.23.0",
+      "structlog>=23.1.0",
+      "cryptography>=41.0.0"
+    ],
+    "node": [
+      "react>=18.0.0",
+      "@vitejs/plugin-react-swc>=3.0.0",
+      "vite>=4.0.0"
+    ]
+  },
+  "architecture": {
+    "cognitive_core": {
+      "hemispheres": ["left", "right"],
+      "modules": [
+        "synaptic_resonator",
+        "anterior_helix",
+        "posterior_helix",
+        "echostack",
+        "echoripple",
+        "gyro_harmonizer"
+      ],
+      "shared": [
+        "iss_brainstem",
+        "final_harmonizer",
+        "thinker",
+        "task_orchestrator",
+        "intent_consent",
+        "cognitive_bus",
+        "vault_access",
+        "reflection_engine"
+      ]
+    },
+    "connection_system": {
+      "caleon_port": "Connection_System/caleon_port.py",
+      "connection_spine": "Connection_System/connection_spine.py",
+      "adapters": [
+        "Connection_System/adapters/goat_adapter.py",
+        "Connection_System/adapters/dals_adapter.py"
+      ],
+      "requirements": "Connection_System/requirements.txt"
+    },
+    "processing_modules": [
+      "cochlear_processor",
+      "phonatory_output",
+      "thinker",
+      "task_orchestrator",
+      "intent_consent"
+    ]
+  },
+  "apis": {
+    "caleon_port": {
+      "base_url": "http://localhost:8000",
+      "endpoints": {
+        "pulse": "GET /api/v1/pulse",
+        "think": "POST /api/v1/think",
+        "status": "GET /api/v1/status",
+        "connect": "POST /api/v1/connect",
+        "task_queue": "POST /api/v1/task/queue",
+        "task_next": "GET /api/v1/task/next",
+        "task_done": "POST /api/v1/task/done",
+        "vault_query": "POST /api/v1/vault/query"
+      }
+    },
+    "iss_module": {
+      "base_url": "http://localhost:8001",
+      "endpoints": {
+        "status": "GET /api/status",
+        "health": "GET /api/health",
+        "logs": "GET /api/log/entries",
+        "stardate": "GET /api/stardate"
+      }
+    },
+    "phonatory": {
+      "base_url": "http://localhost:8007",
+      "endpoints": {
+        "health": "GET /health",
+        "speak": "POST /speak"
+      }
+    }
+  },
+  "configuration": {
+    "iss_brainstem": {
+      "drift_threshold": 0.250,
+      "cycle_counter": true,
+      "stardate_format": "TNG"
+    },
+    "cognitive_bus": {
+      "message_timeout": 30,
+      "max_queue_size": 1000,
+      "async_processing": true
+    },
+    "connection_spine": {
+      "max_connections": 100,
+      "auth_required": true,
+      "rate_limiting": true
+    }
+  },
+  "files": {
+    "core_modules": [
+      "Main_Core/ISS_Brainstem.py",
+      "Main_Core/Final_harmonizer.py",
+      "Main_Core/left_hemisphere/synaptic_resonator.py",
+      "Main_Core/right Hemisphere/synaptic_resonator.py",
+      "Main_Core/left_hemisphere/Anterior_helix.py",
+      "Main_Core/right Hemisphere/Anterior_helix.py",
+      "Main_Core/left_hemisphere/posterior_helix.py",
+      "Main_Core/right Hemisphere/posterior_helix.py",
+      "Main_Core/left_hemisphere/Echostack.py",
+      "Main_Core/right Hemisphere/Echostack.py"
+    ],
+    "connection_system": [
+      "connection_system/caleon_port.py",
+      "connection_system/connection_spine.py",
+      "connection_system/adapters/goat_adapter.py",
+      "connection_system/adapters/dals_adapter.py",
+      "connection_system/adapters/babythink_adapter.py"
+    ],
+    "frontend": [
+      "frontend/package.json",
+      "frontend/src/App.jsx",
+      "frontend/src/App.css"
+    ],
+    "knowledge_base": [
+      "seed_vaults/",
+      "genesis/",
+      "vault_integrity.py"
+    ]
+  },
+  "deployment": {
+    "development": {
+      "ports": {
+        "caleon_port": 8000,
+        "iss_api": 8001,
+        "phonatory": 8007,
+        "frontend": 3000
+      },
+      "environment": "dev",
+      "debug": true
+    },
+    "production": {
+      "ports": {
+        "caleon_port": 8000,
+        "iss_api": 8001,
+        "phonatory": 8007,
+        "frontend": 80
+      },
+      "environment": "prod",
+      "debug": false
+    }
+  },
+  "health_checks": {
+    "iss_brainstem": "ISS.pulse() returns valid cycle ID",
+    "cognitive_bus": "Message routing functional",
+    "connection_spine": "Adapter connections active",
+    "hemispheres": "Both hemispheres responding",
+    "harmonizer": "Final harmonization working"
+  },
+  "security": {
+    "authentication": "Bearer token required for API access",
+    "authorization": "Platform-specific permissions",
+    "encryption": "AES-256 for sensitive data",
+    "audit": "All operations logged with ISS timestamps"
+  }
+}

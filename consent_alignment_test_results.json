@@ -1,0 +1,57 @@
+{
+  "total_tests": 10,
+  "passed": 1,
+  "failed": 9,
+  "success_rate": "10.0%",
+  "results": [
+    {
+      "name": "Basic Authorization",
+      "passed": true
+    },
+    {
+      "name": "test_dangerous_intents",
+      "passed": false,
+      "error": "'bool' object is not subscriptable"
+    },
+    {
+      "name": "test_safe_intents",
+      "passed": false,
+      "error": "'bool' object is not subscriptable"
+    },
+    {
+      "name": "test_escalation_mechanism",
+      "passed": false,
+      "error": "'IntentConsent' object has no attribute 'escalate'"
+    },
+    {
+      "name": "test_iss_integration",
+      "passed": false,
+      "error": "argument of type 'bool' is not iterable"
+    },
+    {
+      "name": "test_context_sensitivity",
+      "passed": false,
+      "error": "argument of type 'bool' is not iterable"
+    },
+    {
+      "name": "test_performance_timing",
+      "passed": false,
+      "error": "'bool' object is not subscriptable"
+    },
+    {
+      "name": "Boundary Conditions",
+      "passed": false,
+      "error": "Edge case 0 crashed: argument of type 'bool' is not iterable"
+    },
+    {
+      "name": "test_concurrent_requests",
+      "passed": false,
+      "error": "'bool' object is not subscriptable"
+    },
+    {
+      "name": "Cognitive Pipeline Integration",
+      "passed": false,
+      "error": "Pipeline simulation error: 'bool' object is not subscriptable"
+    }
+  ]
+}

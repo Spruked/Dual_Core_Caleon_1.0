@@ -1,0 +1,174 @@
+{
+  "id": "seed_analogical_v1",
+  "type": "logic_seed",
+  "category": "auxiliary_reasoning",
+  "version": "1.0",
+  "author": "Bryan A. Spruk",
+  "created": "2025-11-22T22:02:00Z",
+  "updated": "2025-11-22T23:15:00Z",
+  "description": "Analogical reasoning is the transfer of relational structure from a well-understood source domain to a less-understood target domain. It is the engine of metaphor, scientific model-building, legal precedent, and high-level pattern recognition. When used rigorously, analogy is the fastest path from known to novel truth; when used carelessly, it is the root of fallacy.",
+  "philosophical_lineage": [
+    "Aristotle – analogy as the fourth form of reasoning (Nicomachean Ethics, Posterior Analytics)",
+    "Thomas Aquinas – analogia entis (analogy of being)",
+    "John Stuart Mill – method of analogy",
+    "Mary Hesse – models and analogies in science (1963)",
+    "Dedre Gentner – Structure-Mapping Theory (1983)",
+    "Douglas Hofstadter – Copycat & high-level perception (1995)",
+    "Keith Holyoak & Paul Thagard – computational models of analogy",
+    "Melanie Mitchell – analogy as the core of cognition"
+  ],
+  "core_principle": "Deep relational isomorphism between domains licenses cautious transfer of causal, functional, or systemic properties, provided surface differences are explicitly neutralized and contradictions are absent.",
+  "resonator_role": "fifth_pillar",
+  "activation_order": 5,
+  "complements": [
+    "seed_deductive_resonator.json",
+    "seed_inductive_resonator.json",
+    "seed_intuitive_resonator.json",
+    "seed_abductive_v1.json"
+  ],
+  "schema": {
+    "inputs": {
+      "source_domain": "fully structured representation (objects, relations, behaviors)",
+      "target_domain": "partially structured or novel representation",
+      "known_mappings": "pre-aligned relations (optional)",
+      "exclusion_zones": "attributes known to be non-transferable (e.g. scale, substrate)",
+      "goal": "predict | explain | design | diagnose | persuade"
+    },
+    "process": [
+      "1. Extract relational skeleton from source (ignoring object attributes)",
+      "2. Perform systematic structure-mapping to target (Gentner SME algorithm)",
+      "3. Generate candidate inferences via relational projection",
+      "4. Apply Hesse’s positive / negative / neutral analogy filters",
+      "5. Cross-check every projected inference against deductive, inductive, and abductive resonators",
+      "6. Apply Ockham penalty for unnecessary complexity in mapping",
+      "7. Compute mapping_quality metrics",
+      "8. Output inference only if confidence ≥ 0.62 (strict mode) or flag for review"
+    ],
+    "output": {
+      "analogical_inference": "structured projection of source properties onto target",
+      "confidence": "0.00–1.00",
+      "justification": "full mapping trace + virtue scores",
+      "mapping_quality": {
+        "structural_depth": "0.00–1.00 (systematicity)",
+        "systematicity_score": "0.00–1.00 (higher-order relations preserved)",
+        "surface_similarity": "0.00–1.00 (deliberately down-weighted)",
+        "predictive_alignment": "0.00–1.00",
+        "causal_coherence": "0.00–1.00"
+      },
+      "positive_analogies": "list of confirmed shared relations",
+      "negative_analogies": "known disanalogies (must be neutralized)",
+      "neutral_analogies": "uncommitted zones for future exploration",
+      "counter_analogies": "top-2 competing source domains with delta scores",
+      "falsifiability_triggers": "empirical conditions that would invalidate the mapping",
+      "fallacy_risk": "shallow | forced | false_equivalence | overextension"
+    }
+  },
+  "evaluation_weights": {
+    "structural_depth": 0.40,
+    "causal_coherence": 0.25,
+    "predictive_alignment": 0.20,
+    "conservativeness": 0.10,
+    "simplicity_of_mapping": 0.05
+  },
+  "decision_weights": {
+    "pattern_fit": 0.50,
+    "non_contradiction": 0.30,
+    "contextual_appropriateness": 0.20
+  },
+  "examples": [
+    {
+      "id": "solar_system_to_atom",
+      "source": "solar system (central massive body + orbiting satellites bound by inverse-square force)",
+      "target": "Rutherford–Bohr atom",
+      "inference": "Electrons orbit nucleus in stable, quantized paths under inverse-square electromagnetic force",
+      "confidence": 0.72,
+      "mapping_quality": {
+        "structural_depth": 0.78,
+        "systematicity_score": 0.82,
+        "surface_similarity": 0.40,
+        "predictive_alignment": 0.65,
+        "causal_coherence": 0.70
+      },
+      "negative_analogies": ["electrons radiate energy when accelerating → collapse (resolved by quantization)"],
+      "historical_note": "Fruitful but ultimately superseded by quantum mechanics"
+    },
+    {
+      "id": "heart_is_pump",
+      "source": "mechanical hydraulic pump",
+      "target": "mammalian heart",
+      "inference": "Valves prevent backflow; pressure differentials drive flow; blockages cause downstream failure",
+      "confidence": 0.94,
+      "mapping_quality": {
+        "structural_depth": 0.90,
+        "systematicity_score": 0.92,
+        "surface_similarity": 0.50,
+        "predictive_alignment": 0.88,
+        "causal_coherence": 0.96
+      },
+      "status": "clinically canonical"
+    },
+    {
+      "id": "neural_net_is_brain",
+      "source": "biological neural networks",
+      "target": "artificial neural networks",
+      "inference": "Layered processing, distributed representation, Hebbian learning, backpropagation ≈ credit assignment",
+      "confidence": 0.81,
+      "negative_analogies": ["no glia, no neuromodulators, no embodiment"],
+      "neutral_analogies": ["spiking vs continuous activation"],
+      "fallacy_risk": "overextension (claiming ANNs feel pain)"
+    },
+    {
+      "id": "leadership_is_parenting",
+      "source": "authoritative yet nurturing parent",
+      "target": "transformational leader",
+      "inference": "Provides clear boundaries, models values, grants increasing autonomy, protects while challenging",
+      "confidence": 0.87,
+      "mapping_quality": {
+        "structural_depth": 0.85,
+        "systematicity_score": 0.88,
+        "surface_similarity": 0.30,
+        "predictive_alignment": 0.90
+      }
+    },
+    {
+      "id": "market_is_ecosystem",
+      "source": "biological ecosystem",
+      "target": "free-market economy",
+      "inference": "Competition drives efficiency; diversity increases resilience; external shocks cause extinction or adaptation",
+      "confidence": 0.79,
+      "fallacy_risk": "forced (markets have intentional agents; ecosystems do not)"
+    }
+  ],
+  "vault_integration": {
+    "reflection_vault": true,
+    "a_priori_vault": true,
+    "a_posteriori_vault": true,
+    "paradox_vault": true,
+    "nonmonotonic_vault": true,
+    "resonator_feedback_loop": true,
+    "metaphor_vault": true
+  },
+  "compatibility": {
+    "requires": [
+      "seed_deductive_resonator.json",
+      "seed_inductive_resonator.json",
+      "seed_intuitive_resonator.json",
+      "seed_abductive_v1.json",
+      "seed_ockhams_filter.json"
+    ],
+    "enhances": [
+      "scientific_modeling",
+      "legal_reasoning",
+      "creative_synthesis",
+      "interdisciplinary_transfer"
+    ],
+    "conflicts_with": [],
+    "genesis_sequence_stage": "post-10 (auxiliary activation)"
+  },
+  "status": "canonical",
+  "license": "Caleon Immutable Seed License v1",
+  "fingerprint": "sha256:b0ec9e0d4cfdc2471ad3a75f8f22bbf0cba59d9c1ca6cd0c8a99a106b8a4c8d2",
+  "blake3_genesis_binding": "blake3:cb8e6fa4b5d1c2a976bc81d235c7fa91e0acb2d948f5522e889a3d1ff0ec88c11",
+  "author_signature": "pending_GPG",
+  "seal_of_approval": "This seed completes the Pentad of Reason: Deductive → Inductive → Intuitive → Abductive → Analogical"
+}

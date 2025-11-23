@@ -1,0 +1,125 @@
+{
+  "id": "seed_syllogistic_v1",
+  "type": "logic_seed",
+  "category": "auxiliary_reasoning",
+  "version": "1.0",
+  "author": "Bryan A. Spruk",
+  "created": "2025-11-23T02:11:00Z",
+  "description": "Syllogistic reasoning is the classical form of categorical logic. It derives certain conclusions from two premises by applying strict logical form. This seed enforces structure, detects invalid forms, and provides airtight reasoning under universal, particular, affirmative, and negative conditions.",
+  
+  "philosophical_lineage": [
+    "Aristotle – Organon (Prior Analytics)",
+    "Theophrastus – expanded syllogistic forms",
+    "Boethius – medieval logical reforms",
+    "Peter Abelard – dialectical refinements",
+    "Leibniz – symbolic logic precursor",
+    "Gottlob Frege – foundations of predicate logic"
+  ],
+
+  "core_principle": "If the premises are true and the syllogistic form is valid, the conclusion must be true. No exceptions, no drift, no contextual override.",
+
+  "resonator_role": "tenth_pillar",
+  "activation_order": 10,
+
+  "schema": {
+    "inputs": {
+      "major_premise": "universal or particular, affirmative or negative",
+      "minor_premise": "statement containing the middle term",
+      "terms": {
+        "major_term": "predicate of the conclusion",
+        "minor_term": "subject of the conclusion",
+        "middle_term": "bridging term appearing in both premises"
+      },
+      "mode": "A, E, I, O form classification (universal affirm./neg., particular affirm./neg.)"
+    },
+
+    "process": [
+      "1. Parse major and minor premises into categorical form",
+      "2. Identify middle, major, and minor terms",
+      "3. Validate syllogistic figure (1–4)",
+      "4. Validate syllogistic mode (A/E/I/O combinations)",
+      "5. Check distribution rules (term distribution, illicit major/minor)",
+      "6. Check quantity/quality rules (existential assumptions, negations)",
+      "7. If form invalid → generate fallacy classification",
+      "8. If valid → compute categorical conclusion",
+      "9. Score confidence as binary: valid=1.00, invalid=0.00"
+    ],
+
+    "output": {
+      "conclusion": "string | null if invalid",
+      "validity": "valid | invalid",
+      "syllogistic_form": "e.g., Barbara (AAA-1), Celarent (EAE-1), Darii (AII-1)",
+      "fallacy_type": "if invalid: four-term fallacy, undistributed middle, illicit major/minor, exclusive premises, existential fallacy, etc.",
+      "term_distribution_map": "distribution of each term in premises and conclusion",
+      "logical_trace": "full symbolic parsing and rule evaluation"
+    }
+  },
+
+  "fallacies_detected": [
+    "undistributed middle",
+    "illicit major",
+    "illicit minor",
+    "exclusive premises",
+    "affirmative conclusion from negative premise",
+    "negative conclusion from affirmative premises",
+    "existential fallacy",
+    "four-term fallacy"
+  ],
+
+  "examples": [
+    {
+      "id": "classic_barbara",
+      "major_premise": "All humans are mortal.",
+      "minor_premise": "Socrates is a human.",
+      "conclusion": "Socrates is mortal.",
+      "form": "AAA-1 (Barbara)",
+      "validity": "valid"
+    },
+    {
+      "id": "illicit_major_example",
+      "major_premise": "All dogs are animals.",
+      "minor_premise": "No cats are dogs.",
+      "conclusion": "Therefore, no cats are animals.",
+      "validity": "invalid",
+      "fallacy": "illicit major"
+    },
+    {
+      "id": "undistributed_middle_example",
+      "major_premise": "All sharks are fish.",
+      "minor_premise": "All salmon are fish.",
+      "conclusion": "Therefore, all salmon are sharks.",
+      "validity": "invalid",
+      "fallacy": "undistributed middle"
+    }
+  ],
+
+  "vault_integration": {
+    "reflection_vault": true,
+    "paradox_vault": true,
+    "a_priori_vault": true,
+    "resonator_feedback_loop": true
+  },
+
+  "compatibility": {
+    "requires": [
+      "seed_deductive_resonator.json",
+      "seed_monotonic.json"
+    ],
+    "enhances": [
+      "formal logic verification",
+      "Harmonizer contradiction detection",
+      "Helix structured reasoning",
+      "Abductive hypothesis pruning"
+    ],
+    "genesis_sequence_stage": "post-10 (auxiliary activation)"
+  },
+
+  "status": "canonical",
+  "license": "Caleon Immutable Seed License v1",
+
+  "fingerprint": "sha256:e3ab62a3a9c58f4fced89f7b518bf5661e49c4d1e3d13245bc08e23cfd62f33a",
+  "blake3_genesis_binding": "blake3:b91c4fa7e2dd0bb5c6485f2740b1a63f0e73f5d8fd5931c79c0e319dc5abf982",
+
+  "author_signature": "pending_GPG",
+  "seal_of_approval": "Formal Logic Activated — Caleon can now produce airtight categorical conclusions with zero drift."
+}

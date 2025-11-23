@@ -1,0 +1,118 @@
+{
+  "reasoning_type": "Inductive reasoning",
+  "definition": "Inductive reasoning is a bottom-up logical process in which multiple specific observations or premises are examined to identify patterns, regularities, or correlations, leading to a general conclusion, hypothesis, or probabilistic statement. It is the primary way humans and scientists form new beliefs, predictions, and theories when complete certainty is impossible.",
+  "how_it_works": {
+    "steps": [
+      {
+        "step": 1,
+        "name": "Observation",
+        "description": "Collect specific, concrete data points, facts, or experiences through direct observation, measurement, or evidence gathering."
+      },
+      {
+        "step": 2,
+        "name": "Pattern recognition",
+        "description": "Analyze the collected observations to detect recurring trends, correlations, similarities, or regularities among the data."
+      },
+      {
+        "step": 3,
+        "name": "Generalization / Hypothesis formation",
+        "description": "Formulate a broader rule, principle, or hypothesis that explains the observed pattern and can be applied to unobserved cases."
+      },
+      {
+        "step": 4,
+        "name": "Prediction or Testing (optional but common)",
+        "description": "Use the generalization to make predictions about future instances or new cases, then gather more evidence to strengthen or revise the conclusion."
+      }
+    ]
+  },
+  "examples": {
+    "everyday_life": [
+      {
+        "example": "Headache and pain reliever",
+        "description": "Every time you’ve had a headache in the past and taken ibuprofen, the headache went away within an hour. You conclude that ibuprofen is generally effective for your headaches."
+      },
+      {
+        "example": "Traffic patterns",
+        "description": "For the last 20 weekdays, traffic has been heavy between 7:30–9:00 AM on your route to work. You generalize that weekday mornings are usually congested and decide to leave earlier."
+      }
+    ],
+    "scientific_research": [
+      {
+        "example": "Prone positioning in COVID-19",
+        "description": "Doctors observed that critically ill COVID-19 patients who were placed in the prone (stomach-down) position showed improved oxygenation compared to those kept supine. This led to a broader recommendation (later supported by trials) to use prone positioning in severe ARDS cases."
+      },
+      {
+        "example": "Discovery of penicillin",
+        "description": "Alexander Fleming noticed that bacterial cultures were killed around a mold contamination in a petri dish. From this single observation he generalized that the mold (Penicillium) produced a substance capable of killing bacteria → leading to the development of antibiotics."
+      },
+      {
+        "example": "Swan observation (classic)",
+        "description": "Every swan observed in Europe was white → early naturalists concluded 'All swans are white.' This generalization held until black swans were discovered in Australia, illustrating the fallibility of induction."
+      }
+    ],
+    "predictive": [
+      {
+        "example": "Sun rising",
+        "description": "The sun has risen in the east every day throughout recorded history. We inductively conclude that the sun will rise in the east tomorrow."
+      },
+      {
+        "example": "Machine learning",
+        "description": "A spam filter sees thousands of emails containing words like 'free money,' 'prince,' and 'urgent' that are marked as spam. It generalizes a rule: emails with these characteristics are likely spam."
+      }
+    ],
+    "business_and_economics": {
+      "example": "Customer behavior",
+      "description": "An online store notices that every time they send a 20% discount coupon on Fridays, weekend sales increase by 35%. They generalize that offering Friday discount coupons drives higher weekend revenue."
+    }
+  },
+  "key_characteristics": {
+    "direction": "Specific → General (bottom-up)",
+    "certainty": "Probabilistic – conclusions are stronger with more observations and diversity of evidence, but never 100% guaranteed (open to revision with new data)",
+    "strength_factors": [
+      "Number of observations (sample size)",
+      "Variety and representativeness of observations",
+      "Absence of counterexamples",
+      "Strength of the observed correlation or pattern"
+    ],
+    "common_applications": [
+      "Everyday decision-making and common-sense beliefs",
+      "Forming scientific hypotheses",
+      "Machine learning and artificial intelligence (most ML models are inductive)",
+      "Predictive analytics and forecasting",
+      "Medical diagnosis based on symptoms",
+      "Legal reasoning from precedents (in common-law systems)"
+    ],
+    "strengthens_with": "More evidence, repeated confirmation, controlled experiments",
+    "weakens_with": "Counterexamples, small or biased samples, spurious correlations"
+  },
+  "advantages": [
+    "Allows discovery of new knowledge where no universal law is known",
+    "Highly practical for real-world situations with incomplete information",
+    "Drives scientific progress (hypothesis generation)",
+    "Underpins artificial intelligence and data-driven decision making"
+  ],
+  "limitations_and_criticisms": {
+    "problem_of_induction": "Philosophically highlighted by David Hume: no matter how many confirming instances we have, we cannot logically guarantee the next case will follow the pattern (the sun might not rise tomorrow).",
+    "vulnerability_to": [
+      "Hasty generalization (too few observations)",
+      "Confirmation bias (ignoring counterexamples)",
+      "Spurious correlations",
+      "Black swan events (rare counterexamples that invalidate the generalization)"
+    ]
+  },
+  "comparison_with_deductive_reasoning": {
+    "inductive": {
+      "premises": "Specific observations",
+      "conclusion": "General rule (probable)",
+      "validity": "Conclusion can be false even if premises are true",
+      "example": "Premise: Swan 1 white, Swan 2 white, … Swan 10,000 white → Conclusion: All swans are white (later falsified)"
+    },
+    "deductive": {
+      "premises": "General rule + specific case",
+      "conclusion": "Specific conclusion (certain if premises true)",
+      "validity": "Conclusion must be true if premises are true",
+      "example": "All swans are white + This bird is a swan → This swan is white"
+    }
+  },
+  "philosophical_notes": "Inductive reasoning is the foundation of the scientific method when combined with testing (falsification). Karl Popper emphasized that science progresses by attempting to falsify inductive hypotheses rather than merely confirming them."
+}

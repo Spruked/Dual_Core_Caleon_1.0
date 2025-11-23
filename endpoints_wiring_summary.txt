@@ -1,0 +1,164 @@
+# API Endpoints and Wiring Summary
+
+## API Endpoints Found
+
+### ISS Module API (cochlear_processor_v2.0/ISS/api/api.py)
+- GET / - Serve main dashboard
+- GET /dashboard - Serve dashboard
+- GET /api/status - Get system status
+- GET /api/health - Simple health check
+- POST /api/log/entries - Create log entry
+- GET /api/log/entries - Get log entries
+- GET /api/log/entries/{entry_id} - Get specific log entry
+- PUT /api/log/entries/{entry_id} - Update log entry
+- DELETE /api/log/entries/{entry_id} - Delete log entry
+- GET /api/log/search - Search log entries
+- GET /api/log/statistics - Get log statistics
+- POST /api/export - Export log data
+- POST /api/backup - Create backup
+- GET /api/stardate - Get current stardate
+- GET /api/time - Get current time
+
+### Phonatory Output Module API (Phonatory_Output_Module/phonatory_api.py)
+- GET /health - Health check
+- POST /speak - Generate speech
+- POST /receive_cognitive_output - Receive cognitive output
+- GET /diagnostics - Run diagnostics
+
+### Prometheus ISS Integration (cochlear_processor_v2.0/ISS/prometheus_integration.py)
+- GET /health - Service health check
+- POST /api/v1/process - Process reasoning
+- POST /api/v1/vault/query - Query vault
+- POST /api/v1/log - Add log entry
+- GET /api/v1/status - Get status
+
+### Caleon Port API (Connection_System/caleon_port.py)
+- GET / - Serve main dashboard
+- GET /api/v1/pulse - Get ISS pulse and timing
+- POST /api/v1/think - Process message through cognitive pipeline (with authorization and task queuing)
+- GET /api/v1/status - Get system status (includes all component statuses)
+- POST /api/v1/connect - Platform connection handshake
+- POST /api/v1/task/queue - Queue task for execution
+- GET /api/v1/task/next - Get next task from queue
+- POST /api/v1/task/done - Mark task as completed
+- POST /api/v1/vault/query - Query integrated vault system
+
+## ISS Brainstem Integration
+
+### ISS Brainstem (Main_Core/ISS_Brainstem.py)
+- Provides centralized time and pulse management
+- Singleton instance: ISS
+- Methods:
+  - ISS.unix() - High-precision Unix time
+  - ISS.pulse() - Canonical machine pulse (PULSE-<timestamp>.<cycle>)
+  - ISS.stardate() - Human-readable stardate (SD-<year>.<day>.<fractional>)
+  - ISS.detect_drift() - Detect time drift
+  - ISS.digest(data) - SHA-256 digest
+  - ISS.anchor_state(*fields) - Cryptographic state anchoring
+
+### Usage in System Components
+- **Synaptic Resonators**: cycle_id = ISS.pulse(), timestamp = ISS.stardate(), unix = ISS.unix()
+- **Anterior Helix (both)**: cycle_id = ISS.pulse(), timestamp = ISS.stardate(), unix = ISS.unix()
+- **Posterior Helix (both)**: cycle_id = ISS.pulse(), timestamp = ISS.stardate(), unix = ISS.unix()
+- **Echostack**: cycle_id = ISS.pulse(), timestamp = ISS.stardate(), unix = ISS.unix()
+- **Echoripple**: cycle_id = ISS.pulse(), timestamp = ISS.stardate(), unix = ISS.unix()
+- **Gyro Harmonizer**: cycle_id = ISS.pulse(), timestamp = ISS.stardate(), unix = ISS.unix()
+- **Final Harmonizer**: cycle_id = ISS.pulse(), timestamp = ISS.stardate(), unix = ISS.unix()
+
+## New Core Modules Integration
+
+### Thinker (Main_Core/Thinker.py)
+- Meta-reasoner on top of hemispheres
+- Methods:
+  - reflect(merged_verdict) - Applies narrative reasoning and contextual evaluation
+- Uses ISS timing for all operations
+- Wired into Final Harmonizer output
+
+### Task Orchestrator (Main_Core/Task_Orchestrator.py)
+- Executive cortex for task scheduling
+- Methods:
+  - queue(item) - Add item to execution queue
+  - next() - Get next item from queue
+  - mark_done(item) - Mark item as completed
+- Uses ISS pulse for timestamps
+
+### Intent Consent (Main_Core/Intent_Consent.py)
+- Ethical spine and autonomy framework
+- Methods:
+  - authorize(intent, context) - Check execution permissions
+  - escalate(reason) - Escalate decisions requiring higher authority
+- Uses ISS timing for authorization records
+
+### Integration Flow
+1. Left/Right Hemispheres → Final Harmonizer
+2. Final Harmonizer → Thinker (reflection)
+3. Thinker → Task Orchestrator (scheduling)
+4. Task Orchestrator → Intent Consent (authorization)
+5. Intent Consent → Output Module (execution)
+- **Posterior Helix (both)**: cycle_id = ISS.pulse(), timestamp = ISS.stardate(), unix = ISS.unix()
+- **Echostack (both)**: cycle_id = ISS.pulse(), timestamp = ISS.stardate(), unix = ISS.unix()
+- **Phonatory Output**: Uses ISS.pulse() for unique filenames
+- **Harmonizers**: Final_Harmonizer.py (no time.time() usage found)
+- **Cochlear Processor**: cochlear_processor.py (no time.time() usage found)
+- **EchoRipple (both)**: Echo_ripple.py (no time.time() usage found)
+
+### Temporal Coherence Achieved
+All core modules now use ISS Brainstem for consistent timing, ensuring perfect temporal synchronization across the dual-core cognitive architecture.
+
+## Synaptic Resonator Wiring
+
+### Synaptic Resonators Found
+- Main_Core/right Hemisphere/synaptic_resonator.py
+- Main_Core/left_hemisphere/synaptic_resonator.py
+
+### Wiring Diagram
+Each SynapticResonator has:
+- 2340 synapses (780 intuition, 780 induction, 780 deduction)
+- Pyramid structure:
+  - Node 6: receives 780 synapse inputs
+  - Node 5: receives 780 synapse inputs
+  - Node 4: receives 780 synapse inputs
+  - Node 3: aggregates from nodes 4,5,6
+  - Node 2: aggregates from nodes 4,5,6
+  - Node 1: aggregates from nodes 2,3 (final verdict)
+
+### Active Synaptic Resonators (No Deletions)
+- Right Hemisphere Synaptic Resonator: Active
+- Left Hemisphere Synaptic Resonator: Active
+
+All synaptic resonators are present and active. No deletions detected.
+
+## Connection System
+
+### Caleon Port (Connection_System/caleon_port.py)
+- Universal FastAPI gateway for all platform connections
+- Endpoints:
+  - GET /api/v1/pulse - ISS timing and pulse information
+  - POST /api/v1/think - Send cognitive processing requests
+  - GET /api/v1/status - System status and health
+  - POST /api/v1/connect - Platform handshake and authentication
+  - DELETE /api/v1/connect/{session_id} - Disconnect platform
+  - GET /health - Health check
+  - GET /info - System information
+
+### Connection Spine (Connection_System/connection_spine.py)
+- Adapter management system
+- Platform-agnostic message routing
+- Background message processing
+- Connection pooling and rate limiting
+
+### Platform Adapters
+- **GOAT Adapter**: Connection_System/adapters/goat_adapter.py
+  - GOAT platform integration
+  - Authentication and session management
+  - Message format conversion
+- **DALS Adapter**: Connection_System/adapters/dals_adapter.py
+  - Distributed learning system integration
+  - Multi-node coordination
+  - Learning context preservation
+
+### Connection Flow
+1. Platform → Adapter → Connection Spine → Caleon Port → Dual Core
+2. Dual Core Response → Caleon Port → Connection Spine → Adapter → Platform
+
+This creates a clean separation between cognitive core and connection layer, enabling Caleon to be deployed anywhere while maintaining sovereignty.

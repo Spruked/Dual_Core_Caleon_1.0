@@ -1,0 +1,135 @@
+{
+  "reasoning_type": "Deductive reasoning",
+  "definition": "Deductive reasoning is a top-down logical process that begins with one or more general premises assumed or known to be true and derives a specific conclusion that necessarily and logically follows from those premises. When the premises are true and the reasoning form is valid, the conclusion is certain and cannot be false. It is the cornerstone of formal logic, mathematics, and rigorous argumentation.",
+  
+  "how_it_works": {
+    "core_principle": "If the premises are true and the argument structure is valid, the conclusion must be true.",
+    "classic_structure": "syllogism",
+    "steps": [
+      {
+        "step": 1,
+        "name": "Major (General) Premise",
+        "description": "A universal or general statement, law, rule, or principle accepted as true."
+      },
+      {
+        "step": 2,
+        "name": "Minor (Specific) Premise",
+        "description": "A particular fact or case that falls under the scope of the major premise."
+      },
+      {
+        "step": 3,
+        "name": "Conclusion",
+        "description": "A specific, necessary consequence that logically follows from applying the general premise to the specific case."
+      }
+    ],
+    "forms": [
+      {
+        "form": "Categorical syllogism",
+        "example": "All A are B → C is A → Therefore C is B"
+      },
+      {
+        "form": "Modus Ponens (conditional)",
+        "example": "If P then Q → P is true → Therefore Q is true"
+      },
+      {
+        "form": "Modus Tollens",
+        "example": "If P then Q → Q is false → Therefore P is false"
+      }
+    ]
+  },
+
+  "examples": {
+    "classic_biology": {
+      "major_premise": "All mammals have hair or fur and produce milk.",
+      "minor_premise": "Dolphins are mammals.",
+      "conclusion": "Therefore, dolphins have hair or fur and produce milk."
+    },
+    "conditional_rain": {
+      "premise_1": "If it is raining, then the ground is wet.",
+      "premise_2": "It is raining.",
+      "conclusion": "Therefore, the ground is wet.",
+      "form": "Modus Ponens"
+    },
+    "legal_example": {
+      "major_premise": "Anyone who commits murder with premeditation is guilty of first-degree murder.",
+      "minor_premise": "The defendant committed murder with premeditation.",
+      "conclusion": "Therefore, the defendant is guilty of first-degree murder."
+    },
+    "mathematical_proof": {
+      "major_premise": "For any integer n, if n is even, then n² is divisible by 4.",
+      "minor_premise": "6 is even.",
+      "conclusion": "Therefore, 6² = 36 is divisible by 4."
+    },
+    "modus_tollens_example": {
+      "premise_1": "If the cake is made with real butter, then it will taste rich.",
+      "premise_2": "The cake does not taste rich.",
+      "conclusion": "Therefore, the cake was not made with real butter."
+    },
+    "programming_logic": {
+      "rule": "If user.age < 13, then user.accountType = 'child' and restrict content.",
+      "fact": "Current user.age = 11",
+      "conclusion": "Therefore, set user.accountType = 'child' and apply content restrictions."
+    }
+  },
+
+  "key_characteristics": {
+    "direction": "General → Specific (top-down)",
+    "certainty": "Certain and conclusive – the conclusion is guaranteed if premises are true and the form is valid",
+    "validity_vs_soundness": {
+      "validity": "Concerns only the logical structure (conclusion follows from premises)",
+      "soundness": "Validity + all premises are actually true"
+    },
+    "preserves_truth": "Truth flows downward: true premises → true conclusion",
+    "falsifiability": "A single counterexample to the conclusion can prove the argument unsound (either a premise is false or the form is invalid)"
+  },
+
+  "common_uses": [
+    "Mathematical proofs and theorem derivation",
+    "Formal logic and philosophy",
+    "Computer programming and algorithm execution",
+    "Legal reasoning (applying laws to specific cases)",
+    "Scientific hypothesis testing (deducing predictions from a theory)",
+    "Diagnosis in medicine (if symptoms match disease X criteria → patient has disease X)",
+    "Debugging and troubleshooting systems"
+  ],
+
+  "advantages": [
+    "Provides absolute certainty when premises are true and form is valid",
+    "Essential for constructing rigorous proofs",
+    "Powers automated reasoning in AI and software",
+    "Clearly shows logical consequences of accepted principles"
+  ],
+
+  "limitations": [
+    "Cannot generate genuinely new knowledge beyond what is already contained in the premises",
+    "Highly dependent on the truth of the general premises (garbage in → garbage out)",
+    "Real-world general premises are often probabilistic rather than universal",
+    "Vulnerable to equivocation (shifting meanings of terms) and formal fallacies"
+  ],
+
+  "common_fallacies": [
+    "Affirming the consequent (If P→Q, Q true → mistakenly conclude P true)",
+    "Denying the antecedent (If P→Q, P false → mistakenly conclude Q false)",
+    "Undistributed middle term in syllogisms",
+    "False premises leading to unsound (though valid) conclusions"
+  ],
+
+  "comparison_with_inductive_reasoning": {
+    "deductive": {
+      "direction": "General → Specific",
+      "certainty": "Certain (if valid and sound)",
+      "truth_preservation": "Preserves truth",
+      "example": "All men are mortal + Socrates is a man → Socrates is mortal"
+    },
+    "inductive": {
+      "direction": "Specific → General",
+      "certainty": "Probabilistic",
+      "truth_preservation": "Amplifies or creates probable belief",
+      "example": "Socrates, Plato, Aristotle were mortal → Probably all men are mortal"
+    }
+  },
+
+  "role_in_science": "Deductive reasoning is used in the hypothesis-testing phase: an inductive generalization forms a hypothesis → specific, testable predictions are deduced → experiments check whether predictions hold. This is the hypothetico-deductive method.",
+
+  "philosophical_note": "David Hume and Karl Popper emphasized that while deduction is logically airtight, science ultimately relies on induction for discovering general laws; deduction alone cannot expand empirical knowledge."
+}

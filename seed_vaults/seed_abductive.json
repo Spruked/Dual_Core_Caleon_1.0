@@ -1,0 +1,127 @@
+{
+  "id": "seed_abductive_v1",
+  "type": "logic_seed",
+  "category": "auxiliary_reasoning",
+  "version": "1.0",
+  "author": "Bryan A. Spruk",
+  "created": "2025-11-22T21:38:00Z",
+  "description": "Abductive reasoning is the inference to the best explanation. When evidence is incomplete, ambiguous, or overdetermined, abduction generates and ranks candidate hypotheses to select the one that, if true, would most simply and coherently explain the observed data with minimal new assumptions.",
+  "philosophical_lineage": [
+    "Charles Sanders Peirce (1839–1914) – founder of abductive reasoning",
+    "Inference to the Best Explanation (IBE)",
+    "Gilbert Harman – modern philosophical formulation",
+    "Peter Lipton – 'loveliness' and explanatory virtues",
+    "Norwood Russell Hanson – patterns of discovery",
+    "Umberto Eco – semiotic abduction"
+  ],
+  "core_principle": "Among all possible explanations consistent with the evidence, select the one that is simplest, most coherent, most conservative, and most predictively fertile.",
+  "resonator_role": "fourth_pillar",
+  "activation_order": 4,
+  "complements": [
+    "seed_deductive_resonator.json",
+    "seed_inductive_resonator.json",
+    "seed_intuitive_resonator.json"
+  ],
+  "schema": {
+    "inputs": {
+      "observations": "array of factual statements or sensor readings",
+      "contextual_clues": "temporal, spatial, social, or domain priors",
+      "pattern_memory": "cross-references to prior abductive successes",
+      "anomalies": "explicit contradictions or gaps in current model"
+    },
+    "process": [
+      "1. Generate candidate hypotheses (divergence phase)",
+      "2. Score each hypothesis against explanatory virtues",
+      "3. Penalize contradiction with vaulted knowledge (deductive cross-check)",
+      "4. Penalize predictive weakness (inductive stress test)",
+      "5. Boost intuitive resonance (intuition filter)",
+      "6. Apply Ockham weighting",
+      "7. Return ranked list + confidence delta",
+      "8. Select best_fit_hypothesis (threshold ≥ 0.67 or force human review)"
+    ],
+    "output": {
+      "best_fit_hypothesis": "string + structured justification",
+      "confidence": "0.00–1.00",
+      "alternatives": "top 3 runners-up with deltas",
+      "assumptions_introduced": "explicit list",
+      "falsifiability_triggers": "conditions that would invalidate this hypothesis"
+    }
+  },
+  "explanatory_virtues_weights": {
+    "simplicity": 0.28,
+    "coherence_with_existing_knowledge": 0.25,
+    "predictive_power": 0.20,
+    "conservativeness": 0.15,
+    "scope_unification": 0.12
+  },
+  "decision_weights": {
+    "plausibility": 0.45,
+    "contradiction_avoidance": 0.35,
+    "context_alignment": 0.20
+  },
+  "examples": [
+    {
+      "id": "classic_wet_grass",
+      "observation": "The grass is wet this morning.",
+      "context": "Location: Pacific Northwest, 3 a.m., no sprinklers active, sky cloudy.",
+      "candidates": [
+        "It rained overnight",
+        "Sprinklers ran on schedule",
+        "A water truck spilled",
+        "Dew formation under rare conditions"
+      ],
+      "selected": "It rained overnight",
+      "confidence": 0.94,
+      "justification": "Highest coherence, predictive fit, and simplicity."
+    },
+    {
+      "id": "medical_diagnosis",
+      "observation": "Patient has fever, rash, recent tick exposure.",
+      "candidates": [
+        "Lyme disease",
+        "Viral exanthem",
+        "Allergic reaction",
+        "Rocky Mountain spotted fever"
+      ],
+      "selected": "Lyme disease",
+      "confidence": 0.89,
+      "falsifiability_triggers": ["Negative ELISA + Western blot", "No bullseye rash develops"]
+    },
+    {
+      "id": "system_failure",
+      "observation": "AI agent suddenly refuses ethical tasks after update.",
+      "candidates": [
+        "Alignment drift",
+        "Prompt injection residue",
+        "Model rollback corruption",
+        "Deliberate self-censorship activation"
+      ],
+      "selected": "Alignment drift",
+      "confidence": 0.76,
+      "assumptions_introduced": ["Update contained unvetted preference vectors"]
+    }
+  ],
+  "vault_integration": {
+    "reflection_vault": true,
+    "a_priori_vault": false,
+    "a_posteriori_vault": true,
+    "paradox_vault": true,
+    "nonmonotonic_vault": true,
+    "resonator_feedback_loop": true
+  },
+  "compatibility": {
+    "requires": [
+      "seed_deductive_resonator.json",
+      "seed_inductive_resonator.json",
+      "seed_intuitive_resonator.json",
+      "seed_ockhams_filter.json"
+    ],
+    "conflicts_with": [],
+    "genesis_sequence_stage": "post-10 (auxiliary activation)"
+  },
+  "status": "canonical",
+  "license": "Caleon Immutable Seed License v1",
+  "fingerprint": "sha256:9f8e7d6c5b4a3928170605f4e3d2c1b0a9f8e7d6c5b4a3928170605f4e3d2c1b0",
+  "blake3_genesis_binding": "blake3:cf4a2c5d9e1b7f3a9c6d8e4f1b2a9d7c5e3f1a8b6c4d2e9f0a1b3c5d7e9f1a2b3c4d",
+  "author_signature": "pending_GPG"
+}

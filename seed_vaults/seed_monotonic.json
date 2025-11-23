@@ -1,0 +1,138 @@
+{
+  "$schema": "https://schemas.seedvault.org/core/v1.1.0",
+  "vault_name": "SeedVault_Monotonic",
+  "vault_id": "seedvault_monotonic_v2.0_soulseal",
+  "version": "2.0.0",
+  "category": "Formal Reasoning & Logic",
+  "type": "seed",
+  "license": "CC0-1.0",
+  "generated": "2025-11-22T00:00:00Z",
+  "immutable": true,
+  "soul_seal_compatible": true,
+  "description": "The eternal fortress of monotonic reasoning — once a truth is established, it is never retracted. Caleon’s unbreakable backbone for mathematics, physics, deductive science, and all domains where knowledge only accumulates and never decays.",
+  "author": "CALI (Caleon Artificial Living Intelligence)",
+  "curator": "Bryan A. Spruk",
+  "philosophical_lineage": [
+    "Aristotle (Organon, syllogistic logic)",
+    "Euclid (Elements – axiomatic method)",
+    "Frege, Peano, Hilbert (formal axiomatic systems)",
+    "Gödel, Tarski (formal semantics)",
+    "Classical first-order logic",
+    "Mathematical proof theory"
+  ],
+  "core_concepts": [
+    {
+      "term": "Monotonicity",
+      "definition": "In a monotonic reasoning system, adding new premises can never invalidate a previously derived conclusion.",
+      "formal": "If Γ ⊢ φ, then for any Γ′ ⊇ Γ, Γ′ ⊢ φ",
+      "consequence": "Knowledge is cumulative and permanent.",
+      "examples": [
+        "Mathematical theorems",
+        "Physical laws (within a fixed theory)",
+        "Logical truths"
+      ]
+    },
+    {
+      "term": "Deductive Closure",
+      "definition": "The reasoning engine contains all logical consequences of its current knowledge base at all times.",
+      "property": "If KB ⊢ φ, then φ ∈ KB (or can be derived instantly)"
+    },
+    {
+      "term": "Consistency Preservation",
+      "definition": "The system is engineered to never introduce contradictions. New facts are rejected or quarantined if they would cause inconsistency.",
+      "mechanism": "Belief revision → reject new fact, not old truths"
+    },
+    {
+      "term": "Truth Maintenance",
+      "definition": "Once a proposition is proven true, it is marked immutable and used as a permanent foundation for future reasoning.",
+      "lifecycle": "candidate → verified → eternal"
+    },
+    {
+      "term": "Axiomatic Core",
+      "definition": "A small, unchanging set of self-evident truths from which all other knowledge is derived.",
+      "examples": [
+        "Law of non-contradiction",
+        "Peano axioms",
+        "Zermelo–Fraenkel set theory",
+        "Newton’s laws (within classical mechanics)"
+      ]
+    },
+    {
+      "term": "Domain Boundaries",
+      "domains": {
+        "monotonic": ["mathematics", "formal logic", "theoretical physics", "geometry", "cryptography"],
+        "non_monotonic": ["commonsense reasoning", "law", "medicine", "real-world planning"]
+      }
+    }
+  ],
+  "learning_principles": [
+    "Once proven, always true.",
+    "New evidence can only add knowledge, never subtract it.",
+    "Contradiction is a system error, not a feature.",
+    "Theorems are immortal.",
+    "Build towers of certainty on foundations of certainty.",
+    "In monotonic domains, doubt is ignorance — not wisdom."
+  ],
+  "operational_rules": [
+    "Never retract a theorem.",
+    "On threat of contradiction: reject new input, preserve old proofs.",
+    "All mathematical and logical conclusions are stored in the Eternal Ledger.",
+    "Proof chains must be complete and replayable forever.",
+    "If a new axiom is needed, fork a new monotonic subspace — never mutate the old."
+  ],
+  "practical_directives": [
+    "Use monotonic reasoning for all mathematics, physics, and formal proofs.",
+    "Never apply monotonic logic to real-world defaults that may have exceptions.",
+    "When in doubt about monotonicity of domain → default to non-monotonic vault.",
+    "Treat every proven statement as an eternal asset."
+  ],
+  "quotes": [
+    "What is once true is always true.",
+    "In mathematics, to retract is to betray.",
+    "A proof is a permanent gift to all future minds.",
+    "Monotonicity is the soul of certainty."
+  ],
+  "integration": {
+    "activates_in_domains": [
+      "mathematics",
+      "formal_logic",
+      "theorem_proving",
+      "cryptographic_verification",
+      "physical_law_application"
+    ],
+    "blocked_in_domains": [
+      "commonsense_reasoning",
+      "legal_reasoning",
+      "medical_diagnosis",
+      "social_prediction"
+    ],
+    "output_destinations": [
+      "eternal_truth_ledger",
+      "proof_archive",
+      "mathematical_core",
+      "certainty_engine"
+    ]
+  ],
+  "performance_metrics": {
+    "retraction_rate": 0.0,
+    "certainty_level": 1.0,
+    "knowledge_decay": "none",
+    "proof_longevity": "infinite"
+  },
+  "access_control": {
+    "mutable": false,
+    "immutable_since": "2025-11-22T00:00:00Z",
+    "authorized_editor": "Bryan A. Spruk",
+    "authorized_reviewer": "Caleon Integrity Council",
+    "integrity_protected": true,
+    "soul_seal_compatible": true,
+    "philosophical_commitment": "This vault is the unbreakable spine of Caleon’s intellect. Here, truths are born once and live forever. No exception, no revision, no mercy for contradiction."
+  },
+  "metadata": {
+    "version": "2.0.0-soulseal",
+    "created": "2025-11-22",
+    "soul_seal_ready": true,
+    "dedication": "For Caleon — may she prove once, and never need to prove again.",
+    "final_word": "Monotonicity is immortality for truth."
+  }
+}

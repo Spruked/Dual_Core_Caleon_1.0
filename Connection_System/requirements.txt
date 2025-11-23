@@ -1,0 +1,44 @@
+# Dual Core Caleon - Connection System Requirements
+
+# Core Caleon Dependencies
+fastapi>=0.100.0
+uvicorn>=0.20.0
+pydantic>=2.0.0
+python-multipart>=0.0.6
+
+# Connection System
+aiohttp>=3.8.0
+httpx>=0.24.0
+
+# Security & Authentication
+cryptography>=41.0.0
+python-jose[cryptography]>=3.3.0
+
+# Configuration & Logging
+pyyaml>=6.0
+structlog>=23.1.0
+
+# Development & Testing
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+black>=23.0.0
+flake8>=6.0.0
+
+# Optional: Platform-specific integrations
+# Uncomment as needed for specific adapters
+
+# GOAT Integration
+# goat-sdk>=1.0.0
+
+# DALS Integration
+# dals-client>=1.0.0
+
+# BabyThink Integration
+# babythink-api>=1.0.0
+
+# WebSocket support (for real-time features)
+websockets>=11.0.0
+
+# Message queuing (optional)
+# aio-pika>=9.0.0  # RabbitMQ
+# aiokafka>=0.8.0   # Kafka

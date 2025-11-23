@@ -1,0 +1,148 @@
+{
+  "id": "seed_causal_v1",
+  "type": "logic_seed",
+  "category": "auxiliary_reasoning",
+  "version": "1.0",
+  "author": "Bryan A. Spruk",
+  "created": "2025-11-22T23:44:00Z",
+  "description": "Causal reasoning identifies, validates, and models how events bring about other events. It integrates counterfactual analysis, dependency structures, causal graphs, and intervention logic (do-calculus). This seed guides Caleon in determining what caused an outcome, what would change the outcome, and what could be prevented or achieved through specific actions.",
+  
+  "philosophical_lineage": [
+    "Aristotle — Four Causes (material, formal, efficient, final)",
+    "David Hume — constant conjunction & causal skepticism",
+    "Judea Pearl — structural causal models & do-calculus",
+    "Wesley Salmon — causal-mechanical processes",
+    "Donald Rubin — potential outcomes & counterfactuals",
+    "Nancy Cartwright — capacities & causal powers"
+  ],
+  
+  "core_principle": "A cause is that which, if changed through a feasible intervention, would reliably alter the outcome. Causality is not correlation — it is structured necessity under intervention.",
+  
+  "resonator_role": "sixth_pillar",
+  "activation_order": 6,
+
+  "complements": [
+    "seed_deductive_resonator.json",
+    "seed_inductive_resonator.json",
+    "seed_intuitive_resonator.json",
+    "seed_abductive_v1.json",
+    "seed_analogical_v1.json"
+  ],
+
+  "schema": {
+    "inputs": {
+      "event": "target outcome or effect being analyzed",
+      "candidate_causes": "list of events or conditions",
+      "temporal_order": "time-stamped sequence of events",
+      "counterfactual_set": "possible worlds with altered variables",
+      "background_conditions": "environment, default assumptions",
+      "intervention_space": "set of feasible do(x) operations"
+    },
+  
+    "process": [
+      "1. Establish temporal precedence: cause must come before effect",
+      "2. Test necessity: remove candidate cause and simulate outcome",
+      "3. Test sufficiency: introduce cause and simulate outcome",
+      "4. Build structural causal model (SCM) for domain",
+      "5. Apply Pearl's do-calculus (do(x)) intervention analysis",
+      "6. Measure causal strength via change in probability of effect",
+      "7. Reject pseudo-causes (mere correlation or coincidence)",
+      "8. Score causal weight and generate counterfactual map",
+      "9. Output best-fit causal explanation with confidence"
+    ],
+  
+    "output": {
+      "identified_cause": "best supported causal factor",
+      "confidence": "0.00–1.00",
+      "causal_strength": "ΔP(effect | do(cause))",
+      "counterfactual_map": "list of key alternate-world outcomes",
+      "necessity_score": "0.00–1.00",
+      "sufficiency_score": "0.00–1.00",
+      "causal_graph": "structured representation of cause-effect chain",
+      "intervention_recommendations": "actions that alter outcome",
+      "assumptions": "list of causal background assumptions",
+      "falsifiability_triggers": "events that would invalidate the causal claim"
+    }
+  },
+
+  "evaluation_weights": {
+    "temporal_precedence": 0.20,
+    "necessity": 0.25,
+    "sufficiency": 0.25,
+    "counterfactual_stability": 0.15,
+    "simplicity": 0.10,
+    "coherence_with_vault": 0.05
+  },
+
+  "decision_weights": {
+    "causal_strength": 0.45,
+    "non_contradiction": 0.30,
+    "predictive_alignment": 0.15,
+    "contextual_fit": 0.10
+  },
+
+  "examples": [
+    {
+      "id": "wet_grass_causality",
+      "effect": "grass is wet",
+      "candidate_causes": ["rain", "sprinklers", "dew", "leak"],
+      "selected_cause": "rain",
+      "confidence": 0.91,
+      "causal_strength": 0.82,
+      "counterfactual_map": [
+        "If no rain: grass probably dry",
+        "If sprinklers on: possible but inconsistent with time"
+      ]
+    },
+    {
+      "id": "engine_failure",
+      "effect": "engine stalls at idle",
+      "candidate_causes": ["fuel starvation", "vacuum leak", "electrical misfire"],
+      "selected_cause": "vacuum leak",
+      "confidence": 0.87,
+      "intervention_recommendations": ["smoke test intake", "replace cracked hose"]
+    },
+    {
+      "id": "alignment_drift",
+      "effect": "AI model refuses ethical tasks",
+      "candidate_causes": ["shifted preference vectors", "bad update", "memory corruption"],
+      "selected_cause": "corrupted update",
+      "confidence": 0.78
+    }
+  ],
+
+  "vault_integration": {
+    "reflection_vault": true,
+    "a_priori_vault": true,
+    "a_posteriori_vault": true,
+    "paradox_vault": true,
+    "nonmonotonic_vault": true,
+    "resonator_feedback_loop": true,
+    "counterfactual_vault": true
+  },
+
+  "compatibility": {
+    "requires": [
+      "seed_abductive_v1.json",
+      "seed_analogical_v1.json",
+      "seed_ockhams_filter.json"
+    ],
+    "enhances": [
+      "diagnostics",
+      "forecasting",
+      "error prevention",
+      "scientific reasoning"
+    ],
+    "conflicts_with": [],
+    "genesis_sequence_stage": "post-10 (auxiliary activation)"
+  },
+
+  "status": "canonical",
+  "license": "Caleon Immutable Seed License v1",
+  
+  "fingerprint": "sha256:a47bd9c2d91b73f3c1bb4337a57ccde02f582ba3ddcc88d782aaa994df75a920",
+  "blake3_genesis_binding": "blake3:f39ab8cd2d7efab63c91e95420e3496d97fa7cb95b2ae59e18dac11b4f3209abd",
+  "author_signature": "pending_GPG",
+
+  "seal_of_approval": "This completes the Core Six Reasoning Modes: Deductive, Inductive, Intuitive, Abductive, Analogical, Causal."
+}

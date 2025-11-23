@@ -1,0 +1,249 @@
+version: '3.9'
+
+services:
+  # ==========================================
+  # CALeon Core - Dual-Core Cognitive Engine
+  # ==========================================
+  caleon-core:
+    build:
+      context: .
+      dockerfile: Dockerfile.caleon-core
+    container_name: caleon-core
+    restart: unless-stopped
+    environment:
+      - PYTHONUNBUFFERED=1
+      - CALeon_ENV=production
+      - ISS_PULSE_INTERVAL=60
+      - LOG_LEVEL=INFO
+    volumes:
+      - ./seed_vaults:/app/seed_vaults:ro
+      - ./Vault_System_1.0:/app/Vault_System_1.0:ro
+      - ./genesis:/app/genesis:ro
+    networks:
+      - caleon_net
+    depends_on:
+      - redis
+    healthcheck:
+      test: ["CMD", "python", "-c", "from Main_Core.ISS_Brainstem import ISS; iss = ISS(); print('ISS Core healthy')"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    labels:
+      - "com.caleon.service=core"
+      - "com.caleon.version=1.0"
+
+  # ==========================================
+  # CALeon Port - Universal API Gateway
+  # ==========================================
+  caleon-port:
+    build:
+      context: .
+      dockerfile: Dockerfile.caleon-port
+    container_name: caleon-port
+    restart: unless-stopped
+    environment:
+      - PYTHONUNBUFFERED=1
+      - CALEON_CORE_URL=http://caleon-core:8001
+      - OLLAMA_URL=http://ollama:11434
+      - TTS_URL=http://tts-engine:8007
+      - REDIS_URL=redis://redis:6379
+      - LOG_LEVEL=INFO
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./Connection_System:/app/Connection_System:ro
+      - ./Main_Core:/app/Main_Core:ro
+    networks:
+      - caleon_net
+    depends_on:
+      - caleon-core
+      - ollama
+      - redis
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 30s
+    labels:
+      - "com.caleon.service=port"
+      - "com.caleon.version=1.0"
+
+  # ==========================================
+  # Ollama - Phi-3 Mini LLM Service
+  # ==========================================
+  ollama:
+    image: ollama/ollama:latest
+    container_name: caleon-ollama
+    restart: unless-stopped
+    environment:
+      - OLLAMA_HOST=0.0.0.0
+      - OLLAMA_MAX_LOADED_MODELS=1
+      - OLLAMA_MAX_QUEUE=512
+      - OLLAMA_RUNNERS_DIR=/tmp/runners
+    volumes:
+      - ollama_data:/root/.ollama
+      - ./models:/models:ro
+    networks:
+      - caleon_net
+    ports:
+      - "11434:11434"
+    healthcheck:
+      test: ["CMD", "ollama", "list"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 30s
+    labels:
+      - "com.caleon.service=llm"
+      - "com.caleon.version=1.0"
+
+  # ==========================================
+  # TTS Engine - Coqui Text-to-Speech (Optional)
+  # ==========================================
+  tts-engine:
+    build:
+      context: .
+      dockerfile: Dockerfile.tts-engine
+    container_name: caleon-tts
+    restart: unless-stopped
+    environment:
+      - COQUI_TOS_AGREED=1
+      - PYTHONUNBUFFERED=1
+      - TTS_CACHE_DIR=/tmp/tts_cache
+      - LOG_LEVEL=INFO
+    volumes:
+      - tts_cache:/tmp/tts_cache
+      - ./Phonatory_Output_Module:/app:ro
+    networks:
+      - caleon_net
+    profiles:
+      - tts  # Optional service - enable with --profile tts
+    healthcheck:
+      test: ["CMD", "python", "-c", "import requests; requests.get('http://localhost:8007/health')"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 60s
+    labels:
+      - "com.caleon.service=tts"
+      - "com.caleon.version=1.0"
+
+  # ==========================================
+  # Frontend - Nebula UI
+  # ==========================================
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.frontend
+    container_name: caleon-frontend
+    restart: unless-stopped
+    environment:
+      - NODE_ENV=production
+      - VITE_API_URL=http://localhost/api
+      - VITE_WS_URL=ws://localhost/api
+    volumes:
+      - ./frontend:/app:ro
+      - /app/node_modules
+    networks:
+      - caleon_net
+    ports:
+      - "3000:3000"
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3000"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 30s
+    labels:
+      - "com.caleon.service=frontend"
+      - "com.caleon.version=1.0"
+
+  # ==========================================
+  # Nginx - Gateway & Reverse Proxy
+  # ==========================================
+  nginx:
+    image: nginx:alpine
+    container_name: caleon-gateway
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      # - "443:443"  # Uncomment for SSL
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+      # - ./ssl:/etc/ssl:ro  # Uncomment for SSL certificates
+    networks:
+      - caleon_net
+    depends_on:
+      - caleon-port
+      - frontend
+      - ollama
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+    labels:
+      - "com.caleon.service=gateway"
+      - "com.caleon.version=1.0"
+
+  # ==========================================
+  # Redis - Caching & Session Store
+  # ==========================================
+  redis:
+    image: redis:7-alpine
+    container_name: caleon-redis
+    restart: unless-stopped
+    command: redis-server --appendonly yes --maxmemory 256mb --maxmemory-policy allkeys-lru
+    volumes:
+      - redis_data:/data
+    networks:
+      - caleon_net
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+    labels:
+      - "com.caleon.service=cache"
+      - "com.caleon.version=1.0"
+
+  # ==========================================
+  # Model Initializer - One-time setup service
+  # ==========================================
+  model-init:
+    image: ollama/ollama:latest
+    container_name: caleon-model-init
+    command: >
+      sh -c "
+        echo 'Pulling Phi-3 Mini model...' &&
+        ollama pull microsoft/phi-3-mini:3.8b &&
+        echo 'Model ready!'
+      "
+    volumes:
+      - ollama_data:/root/.ollama
+    networks:
+      - caleon_net
+    profiles:
+      - init  # Run with --profile init for first-time setup
+    labels:
+      - "com.caleon.service=init"
+      - "com.caleon.version=1.0"
+
+volumes:
+  ollama_data:
+    driver: local
+  tts_cache:
+    driver: local
+  redis_data:
+    driver: local
+
+networks:
+  caleon_net:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.20.0.0/16

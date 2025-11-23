@@ -1,18 +1,30 @@
 Folder PATH listing for volume DALS_DATA
 Volume serial number is DCFC-5C09
 T:.
+³   .env
 ³   .gitignore
 ³   caleon_genesis_v1.py
 ³   cochlear_feedback_C2.py
 ³   consent_alignment_test_results.json
 ³   demo_caleon_voice.py
+³   docker-compose.override.yml
+³   docker-compose.prod.yml
+³   docker-compose.yml
+³   Dockerfile.caleon-core
+³   Dockerfile.caleon-port
+³   Dockerfile.frontend
+³   Dockerfile.tts-engine
+³   DOCKER_README.md
 ³   drift_detector.py
 ³   endpoints_wiring_summary.txt
+³   health-check.sh
 ³   LICENSE
 ³   manifest.json
 ³   manifest.merkle.json
 ³   merkle_root.txt
+³   nginx.conf
 ³   README.md
+³   requirements.txt
 ³   simple_ollama_test.py
 ³   system_manifest.json
 ³   test_consent_alignment.py

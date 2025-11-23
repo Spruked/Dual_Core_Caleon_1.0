@@ -1,0 +1,42 @@
+version: '3.9'
+
+# Development overrides for docker-compose.yml
+# This file is automatically merged with docker-compose.yml
+
+services:
+  # Development mode for Caleon Core
+  caleon-core:
+    environment:
+      - CALeon_ENV=development
+      - LOG_LEVEL=DEBUG
+      - ISS_PULSE_INTERVAL=30
+    volumes:
+      - .:/app
+      - /app/__pycache__
+    command: ["python", "-c", "from Main_Core.ISS_Brainstem import ISS; iss = ISS(); iss.start_brainstem()"]
+
+  # Development mode for Caleon Port
+  caleon-port:
+    environment:
+      - LOG_LEVEL=DEBUG
+    volumes:
+      - .:/app
+      - /app/__pycache__
+    command: ["uvicorn", "Connection_System.caleon_port:app", "--host", "0.0.0.0", "--port", "8000", "--reload", "--log-level", "debug"]
+
+  # Development mode for Frontend
+  frontend:
+    environment:
+      - NODE_ENV=development
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    command: ["npm", "run", "dev", "--", "--host", "0.0.0.0"]
+
+  # Enable TTS by default in development
+  tts-engine:
+    profiles: []  # Remove from profiles to enable by default in dev
+
+  # Development Redis with persistence
+  redis:
+    command: redis-server --appendonly yes --maxmemory 512mb --maxmemory-policy allkeys-lru
